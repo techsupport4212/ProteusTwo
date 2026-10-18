@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+
+<Story>
+	<Event Name="Space_Tactical_PROTEUS_TWO">
+		<Event_Type>STORY_SPACE_TACTICAL</Event_Type>
+		<Event_Param1>Conquests\Factions\Story_Plots_Generic_Space_PROTEUS_TWO.xml</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="DISABLE_BUILDABLE_PROTEUS_TWO">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>DISABLE_BUILDABLE_PROTEUS_TWO</Event_Param2>
+		<Reward_Type>DISABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="ENABLE_BUILDABLE_PROTEUS_TWO">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ENABLE_BUILDABLE_PROTEUS_TWO</Event_Param2>
+		<Reward_Type>ENABLE_BUILDABLE</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<!--** Recon Planet **-->
+
+	<Event Name="Recon_01">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RECON_ASSIGN</Event_Param2>
+		<Story_Chapter>13</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
+		<Story_Tag>Recon_Act_I</Story_Tag>
+		<Branch>Recon</Branch>
+		<Perpetual>false</Perpetual>
+	</Event>
+
+	<Event Name="Recon_I_Enter">
+		<Event_Type>STORY_ENTER</Event_Type>
+		<Event_Param3>Viper_Probe_Droid</Event_Param3>
+		<Event_Param5>1</Event_Param5>
+		<Reward_Type>TRIGGER_AI</Reward_Type>
+		<Reward_Param1>RECON_I_FULFILLED</Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Prereq>Recon_01</Prereq>
+		<Branch>Recon</Branch>
+		<Perpetual>false</Perpetual>
+	</Event>
+
+	<Event Name="Recon_II_Enter">
+		<Event_Type>STORY_ENTER</Event_Type>
+		<Event_Param3>Viper_Probe_Droid</Event_Param3>
+		<Event_Param5>1</Event_Param5>
+		<Reward_Type>TRIGGER_AI</Reward_Type>
+		<Reward_Param1>RECON_II_FULFILLED</Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Prereq>Recon_01</Prereq>
+		<Branch>Recon</Branch>
+		<Perpetual>false</Perpetual>
+	</Event>
+
+	<Event Name="Recon_02">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RECON_COMPLETE</Event_Param2>
+		<Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+		<Reward_Param1>Recon_Act_I</Reward_Param1>
+		<Story_Chapter>14</Story_Chapter>
+		<Story_Dialog_Popup>True</Story_Dialog_Popup>
+		<Story_Tag>Recon_Act_II</Story_Tag>
+		<Branch>Recon</Branch>
+		<Perpetual>false</Perpetual>
+	</Event>
+
+	<Event Name="Recon_03">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Recon_Act_II</Reward_Param1>
+		<Prereq>Recon_02</Prereq>
+		<Branch>Recon</Branch>
+		<Perpetual>false</Perpetual>
+	</Event>
+
+	<Event Name="Recon_Failure_Timer">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>RECON_FAILED</Event_Param2>
+		<Branch>Recon</Branch>
+		<Perpetual>false</Perpetual>
+	</Event>
+
+	<Event Name="Recon_04">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+		<Reward_Param1>Recon_Act_I</Reward_Param1>
+		<Story_Chapter>15</Story_Chapter>
+		<Story_Dialog_Popup>True</Story_Dialog_Popup>
+		<Story_Tag>Recon_Act_III</Story_Tag>
+		<Prereq>Recon_Failure_Timer</Prereq>
+		<Branch>Recon</Branch>
+		<Perpetual>false</Perpetual>
+	</Event>
+
+	<Event Name="Recon_05">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>REMOVE_STORY_GOAL</Reward_Type>
+		<Reward_Param1>Recon_Act_III</Reward_Param1>
+		<Prereq>Recon_04</Prereq>
+		<Branch>Recon</Branch>
+		<Perpetual>false</Perpetual>
+	</Event>
+
+	<Event Name="Recon_Reset">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>RESET_BRANCH</Reward_Type>
+		<Reward_Param1>Recon</Reward_Param1>
+		<Prereq>Recon_03</Prereq>
+		<Prereq>Recon_05</Prereq>
+		<Perpetual>true</Perpetual>
+	</Event>
+</Story>

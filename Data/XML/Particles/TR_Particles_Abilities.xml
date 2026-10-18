@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<Particles>
+
+	<Particle Name="Art_of_War_Local_Buff_Particle_Init">
+		<Variant_Of_Existing_Type>Local_Buff_Spawn_Dummy</Variant_Of_Existing_Type>
+
+		<Starting_Spawned_Units_Tech_0>Art_of_War_Unit_Squadron_Init, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Art_of_War_Unit_Squadron_Init, -1</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1.1</Spawned_Squadron_Delay_Seconds>
+
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="Art_of_War_Buff_Display_Enabler">
+				<Ability_Name> Art_of_War_Buff_Display </Ability_Name>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Thrawn_Chimaera</Applicable_Unit_Types>
+				<Affects_All_Allies> No </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+	</Particle>
+
+	<Particle Name="Art_of_War_Local_Buff_Particle_1">
+		<Variant_Of_Existing_Type>Buff_Particle_Dummy</Variant_Of_Existing_Type>
+
+		<Destruction_Survivors>
+			Art_of_War_Local_Buff_Misc_Object_1, 1
+		</Destruction_Survivors>
+	</Particle>
+
+	<Particle Name="Art_of_War_Ability_Particle">
+		<Land_Model_Name>p_lure_object_particle_effect.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect.ALO</Space_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Art_Of_War_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.00</Health_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>-0.1</Ability_Recharge_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.05</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.00</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.05</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</Particle>
+
+	<Particle Name="Art_of_War_Reaper_Ability_Particle">
+		<Land_Model_Name>p_lure_object_particle_effect.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect.ALO</Space_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Art_Of_War_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.00</Health_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>0.9</Ability_Recharge_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.05</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.00</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.05</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</Particle>
+
+	<Particle Name="Fighter_Shield_Local_Buff_Particle_Init">
+		<Variant_Of_Existing_Type>Local_Buff_Spawn_Dummy</Variant_Of_Existing_Type>
+
+		<Starting_Spawned_Units_Tech_0>Fighter_Shield_Unit_Squadron_Init, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Fighter_Shield_Unit_Squadron_Init, -1</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1.1</Spawned_Squadron_Delay_Seconds>
+
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="Fighter_Shield_Buff_Display_Enabler">
+				<Ability_Name> Fighter_Shield_Buff_Display </Ability_Name>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Bell_Endurance</Applicable_Unit_Types>
+				<Affects_All_Allies> No </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+	</Particle>
+
+	<Particle Name="EX_F_Local_Buff_Particle_Init">
+		<Variant_Of_Existing_Type>Local_Buff_Spawn_Dummy</Variant_Of_Existing_Type>
+
+		<Starting_Spawned_Units_Tech_0>EX_F_Unit_Squadron_Init, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>EX_F_Unit_Squadron_Init, -1</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1.1</Spawned_Squadron_Delay_Seconds>
+	</Particle>
+
+	<Particle Name="EX_F_Local_Buff_Particle_1">
+		<Variant_Of_Existing_Type>Buff_Particle_Dummy</Variant_Of_Existing_Type>
+
+		<Destruction_Survivors>
+			EX_F_Local_Buff_Misc_Object_1, 1
+		</Destruction_Survivors>
+	</Particle>
+
+	<Particle Name="EX_F_Buff_Particle">
+		<Land_Model_Name>p_exf_buff.alo</Land_Model_Name>
+		<Space_Model_Name>p_exf_buff.alo</Space_Model_Name>
+
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE, IDLE</Behavior>
+		<Particle_Lifetime_Frames>5</Particle_Lifetime_Frames>
+	</Particle>
+
+	<Particle Name="Cronal_Local_Debuff_Particle_Init">
+		<Variant_Of_Existing_Type>Local_Buff_Spawn_Dummy</Variant_Of_Existing_Type>
+
+		<Starting_Spawned_Units_Tech_0>Cronal_Unit_Squadron_Init, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Cronal_Unit_Squadron_Init, -1</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1.1</Spawned_Squadron_Delay_Seconds>
+	</Particle>
+
+	<Particle Name="Cronal_DeBuff_Particle">
+		<Land_Model_Name>p_coronal_debuff.alo</Land_Model_Name>
+		<Space_Model_Name>p_coronal_debuff.alo</Space_Model_Name>
+
+		<Scale_Factor>10</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE, IDLE</Behavior>
+		<Particle_Lifetime_Frames>5</Particle_Lifetime_Frames>
+	</Particle>
+
+	<Particle Name="Inspire_Fear_Local_Debuff_Particle_Init">
+		<Variant_Of_Existing_Type>Local_Buff_Spawn_Dummy</Variant_Of_Existing_Type>
+
+		<!--<Starting_Spawned_Units_Tech_0>Inspire_Fear_Unit_Squadron_Init, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Inspire_Fear_Unit_Squadron_Init, -1</Reserve_Spawned_Units_Tech_0> -->
+		<Spawned_Squadron_Delay_Seconds>1.1</Spawned_Squadron_Delay_Seconds>
+
+		<Abilities SubObjectList="Yes">
+			<Enable_Ability Name="Inspire_Fear_Buff_Display_Enabler">
+				<Ability_Name> Inspire_Fear_Buff_Display </Ability_Name>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Turr_Phennir_TIE_Interceptor</Applicable_Unit_Types>
+				<Affects_All_Allies> No </Affects_All_Allies>
+			</Enable_Ability>
+		</Abilities>
+	</Particle>
+
+	<Particle Name="Fighter_Shield_Bell_Endurance_Ability_Particle">
+		<Land_Model_Name>p_lure_object_particle_effect.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect.ALO</Space_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Fighter_Shield_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories> Fighter | Bomber </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.00</Health_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>0.0</Ability_Recharge_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.00</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>8</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Fighter_Shield_Penalty">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />  
+				<Applicable_Unit_Types> Bell_Endurance </Applicable_Unit_Types>
+				<Excluded_Unit_Types> </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.00</Health_Bonus_Percentage>
+				<Ability_Recharge_Bonus_Percentage>0.0</Ability_Recharge_Bonus_Percentage>
+				<Damage_Bonus_Percentage>-0.25</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>-0.25</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>-0.2</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>8</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</Particle>
+
+	<Particle Name="Rampage_Ability_Particle">
+		<Land_Model_Name>p_lure_object_particle_effect.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Rampage_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.00</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.00</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>-0.10</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.00</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Bounty_On_Faction_Ability Name="Rampage_Bounty_Ability">
+				<Bounty_Percentage_Amount> 1 </Bounty_Percentage_Amount>
+				<Stacking_Category> 2 </Stacking_Category>
+				<!-- The Underworld player will gain credits for destroying objects owned by these factions: -->
+				<Target_Faction_Names> Rebel, Empire, Underworld, Hutt_Cartels, Independent_Forces, Hostile, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, Chiss, EmpireoftheHand, Killik_Hives, SsiRuuvi_Imperium, Mandalorians, Warlords, Imperial_Proteus, Proteus_Two </Target_Faction_Names>
+				<Apply_To_All_Allies> Yes </Apply_To_All_Allies>
+			</Bounty_On_Faction_Ability>
+		</Abilities>
+	</Particle>
+
+	<Particle Name="Lure_Ability_Ackbar_Guardian">
+		<Land_Model_Name>p_lure_object_particle_effect.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect.ALO</Space_Model_Name>
+		<Scale_Factor>10.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+	</Particle>
+
+	<Particle Name="Stealth_Ability_Particle">
+		<Land_Model_Name>p_lure_object_particle_effect.ALO</Land_Model_Name>
+		<Space_Model_Name>p_lure_object_particle_effect.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Decoration>Yes</Is_Decoration>-->
+
+		<Abilities SubObjectList="Yes">
+
+			<Enable_Ability Name="Enable_Singularity_Stealth">
+				<Ability_Name> Singularity_Stealth </Ability_Name>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Cronal_Singularity </Applicable_Unit_Types>
+				<Affects_All_Allies> Yes </Affects_All_Allies>
+			</Enable_Ability>
+
+			<Combat_Bonus_Ability Name="Cronal_No_Shields_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Cronal_Singularity </Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>-0.999</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>15</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</Particle>
+
+	<Particle Name="Sensor_Jamming_Effect_Speeder"> <!-- 100m -->
+		<Land_Model_Name>p_sensorjammer_Speeder.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>900</Particle_Lifetime_Frames>
+	</Particle>
+
+	<Particle Name="Sensor_Jamming_Effect_AT_AA"> <!-- 150m -->
+		<Land_Model_Name>p_sensorjammer_ATAA.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>900</Particle_Lifetime_Frames>
+	</Particle>
+
+</Particles>

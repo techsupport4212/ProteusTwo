@@ -1,0 +1,329 @@
+<?xml version="1.0" ?>
+
+<!--******************************************************-->
+<!--************* Campaign: Lambda Sector ****************-->
+<!--******************************************************-->
+
+<Story>
+	<Event Name="Trigger_Determine_Faction">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<Event Name="NR_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NR_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="Lambda_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>LAMBDA_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="Naboo_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NABOO_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="Kamino_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>KAMINO_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="Protectorate_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PROTECTORATE_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="EA_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>EA_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="CSA_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CSA_STORY_START</Event_Param2>
+	</Event>
+	<Event Name="Hutt_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HUTT_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="Trigger_Delayed_Initialize">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>9</Event_Param1>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--******************** UNIVERSAL EVENTS *********************-->
+	<!--***********************************************************-->
+
+	<Event Name="Trigger_Nantz_Arrives_Timer">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>400</Event_Param1>
+	</Event>
+
+	<Event Name="Got_Storm_Commando">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Dummy_Recruit_Group_Storm_Commando</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>FILTER_FRIENDLY_AND_ENEMY</Event_Param3>
+	</Event>
+
+	<Event Name="Trigger_Storm_Commando_Debounce">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Prereq>Got_Storm_Commando</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--******* Lambda Sector (Imperial Proteus) Storyline ********-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Lambda">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_LAMBDASECTOR_LAMBDA_INTRO_ONE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Par_Lankin_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Lambda_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Lambda_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_LambdaSector</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Prereq>Intro_Welcome_Lambda</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--********** Imperial Naboo (Empire) Storyline **************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Naboo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_LAMBDASECTOR_NABOO_INTRO_ONE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Quarsh_Panaka_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Naboo_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Naboo_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_LambdaSector</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Prereq>Intro_Welcome_Naboo</Prereq>
+	</Event>
+
+	<!--***********************************************************-->
+	<!--********* Imperial Kamino (Zsinj) Storyline ***************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Kamino">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_LAMBDASECTOR_KAMINO_INTRO_ONE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Dark_Apprentice_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Kamino_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Kamino_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_LambdaSector</Story_Dialog>
+		<Story_Chapter>6</Story_Chapter>
+		<Prereq>Intro_Welcome_Kamino</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--********** Protectorate (Pentastar) Storyline *************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Protectorate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_PROTEUS_PROTECTORATE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Adalric_Brandl_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Protectorate_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Protectorate_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_LambdaSector</Story_Dialog>
+		<Story_Chapter>7</Story_Chapter>
+		<Prereq>Intro_Welcome_Protectorate</Prereq>
+	</Event>
+
+	<Event Name="Trigger_Conquer_Tatooine">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Tatooine</Event_Param1>
+		<Event_Param3>FILTER_FRIENDLY_AND_ENEMY</Event_Param3>
+		<!--<Perpetual>true</Perpetual> Gonna make them have to be first -->
+	</Event>
+
+	<Event Name="Trigger_Conquer_Ryloth">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Ryloth</Event_Param1>
+		<Event_Param3>FILTER_FRIENDLY_AND_ENEMY</Event_Param3>
+		<!--<Perpetual>true</Perpetual> Gonna make them have to be first -->
+	</Event>
+
+	<Event Name="Trigger_Fable_Timer">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>500</Event_Param1>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--***************** New Republic Storyline ******************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_NewRep">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_LAMBDASECTOR_NR_INTRO_ONE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Leia_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>NR_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_NewRep_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_LambdaSector</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Prereq>Intro_Welcome_NewRep</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--******************* Eriadu Storyline **********************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Eriadu">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_LAMBDASECTOR_EA_INTRO_ONE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Delvardus_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>EA_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Eriadu_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_LambdaSector</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Prereq>Intro_Welcome_Eriadu</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--******************** Hutt Storyline ***********************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Hutt">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_LAMBDASECTOR_HUTT_INTRO_ONE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Jabba_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Hutt_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Hutt_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_LambdaSector</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Prereq>Intro_Welcome_Hutt</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--********************* CSA Storyline ***********************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_CSA">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_LAMBDASECTOR_CSA_INTRO_ONE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Espo_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>CSA_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_CSA_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_LambdaSector</Story_Dialog>
+		<Story_Chapter>5</Story_Chapter>
+		<Prereq>Intro_Welcome_CSA</Prereq>
+	</Event>
+</Story>

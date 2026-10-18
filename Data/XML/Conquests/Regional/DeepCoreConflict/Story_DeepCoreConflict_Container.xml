@@ -1,0 +1,390 @@
+<?xml version="1.0" ?>
+<!--******************************************************-->
+<!--*****	CAMPAIGN: Deep Core Conflict (Container)  ****-->
+<!--******************************************************-->
+<Story>
+	<Event Name="Trigger_Determine_Faction">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<Event Name="Trigger_Era_Selection">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="GE_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GE_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="EA_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>EA_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="GM_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GM_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="IP_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>IP_STORY_START</Event_Param2>
+	</Event>
+
+
+	<Event Name="Start_Era_1">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>AI_NOTIF_START_ERA_1</Event_Param2>
+	</Event>
+
+	<Event Name="Start_Era_3">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>AI_NOTIF_START_ERA_3</Event_Param2>
+	</Event>
+
+	<Event Name="Start_Era_4">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>AI_NOTIF_START_ERA_4</Event_Param2>
+	</Event>
+
+	<Event Name="Start_Era_6">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>AI_NOTIF_START_ERA_6</Event_Param2>
+	</Event>
+
+
+	<Event Name="Trigger_Delayed_Initialize">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--******************** UNIVERSAL EVENTS *********************-->
+	<!--***********************************************************-->
+
+	<Event Name="Trigger_Night_Hammer_Complete">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>440</Event_Param1>
+		<Prereq>Start_Era_6</Prereq>
+	</Event>
+
+	<Event Name="Trigger_Megador_And_Dominion">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1280</Event_Param1>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--******************** EMPIRE STORYLINE *********************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Harrsk_E1_3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_HARRSK_DEEPCORE_E1_3</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Harrsk_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>GE_Story_Start Start_Era_1</Prereq>
+		<Prereq>GE_Story_Start Start_Era_3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Harrsk_E1_3_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_DeepCoreConflict_Empire</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Main_Tag</Story_Tag>
+		<Prereq>Intro_Welcome_Harrsk_E1_3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Harrsk_E4">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_HARRSK_DEEPCORE_E4</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Harrsk_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>GE_Story_Start Start_Era_4</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Harrsk_E4_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_DeepCoreConflict_Empire</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Main_Tag</Story_Tag>
+		<Prereq>Intro_Welcome_Harrsk_E4</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Harrsk_E6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_HARRSK_DEEPCORE_E6</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Harrsk_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>GE_Story_Start Start_Era_6</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Harrsk_E6_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_DeepCoreConflict_Empire</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Story_Tag>Main_Tag</Story_Tag>
+		<Prereq>Intro_Welcome_Harrsk_E6</Prereq>
+	</Event>
+
+	<Event Name="Night Hammer_Dialog_Harrsk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_HARRSK_DEEPCORE_NH</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Harrsk_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>GE_Story_Start Trigger_Night_Hammer_Complete</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--***************** Greater Maldrood Story ******************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Maldrood_E1">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_MALDROOD_DEEPCORE_INTRO_E1</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Kosh_Teradoc_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>GM_Story_Start Start_Era_1</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Maldrood_Dialog_E1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_DeepCoreConflict_Maldrood</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Main_Tag</Story_Tag>
+		<Prereq>Intro_Welcome_Maldrood_E1</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Maldrood_E3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_MALDROOD_DEEPCORE_INTRO_E3</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Kosh_Teradoc_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>GM_Story_Start Start_Era_3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Maldrood_Dialog_E3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_DeepCoreConflict_Maldrood</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Main_Tag</Story_Tag>
+		<Prereq>Intro_Welcome_Maldrood_E3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Maldrood_E4_6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_CRIMSONEMPIRE_GM_INTRO</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Treuten_Teradoc_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>GM_Story_Start Start_Era_4</Prereq>
+		<Prereq>GM_Story_Start Start_Era_6</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Maldrood_Dialog_E4_6">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_11_ABY_CrimsonEmpire_Maldrood</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Main_Tag</Story_Tag>
+		<Prereq>Intro_Welcome_Maldrood_E4_6</Prereq>
+	</Event>
+
+	<Event Name="Night Hammer_Dialog_Maldrood">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_MALDROOD_DEEPCORE_NH</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Treuten_Teradoc_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>GM_Story_Start Trigger_Night_Hammer_Complete</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--***************** Eriadu Authority Story ******************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Eriadu_E3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_ERIADU_DEEPCORE_INTRO_E3</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Delvardus_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>EA_Story_Start Start_Era_3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Eriadu_Dialog_E3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_DeepCoreConflict_Eriadu</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Main_Tag</Story_Tag>
+		<Prereq>Intro_Welcome_Eriadu_E3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Eriadu_E4_6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_ERIADU_DEEPCORE_INTRO</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Delvardus_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>EA_Story_Start Start_Era_4</Prereq>
+		<Prereq>EA_Story_Start Start_Era_6</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Eriadu_Dialog_E4_6">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_DeepCoreConflict_Eriadu</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Main_Tag</Story_Tag>
+		<Prereq>Intro_Welcome_Eriadu_E4_6</Prereq>
+	</Event>
+
+	<Event Name="Night Hammer_Dialog_Eriadu">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_ERIADU_DEEPCORE_NH</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Delvardus_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>EA_Story_Start Trigger_Night_Hammer_Complete</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--********************* Sector 5 Story **********************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Sector_5">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_PROTEUS_SECTOR_5</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Malfkla_Yzu_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>IP_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Sector_5_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_DeepCoreConflict_Sector_5</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Main_Tag</Story_Tag>
+		<Prereq>Intro_Welcome_Sector_5</Prereq>
+	</Event>
+	
+	<Event Name="Night Hammer_Dialog_Proteus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_YZU_DEEPCORE_NH</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Malfkla_Yzu_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>IP_Story_Start Trigger_Night_Hammer_Complete</Prereq>
+	</Event>
+</Story>

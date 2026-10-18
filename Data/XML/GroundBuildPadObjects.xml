@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<GroundStructures>
+	<GroundStructure Name="Empire_Anti_Aircraft_Turret">
+		<Variant_Of_Existing_Type>Template_Empire_Anti_Aircraft_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+	</GroundStructure>
+
+	<GroundStructure Name="Empire_Anti_Infantry_Turret">
+		<Variant_Of_Existing_Type>Template_Empire_Anti_Infantry_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+	</GroundStructure>
+
+	<GroundStructure Name="Empire_Anti_Vehicle_Turret">
+		<Variant_Of_Existing_Type>Template_Empire_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+	</GroundStructure>
+
+  	<GroundStructure Name="Empire_Bacta_Tank">
+		<Variant_Of_Existing_Type>Template_Empire_Bacta_Tank</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+	</GroundStructure>
+
+	<GroundStructure Name="Empire_Repair_Facility">
+		<Variant_Of_Existing_Type>Template_Empire_Repair_Facility</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+	</GroundStructure>
+
+	<GroundStructure Name="Empire_Sensor_Node">
+		<Variant_Of_Existing_Type>Template_Empire_Sensor_Node</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+	</GroundStructure>
+
+
+	<GroundStructure Name="Rebel_Anti_Aircraft_Turret">
+		<Variant_Of_Existing_Type>Template_Rebel_Anti_Aircraft_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel, Hapes_Consortium, Hutt_Cartels, SsiRuuvi_Imperium, Killik_Hives, Independent_Forces</Affiliation>
+	</GroundStructure>
+
+	<GroundStructure Name="Rebel_Anti_Infantry_Turret">
+		<Variant_Of_Existing_Type>Template_Rebel_Anti_Infantry_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel, Hapes_Consortium, Hutt_Cartels, SsiRuuvi_Imperium, Killik_Hives, Independent_Forces</Affiliation>
+	</GroundStructure>
+
+	<GroundStructure Name="Rebel_Anti_Vehicle_Turret">
+		<Variant_Of_Existing_Type>Template_Rebel_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel, Hapes_Consortium, Hutt_Cartels, SsiRuuvi_Imperium, Killik_Hives, Independent_Forces</Affiliation>
+	</GroundStructure>
+
+  	<GroundStructure Name="Rebel_Bacta_Tank">
+		<Variant_Of_Existing_Type>Template_Rebel_Bacta_Tank</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel, Hapes_Consortium, Hutt_Cartels, SsiRuuvi_Imperium, Killik_Hives, Independent_Forces</Affiliation>
+	</GroundStructure>
+
+	<GroundStructure Name="Rebel_Repair_Facility">
+		<Variant_Of_Existing_Type>Template_Rebel_Repair_Facility</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel, Hapes_Consortium, Hutt_Cartels, SsiRuuvi_Imperium, Killik_Hives, Independent_Forces</Affiliation>
+	</GroundStructure>
+
+	<GroundStructure Name="Rebel_Sensor_Node">
+		<Variant_Of_Existing_Type>Template_Rebel_Sensor_Node</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel, Hapes_Consortium, Hutt_Cartels, SsiRuuvi_Imperium, Killik_Hives, Independent_Forces</Affiliation>
+	</GroundStructure>
+
+
+<!-- UC versions -->
+
+	<GroundBuildable Name="UC_Empire_Anti_Aircraft_Turret">
+		<Variant_Of_Existing_Type>Template_UC_Empire_Anti_Aircraft_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Empire_Anti_Infantry_Turret">
+		<Variant_Of_Existing_Type>Template_UC_Empire_Anti_Infantry_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Empire_Anti_Vehicle_Turret">
+		<Variant_Of_Existing_Type>Template_UC_Empire_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Empire_Bacta_Tank">
+		<Variant_Of_Existing_Type>Template_UC_Empire_Bacta_Tank</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Empire_Repair_Facility">
+		<Variant_Of_Existing_Type>Template_UC_Empire_Repair_Facility</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Empire_Sensor_Node">
+		<Variant_Of_Existing_Type>Template_UC_Empire_Sensor_Node</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+	</GroundBuildable>
+
+
+	<GroundBuildable Name="UC_Rebel_Anti_Aircraft_Turret">
+		<Variant_Of_Existing_Type>Template_UC_Rebel_Anti_Aircraft_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel, Hapes_Consortium, Hutt_Cartels, SsiRuuvi_Imperium, Killik_Hives, Independent_Forces</Affiliation>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Rebel_Anti_Infantry_Turret">
+		<Variant_Of_Existing_Type>Template_UC_Rebel_Anti_Infantry_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel, Hapes_Consortium, Hutt_Cartels, SsiRuuvi_Imperium, Killik_Hives, Independent_Forces</Affiliation>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Rebel_Anti_Vehicle_Turret">
+		<Variant_Of_Existing_Type>Template_UC_Rebel_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel, Hapes_Consortium, Hutt_Cartels, SsiRuuvi_Imperium, Killik_Hives, Independent_Forces</Affiliation>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Rebel_Bacta_Tank">
+		<Variant_Of_Existing_Type>Template_UC_Rebel_Bacta_Tank</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel, Hapes_Consortium, Hutt_Cartels, SsiRuuvi_Imperium, Killik_Hives, Independent_Forces</Affiliation>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Rebel_Repair_Facility">
+		<Variant_Of_Existing_Type>Template_UC_Rebel_Repair_Facility</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel, Hapes_Consortium, Hutt_Cartels, SsiRuuvi_Imperium, Killik_Hives, Independent_Forces</Affiliation>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Rebel_Sensor_Node">
+		<Variant_Of_Existing_Type>Template_UC_Rebel_Sensor_Node</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel, Hapes_Consortium, Hutt_Cartels, SsiRuuvi_Imperium, Killik_Hives, Independent_Forces</Affiliation>
+	</GroundBuildable>
+
+
+<!-- TR-MB variants (abilities) -->
+
+	<GroundStructure Name="Empire_Anti_Aircraft_Turret_TRMB">
+		<Variant_Of_Existing_Type>Template_Empire_Anti_Aircraft_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+
+		<LandBehavior>ABILITY_COUNTDOWN, LAND_OBSTACLE, TURRET, SELECTABLE, TARGETING, WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET</LandBehavior>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds>30.0</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Special_Land_FOW_Reveal_Ping_Blast</Spawned_Object_Type>
+				<Effective_Radius>0.0</Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance>250.0</Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name></GUI_Activated_Ability_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundStructure>
+
+	<GroundStructure Name="Empire_Anti_Infantry_Turret_TRMB">
+		<Variant_Of_Existing_Type>Template_Empire_Anti_Infantry_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+
+		<LandBehavior>ABILITY_COUNTDOWN, SHIELDED, LAND_OBSTACLE, TURRET, SELECTABLE, TARGETING, WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET</LandBehavior>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds>30.0</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Special_Land_FOW_Reveal_Ping_Blast</Spawned_Object_Type>
+				<Effective_Radius>0.0</Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance>250.0</Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name></GUI_Activated_Ability_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundStructure>
+
+	<GroundStructure Name="Empire_Anti_Vehicle_Turret_TRMB">
+		<Variant_Of_Existing_Type>Template_Empire_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Empire, Greater_Maldrood, Eriadu_Authority, Zsinj_Empire, Corporate_Sector, Pentastar, Warlords, Corellia, EmpireoftheHand, Chiss, Underworld, Mandalorians, Yevetha, Imperial_Proteus, Proteus_Two</Affiliation>
+
+		<LandBehavior>ABILITY_COUNTDOWN, LAND_OBSTACLE, TURRET, SELECTABLE, TARGETING, WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET</LandBehavior>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds>30.0</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Special_Land_FOW_Reveal_Ping_Blast</Spawned_Object_Type>
+				<Effective_Radius>0.0</Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance>250.0</Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name></GUI_Activated_Ability_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundStructure>
+
+
+	<GroundStructure Name="Rebel_Anti_Aircraft_Turret_TRMB">
+		<Variant_Of_Existing_Type>Template_Rebel_Anti_Aircraft_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel</Affiliation>
+
+		<LandBehavior>ABILITY_COUNTDOWN, LAND_OBSTACLE, TURRET, SELECTABLE, TARGETING, WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET</LandBehavior>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds>30.0</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Special_Land_FOW_Reveal_Ping_Blast</Spawned_Object_Type>
+				<Effective_Radius>0.0</Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance>250.0</Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name></GUI_Activated_Ability_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundStructure>
+
+	<GroundStructure Name="Rebel_Anti_Infantry_Turret_TRMB">
+		<Variant_Of_Existing_Type>Template_Rebel_Anti_Infantry_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel</Affiliation>
+
+		<LandBehavior>ABILITY_COUNTDOWN, SHIELDED, LAND_OBSTACLE, TURRET, SELECTABLE, TARGETING, WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET</LandBehavior>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds>30.0</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Special_Land_FOW_Reveal_Ping_Blast</Spawned_Object_Type>
+				<Effective_Radius>0.0</Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance>250.0</Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name></GUI_Activated_Ability_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundStructure>
+
+	<GroundStructure Name="Rebel_Anti_Vehicle_Turret_TRMB">
+		<Variant_Of_Existing_Type>Template_Rebel_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+
+		<Affiliation>Rebel</Affiliation>
+
+		<LandBehavior>ABILITY_COUNTDOWN, LAND_OBSTACLE, TURRET, SELECTABLE, TARGETING, WEAPON, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET</LandBehavior>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds>30.0</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Special_Land_FOW_Reveal_Ping_Blast</Spawned_Object_Type>
+				<Effective_Radius>0.0</Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance>250.0</Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name></GUI_Activated_Ability_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundStructure>
+
+
+<!-- UC TR-MB variants (price) -->
+
+	<GroundBuildable Name="UC_Empire_Anti_Aircraft_Turret_TRMB">
+		<Variant_Of_Existing_Type>UC_Empire_Anti_Aircraft_Turret</Variant_Of_Existing_Type>
+
+		<Tactical_Buildable_Constructed>Empire_Anti_Aircraft_Turret_TRMB</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>5</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>2</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Empire_Anti_Infantry_Turret_TRMB">
+		<Variant_Of_Existing_Type>UC_Empire_Anti_Infantry_Turret</Variant_Of_Existing_Type>
+
+		<Tactical_Buildable_Constructed>Empire_Anti_Infantry_Turret_TRMB</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>5</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>2</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Empire_Anti_Vehicle_Turret_TRMB">
+		<Variant_Of_Existing_Type>UC_Empire_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+
+		<Tactical_Buildable_Constructed>Empire_Anti_Vehicle_Turret_TRMB</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>5</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>2</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+	</GroundBuildable>
+
+
+	<GroundBuildable Name="UC_Rebel_Anti_Aircraft_Turret_TRMB">
+		<Variant_Of_Existing_Type>UC_Rebel_Anti_Aircraft_Turret</Variant_Of_Existing_Type>
+
+		<Tactical_Buildable_Constructed>Rebel_Anti_Aircraft_Turret_TRMB</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>5</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>2</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Rebel_Anti_Infantry_Turret_TRMB">
+		<Variant_Of_Existing_Type>UC_Rebel_Anti_Infantry_Turret</Variant_Of_Existing_Type>
+
+		<Tactical_Buildable_Constructed>Rebel_Anti_Infantry_Turret_TRMB</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>5</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>2</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Rebel_Anti_Vehicle_Turret_TRMB">
+		<Variant_Of_Existing_Type>UC_Rebel_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+
+		<Tactical_Buildable_Constructed>Rebel_Anti_Vehicle_Turret_TRMB</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>5</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>2</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+	</GroundBuildable>
+
+<!-- UC Entoli LAV variants (price) -->
+
+	<GroundBuildable Name="UC_Anti_Vehicle_Turret_Entoli_LAV">
+		<Variant_Of_Existing_Type>UC_Empire_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+		
+		<Icon_Name>i_button_entoli_av.tga</Icon_Name>
+		<Land_Model_Name>EotH_Command_Speeder_AVTurret.ALO</Land_Model_Name>
+		<Scale_Factor>1.2</Scale_Factor>
+
+		<Tactical_Buildable_Constructed>Anti_Vehicle_Turret_Entoli_LAV</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>5</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>2</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		
+		<Affiliation>Rebel, EmpireoftheHand</Affiliation>
+	</GroundBuildable>
+	
+	<GroundStructure Name="Anti_Vehicle_Turret_Entoli_LAV">
+		<Variant_Of_Existing_Type>Template_Empire_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+		
+		<Icon_Name>i_button_entoli_av.tga</Icon_Name>
+		<Land_Model_Name>EotH_Command_Speeder_AVTurret.ALO</Land_Model_Name>
+		<Scale_Factor>1.2</Scale_Factor>
+
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Turret_Bone_Name>EotH_Command_Speeder_AVTurret</Turret_Bone_Name>
+		<Barrel_Bone_Name>EotH_Command_Speeder_AVTurret_Muzzle_01</Barrel_Bone_Name>
+		<Target_Bones>EotH_Command_Speeder_AVTurret</Target_Bones>
+
+		<HardPoints>HP_Entoli_LAV_AV_Turret</HardPoints>	<!--Uses hardpoints to ensure inaccuracy, do not change-->
+
+		<Affiliation>Rebel, EmpireoftheHand</Affiliation>	<!-- Chewie hijack -->
+	</GroundStructure>
+
+	<GroundBuildable Name="UC_Missile_Turret_Entoli_LAV">
+		<Variant_Of_Existing_Type>UC_Empire_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_STRUCTURE_BUILD_PAD_TURRET_AI</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_AI_TURRET
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_AV_HEALTH
+		TEXT_TOOLTIP_ENTOLI_LAV_MISSILE_WEAP1
+		</Encyclopedia_Text>
+
+		<Icon_Name>i_button_entoli_missile.tga</Icon_Name>
+
+		<Land_Model_Name>EotH_Command_Speeder_MissileTurret.ALO</Land_Model_Name>
+		<Scale_Factor>1.2</Scale_Factor>
+
+		<Tactical_Buildable_Constructed>Missile_Turret_Entoli_LAV</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>5</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>2</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+
+		<Affiliation>Rebel, EmpireoftheHand</Affiliation>
+	</GroundBuildable>
+	
+	<GroundStructure Name="Missile_Turret_Entoli_LAV">
+		<Variant_Of_Existing_Type>Template_Empire_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_STRUCTURE_BUILD_PAD_TURRET_AI</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_AI_TURRET
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_AV_HEALTH
+		TEXT_TOOLTIP_ENTOLI_LAV_MISSILE_WEAP1
+		</Encyclopedia_Text>
+
+		<Icon_Name>i_button_entoli_missile.tga</Icon_Name>
+		<Land_Model_Name>EotH_Command_Speeder_MissileTurret.ALO</Land_Model_Name>
+		<Scale_Factor>1.2</Scale_Factor>
+
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Turret_Bone_Name>EotH_Command_Speeder_AVMissile</Turret_Bone_Name>
+		<Barrel_Bone_Name>EotH_Command_Speeder_AVMissile_Barrel</Barrel_Bone_Name>
+		<Target_Bones>EotH_Command_Speeder_AVMissile</Target_Bones>
+		
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+
+		<HardPoints>HP_Entoli_LAV_AV_Missile</HardPoints>	<!--Uses hardpoints to ensure inaccuracy, do not change-->
+
+		<Affiliation>Rebel, EmpireoftheHand</Affiliation>	<!-- Chewie hijack -->
+	</GroundStructure>
+
+	<GroundBuildable Name="UC_Sensor_Node_Entoli_LAV">
+		<Variant_Of_Existing_Type>Template_UC_Empire_Sensor_Node</Variant_Of_Existing_Type>
+		
+		<Icon_Name>i_button_entoli_sensor.tga</Icon_Name>
+		<Land_Model_Name>EotH_Command_Speeder_Sensor.ALO</Land_Model_Name>
+		<Scale_Factor>1.2</Scale_Factor>
+		
+		<Tactical_Buildable_Constructed>Sensor_Node_Entoli_LAV</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>5</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>2</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+
+		<Affiliation>Rebel, EmpireoftheHand</Affiliation>
+	</GroundBuildable>
+	
+	<GroundStructure Name="Sensor_Node_Entoli_LAV">
+		<Variant_Of_Existing_Type>Template_Empire_Sensor_Node</Variant_Of_Existing_Type>
+		
+		<Icon_Name>i_button_entoli_sensor.tga</Icon_Name>
+		<Land_Model_Name>EotH_Command_Speeder_Sensor.ALO</Land_Model_Name>
+		<Scale_Factor>1.2</Scale_Factor>
+
+		<Affiliation>Rebel, EmpireoftheHand</Affiliation>
+	</GroundStructure>
+
+
+
+<!-- unused -->
+
+	<GroundStructure Name="Underworld_Flame_Turret">
+		<Variant_Of_Existing_Type>Abstract_Anti_Infantry_Turret</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_STRUCTURE_TURRET_TORP</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TORP_TURRET
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_FLAME_HEALTH
+		TEXT_TOOLTIP_FLAME_WEAP1
+		</Encyclopedia_Text>
+
+		<LandBehavior>TURRET, TARGETING, WEAPON, IDLE, UNIT_AI, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, STUNNABLE, POWERED, EARTHQUAKE_TARGET</LandBehavior>
+
+		<Land_Model_Name>UB_FLAMETURRET.ALO</Land_Model_Name>
+		<Icon_Name>I_BUTTON_FLAMETURT.tga</Icon_Name>
+
+		<Affiliation>EmpireoftheHand, Chiss</Affiliation>
+
+		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
+
+		<HardPoints>HP_Flame_Turret</HardPoints>
+
+		<SFXEvent_Fire>Unit_Flamethrower_Fire</SFXEvent_Fire>
+
+		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
+
+		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Square_Shadow</Blob_Shadow_Material_Name>
+		<SFXEvent_Sold_Tactical>UHD_Turret_Sold</SFXEvent_Sold_Tactical>
+		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor</SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
+	</GroundStructure>
+</GroundStructures>

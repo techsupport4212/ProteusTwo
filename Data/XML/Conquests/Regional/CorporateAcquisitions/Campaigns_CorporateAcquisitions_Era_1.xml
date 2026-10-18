@@ -1,0 +1,1305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Campaigns>
+
+<!-- ******************************************************************** -->
+<!-- *************** CAMPAIGN "Corporate Acquistions" *********** -->
+<!-- ******************************************************************** -->
+
+	<Campaign Name="CorporateAcquisitions_Era_1_Rebel">
+		<Campaign_Set>Campaign_CorporateAcquisitions_Era_1</Campaign_Set>
+
+		<Sort_Order>006</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+
+		<Text_ID> TEXT_CAMPAIGN_HEADER_CORPORATEACQUISITIONS </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_CORPORATEACQUISITIONS </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Almania,
+			Atchorb,
+			Bonadan,
+			Desevro,
+			Emmer,
+			Ession,
+			Etti,
+			Galaxy_Core_Art_Model,
+			Jaminere,
+			Kalla,
+			Korriban,
+			Makem_Te,
+			Maryo,
+			Mon_Calamari,
+			Mytus,
+			Orron,
+			Oslumpex,
+			Quermia,
+			Raxus_Second,
+			Rudrig,
+			Saffalore,
+			Shaylin,
+			Ton_Falk,
+			Toola,
+			Trian,
+			Turkana,
+			Ulicia,
+		</Locations>
+		<Trade_Routes>
+			Almania_Emmer,
+			Almania_Ession,
+			Almania_Makem_Te,
+			Atchorb_Etti,
+			Atchorb_Mytus,
+			Atchorb_Ulicia,
+			Bonadan_Etti,
+			Bonadan_Saffalore,
+			Bonadan_Ulicia,
+			Desevro_Jaminere,
+			Desevro_Korriban,
+			Desevro_Makem_Te,
+			Emmer_Kalla,
+			Emmer_Quermia,
+			Emmer_Toola,
+			Ession_Kalla,
+			Ession_Maryo,
+			Etti_Kalla,
+			Etti_Maryo,
+			Jaminere_Rudrig,
+			Kalla_Oslumpex,
+			Kalla_Saffalore,
+			Makem_Te_Quermia,
+			Maryo_Trian,
+			Mon_Calamari_Shaylin,
+			Mon_Calamari_Turkana,
+			Mytus_Trian,
+			Orron_Oslumpex,
+			Orron_Saffalore,
+			Orron_Ton_Falk,
+			Oslumpex_Saffalore,
+			Oslumpex_Toola,
+			Quermia_Raxus_Second,
+			Raxus_Second_Rudrig,
+			Raxus_Second_Toola,
+			Rudrig_Shaylin,
+			Shaylin_Ton_Falk,
+			Shaylin_Turkana,
+			Ton_Falk_Toola,
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Mon_Calamari </Home_Location>
+		<Home_Location> Empire, Emmer </Home_Location>
+		<Home_Location> Zsinj_Empire, Desevro </Home_Location>
+		<Home_Location> Corporate_Sector, Etti </Home_Location>
+		<Home_Location> Greater_Maldrood, Felucia </Home_Location>
+
+		<Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Story_Name>
+			Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+			Empire, Conquests\Factions\Story_Plots_Generic_Empire.xml,
+			Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+			Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+			Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml,
+			Independent_Forces, Conquests\Regional\CorporateAcquisitions\Story_Plots_CorporateAcquisitions_Container.xml,
+			Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+			Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		</Story_Name>
+
+		<AI_Player_Control> Rebel, SandboxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Zsinj_Empire, None </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, None </AI_Player_Control>
+
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Rebel,  0 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Mon_Calamari Land Forces -->
+		<Starting_Forces> Rebel, Mon_Calamari, NewRep_Capital </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Ackbar_Home_One </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Airen_Cracken_Team </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Turkana, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Ton_Falk, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Shaylin, Generate_Force </Starting_Forces>
+
+		<Starting_Credits> Empire,  0 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Empire, Emmer, Empire_Capital</Starting_Forces>
+		<Starting_Forces> Empire, Emmer, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Saffalore, Makati_Steadfast</Starting_Forces>
+		<Starting_Forces> Empire, Saffalore, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Maryo, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Kalla, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Oslumpex, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Jaminere, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Quermia, Generate_Force</Starting_Forces>
+
+		<Starting_Credits> Zsinj_Empire,  0 </Starting_Credits>
+		<Starting_Tech_Level> Zsinj_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Zsinj_Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Zsinj_Empire, Desevro, Rancor_Base</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Teubbo_Team</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Screed_Demolisher</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Ession, Darillian_Night_Caller</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Ession, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Makem_Te, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Banjeer_Quasar</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Neutron_Star</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Neutron_Star</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Almania, Lanu_Pasiq_Team</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Almania, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Rudrig, Generate_Force</Starting_Forces>
+
+		<Starting_Credits> Corporate_Sector,  0 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+
+		<!-- Etti Land Forces -->
+		<Starting_Forces> Corporate_Sector, Etti, CSA_Capital </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Grumby_Notropis </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Weplinn_ISD </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Karrek_Flim_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Riga_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Odumin_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fiolla_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fasser_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Nieler_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Corporate_Sector, Ulicia, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Atchorb, Krin_Invincible </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Atchorb, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Bonadan, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Orron, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Raxus_Second, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Trian, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_I_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, VT49_Decimator_Group </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Empire_Office </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Revolt_Imperial_Depot </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Jedgar_Team </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_AT_TE_Walker_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+
+		<Starting_Credits> Imperial_Proteus,  0 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Proteus, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Proteus, 5 </Max_Tech_Level>
+
+	</Campaign>
+
+	<Campaign Name="CorporateAcquisitions_Era_1_Corporate_Sector">
+		<Campaign_Set>Campaign_CorporateAcquisitions_Era_1</Campaign_Set>
+
+		<Sort_Order>006</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+
+		<Text_ID> TEXT_CAMPAIGN_HEADER_CORPORATEACQUISITIONS </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_CORPORATEACQUISITIONS </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Almania,
+			Atchorb,
+			Bonadan,
+			Desevro,
+			Emmer,
+			Ession,
+			Etti,
+			Galaxy_Core_Art_Model,
+			Jaminere,
+			Kalla,
+			Korriban,
+			Makem_Te,
+			Maryo,
+			Mon_Calamari,
+			Mytus,
+			Orron,
+			Oslumpex,
+			Quermia,
+			Raxus_Second,
+			Rudrig,
+			Saffalore,
+			Shaylin,
+			Ton_Falk,
+			Toola,
+			Trian,
+			Turkana,
+			Ulicia,
+		</Locations>
+		<Trade_Routes>
+			Almania_Emmer,
+			Almania_Ession,
+			Almania_Makem_Te,
+			Atchorb_Etti,
+			Atchorb_Mytus,
+			Atchorb_Ulicia,
+			Bonadan_Etti,
+			Bonadan_Saffalore,
+			Bonadan_Ulicia,
+			Desevro_Jaminere,
+			Desevro_Korriban,
+			Desevro_Makem_Te,
+			Emmer_Kalla,
+			Emmer_Quermia,
+			Emmer_Toola,
+			Ession_Kalla,
+			Ession_Maryo,
+			Etti_Kalla,
+			Etti_Maryo,
+			Jaminere_Rudrig,
+			Kalla_Oslumpex,
+			Kalla_Saffalore,
+			Makem_Te_Quermia,
+			Maryo_Trian,
+			Mon_Calamari_Shaylin,
+			Mon_Calamari_Turkana,
+			Mytus_Trian,
+			Orron_Oslumpex,
+			Orron_Saffalore,
+			Orron_Ton_Falk,
+			Oslumpex_Saffalore,
+			Oslumpex_Toola,
+			Quermia_Raxus_Second,
+			Raxus_Second_Rudrig,
+			Raxus_Second_Toola,
+			Rudrig_Shaylin,
+			Shaylin_Ton_Falk,
+			Shaylin_Turkana,
+			Ton_Falk_Toola,
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Mon_Calamari </Home_Location>
+		<Home_Location> Empire, Emmer </Home_Location>
+		<Home_Location> Zsinj_Empire, Desevro </Home_Location>
+		<Home_Location> Corporate_Sector, Etti </Home_Location>
+		<Home_Location> Greater_Maldrood, Felucia </Home_Location>
+
+		<Starting_Active_Player> Corporate_Sector </Starting_Active_Player>
+
+		<Story_Name>
+			Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+			Empire, Conquests\Factions\Story_Plots_Generic_Empire.xml,
+			Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+			Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+			Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml,
+			Independent_Forces, Conquests\Regional\CorporateAcquisitions\Story_Plots_CorporateAcquisitions_Container.xml,
+			Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+			Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		</Story_Name>
+
+		<AI_Player_Control> Rebel, None </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Zsinj_Empire, None </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, SandboxHuman </AI_Player_Control>
+
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Rebel,  0 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Mon_Calamari Land Forces -->
+		<Starting_Forces> Rebel, Mon_Calamari, NewRep_Capital </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Ackbar_Home_One </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Airen_Cracken_Team </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Turkana, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Ton_Falk, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Shaylin, Generate_Force </Starting_Forces>
+
+		<Starting_Credits> Empire,  0 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Empire, Emmer, Empire_Capital</Starting_Forces>
+		<Starting_Forces> Empire, Emmer, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Saffalore, Makati_Steadfast</Starting_Forces>
+		<Starting_Forces> Empire, Saffalore, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Maryo, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Kalla, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Oslumpex, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Jaminere, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Quermia, Generate_Force</Starting_Forces>
+
+		<Starting_Credits> Zsinj_Empire,  0 </Starting_Credits>
+		<Starting_Tech_Level> Zsinj_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Zsinj_Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Zsinj_Empire, Desevro, Rancor_Base</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Teubbo_Team</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Screed_Demolisher</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Ession, Darillian_Night_Caller</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Ession, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Makem_Te, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Banjeer_Quasar</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Neutron_Star</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Neutron_Star</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Almania, Lanu_Pasiq_Team</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Almania, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Rudrig, Generate_Force</Starting_Forces>
+
+		<Starting_Credits> Corporate_Sector,  0 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+
+		<!-- Etti Land Forces -->
+		<Starting_Forces> Corporate_Sector, Etti, CSA_Capital </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Grumby_Notropis </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Weplinn_ISD </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Karrek_Flim_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Riga_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Odumin_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fiolla_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fasser_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Nieler_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Corporate_Sector, Ulicia, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Atchorb, Krin_Invincible </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Atchorb, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Bonadan, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Orron, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Raxus_Second, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Trian, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_I_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, VT49_Decimator_Group </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Empire_Office </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Revolt_Imperial_Depot </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Jedgar_Team </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_AT_TE_Walker_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+
+		<Starting_Credits> Imperial_Proteus,  0 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Proteus, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Proteus, 5 </Max_Tech_Level>
+
+	</Campaign>
+
+	<Campaign Name="CorporateAcquisitions_Era_1_Empire">
+		<Campaign_Set>Campaign_CorporateAcquisitions_Era_1</Campaign_Set>
+
+		<Sort_Order>006</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+
+		<Text_ID> TEXT_CAMPAIGN_HEADER_CORPORATEACQUISITIONS </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_CORPORATEACQUISITIONS </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Almania,
+			Atchorb,
+			Bonadan,
+			Desevro,
+			Emmer,
+			Ession,
+			Etti,
+			Galaxy_Core_Art_Model,
+			Jaminere,
+			Kalla,
+			Korriban,
+			Makem_Te,
+			Maryo,
+			Mon_Calamari,
+			Mytus,
+			Orron,
+			Oslumpex,
+			Quermia,
+			Raxus_Second,
+			Rudrig,
+			Saffalore,
+			Shaylin,
+			Ton_Falk,
+			Toola,
+			Trian,
+			Turkana,
+			Ulicia,
+		</Locations>
+		<Trade_Routes>
+			Almania_Emmer,
+			Almania_Ession,
+			Almania_Makem_Te,
+			Atchorb_Etti,
+			Atchorb_Mytus,
+			Atchorb_Ulicia,
+			Bonadan_Etti,
+			Bonadan_Saffalore,
+			Bonadan_Ulicia,
+			Desevro_Jaminere,
+			Desevro_Korriban,
+			Desevro_Makem_Te,
+			Emmer_Kalla,
+			Emmer_Quermia,
+			Emmer_Toola,
+			Ession_Kalla,
+			Ession_Maryo,
+			Etti_Kalla,
+			Etti_Maryo,
+			Jaminere_Rudrig,
+			Kalla_Oslumpex,
+			Kalla_Saffalore,
+			Makem_Te_Quermia,
+			Maryo_Trian,
+			Mon_Calamari_Shaylin,
+			Mon_Calamari_Turkana,
+			Mytus_Trian,
+			Orron_Oslumpex,
+			Orron_Saffalore,
+			Orron_Ton_Falk,
+			Oslumpex_Saffalore,
+			Oslumpex_Toola,
+			Quermia_Raxus_Second,
+			Raxus_Second_Rudrig,
+			Raxus_Second_Toola,
+			Rudrig_Shaylin,
+			Shaylin_Ton_Falk,
+			Shaylin_Turkana,
+			Ton_Falk_Toola,
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Mon_Calamari </Home_Location>
+		<Home_Location> Empire, Emmer </Home_Location>
+		<Home_Location> Zsinj_Empire, Desevro </Home_Location>
+		<Home_Location> Corporate_Sector, Etti </Home_Location>
+		<Home_Location> Greater_Maldrood, Felucia </Home_Location>
+
+		<Starting_Active_Player> Empire </Starting_Active_Player>
+
+		<Story_Name>
+			Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+			Empire, Conquests\Factions\Story_Plots_Generic_Empire.xml,
+			Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+			Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+			Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml,
+			Independent_Forces, Conquests\Regional\CorporateAcquisitions\Story_Plots_CorporateAcquisitions_Container.xml,
+			Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+			Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		</Story_Name>
+
+		<AI_Player_Control> Rebel, None </AI_Player_Control>
+		<AI_Player_Control> Empire, SandboxHuman </AI_Player_Control>
+		<AI_Player_Control> Zsinj_Empire, None </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, None </AI_Player_Control>
+
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Rebel,  0 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Mon_Calamari Land Forces -->
+		<Starting_Forces> Rebel, Mon_Calamari, NewRep_Capital </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Ackbar_Home_One </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Airen_Cracken_Team </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Turkana, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Ton_Falk, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Shaylin, Generate_Force </Starting_Forces>
+
+		<Starting_Credits> Empire,  0 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Empire, Emmer, Empire_Capital</Starting_Forces>
+		<Starting_Forces> Empire, Emmer, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Saffalore, Makati_Steadfast</Starting_Forces>
+		<Starting_Forces> Empire, Saffalore, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Maryo, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Kalla, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Oslumpex, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Jaminere, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Quermia, Generate_Force</Starting_Forces>
+
+		<Starting_Credits> Zsinj_Empire,  0 </Starting_Credits>
+		<Starting_Tech_Level> Zsinj_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Zsinj_Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Zsinj_Empire, Desevro, Rancor_Base</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Teubbo_Team</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Screed_Demolisher</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Ession, Darillian_Night_Caller</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Ession, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Makem_Te, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Banjeer_Quasar</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Neutron_Star</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Neutron_Star</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Almania, Lanu_Pasiq_Team</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Almania, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Rudrig, Generate_Force</Starting_Forces>
+
+		<Starting_Credits> Corporate_Sector,  0 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+
+		<!-- Etti Land Forces -->
+		<Starting_Forces> Corporate_Sector, Etti, CSA_Capital </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Grumby_Notropis </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Weplinn_ISD </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Karrek_Flim_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Riga_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Odumin_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fiolla_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fasser_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Nieler_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Corporate_Sector, Ulicia, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Atchorb, Krin_Invincible </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Atchorb, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Bonadan, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Orron, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Raxus_Second, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Trian, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_I_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, VT49_Decimator_Group </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Empire_Office </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Revolt_Imperial_Depot </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Jedgar_Team </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_AT_TE_Walker_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+
+		<Starting_Credits> Imperial_Proteus,  0 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Proteus, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Proteus, 5 </Max_Tech_Level>
+
+	</Campaign>
+
+	<Campaign Name="CorporateAcquisitions_Era_1_Zsinj_Empire">
+		<Campaign_Set>Campaign_CorporateAcquisitions_Era_1</Campaign_Set>
+
+		<Sort_Order>006</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+
+		<Text_ID> TEXT_CAMPAIGN_HEADER_CORPORATEACQUISITIONS </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_CORPORATEACQUISITIONS </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Almania,
+			Atchorb,
+			Bonadan,
+			Desevro,
+			Emmer,
+			Ession,
+			Etti,
+			Galaxy_Core_Art_Model,
+			Jaminere,
+			Kalla,
+			Korriban,
+			Makem_Te,
+			Maryo,
+			Mon_Calamari,
+			Mytus,
+			Orron,
+			Oslumpex,
+			Quermia,
+			Raxus_Second,
+			Rudrig,
+			Saffalore,
+			Shaylin,
+			Ton_Falk,
+			Toola,
+			Trian,
+			Turkana,
+			Ulicia,
+		</Locations>
+		<Trade_Routes>
+			Almania_Emmer,
+			Almania_Ession,
+			Almania_Makem_Te,
+			Atchorb_Etti,
+			Atchorb_Mytus,
+			Atchorb_Ulicia,
+			Bonadan_Etti,
+			Bonadan_Saffalore,
+			Bonadan_Ulicia,
+			Desevro_Jaminere,
+			Desevro_Korriban,
+			Desevro_Makem_Te,
+			Emmer_Kalla,
+			Emmer_Quermia,
+			Emmer_Toola,
+			Ession_Kalla,
+			Ession_Maryo,
+			Etti_Kalla,
+			Etti_Maryo,
+			Jaminere_Rudrig,
+			Kalla_Oslumpex,
+			Kalla_Saffalore,
+			Makem_Te_Quermia,
+			Maryo_Trian,
+			Mon_Calamari_Shaylin,
+			Mon_Calamari_Turkana,
+			Mytus_Trian,
+			Orron_Oslumpex,
+			Orron_Saffalore,
+			Orron_Ton_Falk,
+			Oslumpex_Saffalore,
+			Oslumpex_Toola,
+			Quermia_Raxus_Second,
+			Raxus_Second_Rudrig,
+			Raxus_Second_Toola,
+			Rudrig_Shaylin,
+			Shaylin_Ton_Falk,
+			Shaylin_Turkana,
+			Ton_Falk_Toola,
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Mon_Calamari </Home_Location>
+		<Home_Location> Empire, Emmer </Home_Location>
+		<Home_Location> Zsinj_Empire, Desevro </Home_Location>
+		<Home_Location> Corporate_Sector, Etti </Home_Location>
+		<Home_Location> Greater_Maldrood, Felucia </Home_Location>
+
+		<Starting_Active_Player> Zsinj_Empire </Starting_Active_Player>
+
+		<Story_Name>
+			Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+			Empire, Conquests\Factions\Story_Plots_Generic_Empire.xml,
+			Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+			Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+			Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml,
+			Independent_Forces, Conquests\Regional\CorporateAcquisitions\Story_Plots_CorporateAcquisitions_Container.xml,
+			Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+			Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		</Story_Name>
+
+		<AI_Player_Control> Rebel, None </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Zsinj_Empire, SandboxHuman </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, None </AI_Player_Control>
+
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Rebel,  0 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Mon_Calamari Land Forces -->
+		<Starting_Forces> Rebel, Mon_Calamari, NewRep_Capital </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Ackbar_Home_One </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Airen_Cracken_Team </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Turkana, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Ton_Falk, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Shaylin, Generate_Force </Starting_Forces>
+
+		<Starting_Credits> Empire,  0 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Empire, Emmer, Empire_Capital</Starting_Forces>
+		<Starting_Forces> Empire, Emmer, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Saffalore, Makati_Steadfast</Starting_Forces>
+		<Starting_Forces> Empire, Saffalore, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Maryo, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Kalla, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Oslumpex, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Jaminere, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Quermia, Generate_Force</Starting_Forces>
+
+		<Starting_Credits> Zsinj_Empire,  0 </Starting_Credits>
+		<Starting_Tech_Level> Zsinj_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Zsinj_Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Zsinj_Empire, Desevro, Rancor_Base</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Teubbo_Team</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Screed_Demolisher</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Ession, Darillian_Night_Caller</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Ession, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Makem_Te, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Banjeer_Quasar</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Neutron_Star</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Neutron_Star</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Almania, Lanu_Pasiq_Team</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Almania, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Rudrig, Generate_Force</Starting_Forces>
+
+		<Starting_Credits> Corporate_Sector,  0 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+
+		<!-- Etti Land Forces -->
+		<Starting_Forces> Corporate_Sector, Etti, CSA_Capital </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Grumby_Notropis </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Weplinn_ISD </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Karrek_Flim_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Riga_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Odumin_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fiolla_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fasser_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Nieler_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Corporate_Sector, Ulicia, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Atchorb, Krin_Invincible </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Atchorb, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Bonadan, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Orron, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Raxus_Second, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Trian, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_I_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, VT49_Decimator_Group </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Empire_Office </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Revolt_Imperial_Depot </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Jedgar_Team </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_AT_TE_Walker_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+
+		<Starting_Credits> Imperial_Proteus,  0 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Proteus, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Proteus, 5 </Max_Tech_Level>
+
+	</Campaign>
+
+	<Campaign Name="CorporateAcquisitions_Era_1_Imperial_Proteus">
+		<Campaign_Set>Campaign_CorporateAcquisitions_Era_1</Campaign_Set>
+
+		<Sort_Order>006</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+
+		<Text_ID> TEXT_CAMPAIGN_HEADER_CORPORATEACQUISITIONS </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_CORPORATEACQUISITIONS </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Almania,
+			Atchorb,
+			Bonadan,
+			Desevro,
+			Emmer,
+			Ession,
+			Etti,
+			Galaxy_Core_Art_Model,
+			Jaminere,
+			Kalla,
+			Korriban,
+			Makem_Te,
+			Maryo,
+			Mon_Calamari,
+			Mytus,
+			Orron,
+			Oslumpex,
+			Quermia,
+			Raxus_Second,
+			Rudrig,
+			Saffalore,
+			Shaylin,
+			Ton_Falk,
+			Toola,
+			Trian,
+			Turkana,
+			Ulicia,
+		</Locations>
+		<Trade_Routes>
+			Almania_Emmer,
+			Almania_Ession,
+			Almania_Makem_Te,
+			Atchorb_Etti,
+			Atchorb_Mytus,
+			Atchorb_Ulicia,
+			Bonadan_Etti,
+			Bonadan_Saffalore,
+			Bonadan_Ulicia,
+			Desevro_Jaminere,
+			Desevro_Korriban,
+			Desevro_Makem_Te,
+			Emmer_Kalla,
+			Emmer_Quermia,
+			Emmer_Toola,
+			Ession_Kalla,
+			Ession_Maryo,
+			Etti_Kalla,
+			Etti_Maryo,
+			Jaminere_Rudrig,
+			Kalla_Oslumpex,
+			Kalla_Saffalore,
+			Makem_Te_Quermia,
+			Maryo_Trian,
+			Mon_Calamari_Shaylin,
+			Mon_Calamari_Turkana,
+			Mytus_Trian,
+			Orron_Oslumpex,
+			Orron_Saffalore,
+			Orron_Ton_Falk,
+			Oslumpex_Saffalore,
+			Oslumpex_Toola,
+			Quermia_Raxus_Second,
+			Raxus_Second_Rudrig,
+			Raxus_Second_Toola,
+			Rudrig_Shaylin,
+			Shaylin_Ton_Falk,
+			Shaylin_Turkana,
+			Ton_Falk_Toola,
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Mon_Calamari </Home_Location>
+		<Home_Location> Empire, Emmer </Home_Location>
+		<Home_Location> Zsinj_Empire, Desevro </Home_Location>
+		<Home_Location> Corporate_Sector, Etti </Home_Location>
+		<Home_Location> Greater_Maldrood, Felucia </Home_Location>
+
+		<Starting_Active_Player> Imperial_Proteus </Starting_Active_Player>
+
+		<Story_Name>
+			Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+			Empire, Conquests\Factions\Story_Plots_Generic_Empire.xml,
+			Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+			Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+			Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml,
+			Independent_Forces, Conquests\Regional\CorporateAcquisitions\Story_Plots_CorporateAcquisitions_Container.xml,
+			Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+			Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		</Story_Name>
+
+		<AI_Player_Control> Rebel, None </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Zsinj_Empire, None </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, None </AI_Player_Control>
+
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, SandboxHuman</AI_Player_Control>
+
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Rebel,  0 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Mon_Calamari Land Forces -->
+		<Starting_Forces> Rebel, Mon_Calamari, NewRep_Capital </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Ackbar_Home_One </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Airen_Cracken_Team </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Turkana, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Ton_Falk, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Shaylin, Generate_Force </Starting_Forces>
+
+		<Starting_Credits> Empire,  0 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Empire, Emmer, Empire_Capital</Starting_Forces>
+		<Starting_Forces> Empire, Emmer, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Saffalore, Makati_Steadfast</Starting_Forces>
+		<Starting_Forces> Empire, Saffalore, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Maryo, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Kalla, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Oslumpex, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Jaminere, Generate_Force</Starting_Forces>
+		<Starting_Forces> Empire, Quermia, Generate_Force</Starting_Forces>
+
+		<Starting_Credits> Zsinj_Empire,  0 </Starting_Credits>
+		<Starting_Tech_Level> Zsinj_Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Zsinj_Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Zsinj_Empire, Desevro, Rancor_Base</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Teubbo_Team</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Screed_Demolisher</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Desevro, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Ession, Darillian_Night_Caller</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Ession, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Makem_Te, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Banjeer_Quasar</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Neutron_Star</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Neutron_Star</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Toola, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Almania, Lanu_Pasiq_Team</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Almania, Generate_Force</Starting_Forces>
+		<Starting_Forces> Zsinj_Empire, Rudrig, Generate_Force</Starting_Forces>
+
+		<Starting_Credits> Corporate_Sector,  0 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+
+		<!-- Etti Land Forces -->
+		<Starting_Forces> Corporate_Sector, Etti, CSA_Capital </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Grumby_Notropis </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Weplinn_ISD </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Karrek_Flim_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Riga_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Odumin_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fiolla_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fasser_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Nieler_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Corporate_Sector, Ulicia, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Atchorb, Krin_Invincible </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Atchorb, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Bonadan, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Orron, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Raxus_Second, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Trian, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Raider_I_Corvette </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_I_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, VT49_Decimator_Group </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_II_Frigate </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Empire_Office </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Revolt_Imperial_Depot </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Jedgar_Team </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_AT_TE_Walker_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		<Starting_Forces> Warlords, Korriban, Imperial_Dark_Jedi_Company </Starting_Forces>
+		
+		<Starting_Credits> Imperial_Proteus,  0 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Proteus, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Proteus, 5 </Max_Tech_Level>
+
+
+	</Campaign>
+
+</Campaigns>

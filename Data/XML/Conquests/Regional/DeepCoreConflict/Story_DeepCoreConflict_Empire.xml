@@ -1,0 +1,188 @@
+<?xml version="1.0" ?>
+<!--******************************************************-->
+<!--*****	CAMPAIGN: Deep Core Conflict (Empire)	******-->
+<!--******************************************************-->
+<Story>
+	<Event Name="E_Lock_IPV">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>IPV1</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_Executor">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Executor_Star_Dreadnought</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_Sovereign">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Sovereign_Star_Dreadnought</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_Eclipse">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Eclipse_Star_Dreadnought</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_Praetor_II">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Praetor_II_Battlecruiser</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_Venator">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Venator_Star_Destroyer</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_MTC_Sensor">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>MTC_Sensor</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_MTC_Support">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>MTC_Support</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_Ton_Falk">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Ton_Falk_Escort_Carrier</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_Beta_ETR_3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Beta_ETR_3_Group</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_Boarding">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Boarding_Shuttle</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_Turbo_ATAT">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_AT_AT_Walker_Turbolaser_Refit_Company</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_XR85">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>XR85_Company</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_ATST_A">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>AT_ST_A_Company</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_Crusader">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Crusader_Gunship</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_Patrol_Nebulon">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Patrol_Nebulon_B</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Lock_DSD">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Dwarf_Spider_Droid_Company</Reward_Param1>
+	</Event>
+
+
+	<Event Name="E_Unlock_Navy_Trooper">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_Navy_Trooper_Company</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Unlock_ATST">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>AT_ST_Company</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Unlock_A5RX">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_A5RX_Company</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Unlock_ATAT">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Imperial_AT_AT_Walker_Company</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Unlock_YE4">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>YE_4_Group</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Unlock_Vindicator">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Vindicator_Cruiser</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Unlock_Dominator">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Interdictor_Star_Destroyer</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Unlock_Tector">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Tector_Star_Destroyer</Reward_Param1>
+	</Event>
+
+	<Event Name="E_Unlock_Allegiance">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Allegiance_Battlecruiser</Reward_Param1>
+	</Event>
+</Story>

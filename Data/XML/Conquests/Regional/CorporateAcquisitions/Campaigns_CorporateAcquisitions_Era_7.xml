@@ -1,0 +1,1028 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Campaigns>
+
+<!-- ******************************************************************** -->
+<!-- *************** CAMPAIGN "Corporate Acquistions" *********** -->
+<!-- ******************************************************************** -->
+
+	<Campaign Name="CorporateAcquisitions_Era_7_Rebel">
+		<Campaign_Set>Campaign_CorporateAcquisitions_Era_7</Campaign_Set>
+
+		<Sort_Order>006</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+
+		<Text_ID> TEXT_CAMPAIGN_HEADER_CORPORATEACQUISITIONS </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_CORPORATEACQUISITIONS </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Belderone,
+			Boonta,
+			Delacrix,
+			Dellalt,
+			Desevro,
+			Emmer,
+			Etti,
+			Galaxy_Core_Art_Model,
+			Handooine,
+			Iego,
+			Kalla,
+			Klatooine,
+			Lianna,
+			Makem_Te,
+			Maryo,
+			Minntooine,
+			Mon_Calamari,
+			Mytus,
+			Oslumpex,
+			Ringneldia,
+			Saleucami,
+			Sriluur,
+			Ton_Falk,
+			Toola,
+			Trian,
+			Ulicia,
+			Zygerria,
+		</Locations>
+		<Trade_Routes>
+			Belderone_Dellalt,
+			Belderone_Handooine,
+			Belderone_Lianna,
+			Boonta_Iego,
+			Boonta_Klatooine,
+			Boonta_Saleucami,
+			Boonta_Sriluur,
+			Delacrix_Klatooine,
+			Delacrix_Ringneldia,
+			Delacrix_Sriluur
+			Dellalt_Iego,
+			Dellalt_Lianna,
+			Dellalt_Minntooine,
+			Dellalt_Ton_Falk,
+			Desevro_Lianna,
+			Desevro_Makem_Te,
+			Desevro_Ton_Falk,
+			Emmer_Kalla,
+			Emmer_Makem_Te,
+			Emmer_Toola,
+			Emmer_Zygerria,
+			Etti_Kalla,
+			Etti_Maryo,
+			Etti_Ulicia,
+			Handooine_Iego,
+			Handooine_Saleucami,
+			Iego_Minntooine,
+			Iego_Ringneldia,
+			Kalla_Oslumpex,
+			Klatooine_Sriluur,
+			Maryo_Trian,
+			Maryo_Zygerria,
+			Minntooine_Mon_Calamari,
+			Minntooine_Ringneldia,
+			Mon_Calamari_Ton_Falk,
+			Mytus_Trian,
+			Mytus_Ulicia,
+			Oslumpex_Toola,
+			Oslumpex_Ulicia,
+			Ton_Falk_Toola,
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Mon_Calamari </Home_Location>
+		<Home_Location> Empire, Emmer </Home_Location>
+		<Home_Location> Zsinj_Empire, Desevro </Home_Location>
+		<Home_Location> Corporate_Sector, Etti </Home_Location>
+		<Home_Location> Greater_Maldrood, Felucia </Home_Location>
+
+		<Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Story_Name>
+			Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+			Empire, Conquests\Factions\Story_Plots_Generic_Empire.xml,
+			Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+			Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+			Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml,
+			Independent_Forces, Conquests\Regional\CorporateAcquisitions\Story_Plots_CorporateAcquisitions_Container.xml,
+			Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+			Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		</Story_Name>
+
+		<AI_Player_Control> Rebel, SandboxHuman </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Zsinj_Empire, None </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, None </AI_Player_Control>
+
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Rebel,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Mon_Calamari Land Forces -->
+		<Starting_Forces> Rebel, Mon_Calamari, NewRep_Capital </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Ackbar_Home_One </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Minntooine, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Emmer, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Desevro, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Desevro, Zuma_Team </Starting_Forces>
+		<Starting_Forces> Rebel, Ton_Falk, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Toola, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Belderone, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Handooine, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Hutt_Cartels, Desevro, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Desevro, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Belderone, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Emmer, Smuggler </Starting_Forces>
+
+		<Starting_Credits> Corporate_Sector,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+
+		<!-- Etti Land Forces -->
+		<Starting_Forces> Corporate_Sector, Etti, CSA_Capital </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Grumby_Notropis </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Weplinn_ISD </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Brollyx_Dauntless </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Sloane_Enforce </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Phineas_VSD </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Karrek_Flim_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Riga_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Odumin_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fiolla_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Larin_Vost_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Aarica_Vost_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Corporate_Sector, Ulicia, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Mytus, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Maryo, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Oslumpex, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Oslumpex, Krin_Invincible </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Kalla, Generate_Force </Starting_Forces>
+
+		<Starting_Credits> Hutt_Cartels,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Hutt_Cartels, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hutt_Cartels, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Hutt_Cartels, Oslumpex, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Kalla, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Etti, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Maryo, Smuggler </Starting_Forces>
+
+		<Starting_Forces> Warlords, Makem_Te, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Warlords, Ringneldia, Generate_Force </Starting_Forces>
+		<Starting_Forces> Warlords, Ringneldia, Lehhett_Vainglorious </Starting_Forces>
+
+		<Starting_Forces> Warlords, Lianna, Generate_Force </Starting_Forces>
+		<Starting_Forces> Warlords, Lianna, Valles_Interdictor </Starting_Forces>
+		<Starting_Forces> Warlords, Lianna, Phillip_Santhe_Team </Starting_Forces>
+		<Starting_Forces> Warlords, Lianna, Imre_Talberenina_Ballista </Starting_Forces>
+		<Starting_Forces> Independent_Forces, Dellalt, Generate_Force </Starting_Forces>
+		<Starting_Forces> Independent_Forces, Zygerria, Molec_Unbreakable_Chain </Starting_Forces>
+		<Starting_Forces> Independent_Forces, Zygerria, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Hutt_Cartels, Makem_Te, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Lianna, Smuggler </Starting_Forces>
+
+		<Starting_Forces> Hutt_Cartels, Saleucami, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Boonta, Hutt_Capital </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Boonta, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Boonta, Troonol_Agrelcu_Haalta </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Sriluur, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Delacrix, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Delacrix, Parella_Team </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Delacrix, Popara_Imru_Ootmian </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Klatooine, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Klatooine, Borvo_Prosperous_Secret </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Trian, Generate_Force </Starting_Forces>
+
+		<Starting_Credits> Imperial_Proteus,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Proteus, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Proteus, 5 </Max_Tech_Level>
+		
+		
+	</Campaign>
+
+	<Campaign Name="CorporateAcquisitions_Era_7_Corporate_Sector">
+		<Campaign_Set>Campaign_CorporateAcquisitions_Era_7</Campaign_Set>
+
+		<Sort_Order>006</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+
+		<Text_ID> TEXT_CAMPAIGN_HEADER_CORPORATEACQUISITIONS </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_CORPORATEACQUISITIONS </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Belderone,
+			Boonta,
+			Delacrix,
+			Dellalt,
+			Desevro,
+			Emmer,
+			Etti,
+			Galaxy_Core_Art_Model,
+			Handooine,
+			Iego,
+			Kalla,
+			Klatooine,
+			Lianna,
+			Makem_Te,
+			Maryo,
+			Minntooine,
+			Mon_Calamari,
+			Mytus,
+			Oslumpex,
+			Ringneldia,
+			Saleucami,
+			Sriluur,
+			Ton_Falk,
+			Toola,
+			Trian,
+			Ulicia,
+			Zygerria,
+		</Locations>
+		<Trade_Routes>
+			Belderone_Dellalt,
+			Belderone_Handooine,
+			Belderone_Lianna,
+			Boonta_Iego,
+			Boonta_Klatooine,
+			Boonta_Saleucami,
+			Boonta_Sriluur,
+			Delacrix_Klatooine,
+			Delacrix_Ringneldia,
+			Delacrix_Sriluur
+			Dellalt_Iego,
+			Dellalt_Lianna,
+			Dellalt_Minntooine,
+			Dellalt_Ton_Falk,
+			Desevro_Lianna,
+			Desevro_Makem_Te,
+			Desevro_Ton_Falk,
+			Emmer_Kalla,
+			Emmer_Makem_Te,
+			Emmer_Toola,
+			Emmer_Zygerria,
+			Etti_Kalla,
+			Etti_Maryo,
+			Etti_Ulicia,
+			Handooine_Iego,
+			Handooine_Saleucami,
+			Iego_Minntooine,
+			Iego_Ringneldia,
+			Kalla_Oslumpex,
+			Klatooine_Sriluur,
+			Maryo_Trian,
+			Maryo_Zygerria,
+			Minntooine_Mon_Calamari,
+			Minntooine_Ringneldia,
+			Mon_Calamari_Ton_Falk,
+			Mytus_Trian,
+			Mytus_Ulicia,
+			Oslumpex_Toola,
+			Oslumpex_Ulicia,
+			Ton_Falk_Toola,
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Mon_Calamari </Home_Location>
+		<Home_Location> Empire, Emmer </Home_Location>
+		<Home_Location> Zsinj_Empire, Desevro </Home_Location>
+		<Home_Location> Corporate_Sector, Etti </Home_Location>
+		<Home_Location> Greater_Maldrood, Felucia </Home_Location>
+
+		<Starting_Active_Player> Corporate_Sector </Starting_Active_Player>
+
+		<Story_Name>
+			Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+			Empire, Conquests\Factions\Story_Plots_Generic_Empire.xml,
+			Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+			Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+			Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml,
+			Independent_Forces, Conquests\Regional\CorporateAcquisitions\Story_Plots_CorporateAcquisitions_Container.xml,
+			Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+			Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		</Story_Name>
+
+		<AI_Player_Control> Rebel, None </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Zsinj_Empire, None </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, SandboxHuman </AI_Player_Control>
+
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Rebel,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Mon_Calamari Land Forces -->
+		<Starting_Forces> Rebel, Mon_Calamari, NewRep_Capital </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Ackbar_Home_One </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Minntooine, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Emmer, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Desevro, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Desevro, Zuma_Team </Starting_Forces>
+		<Starting_Forces> Rebel, Ton_Falk, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Toola, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Belderone, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Handooine, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Hutt_Cartels, Desevro, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Desevro, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Belderone, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Emmer, Smuggler </Starting_Forces>
+
+		<Starting_Credits> Corporate_Sector,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+
+		<!-- Etti Land Forces -->
+		<Starting_Forces> Corporate_Sector, Etti, CSA_Capital </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Grumby_Notropis </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Weplinn_ISD </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Brollyx_Dauntless </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Sloane_Enforce </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Phineas_VSD </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Karrek_Flim_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Riga_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Odumin_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fiolla_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Larin_Vost_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Aarica_Vost_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Corporate_Sector, Ulicia, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Mytus, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Maryo, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Oslumpex, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Oslumpex, Krin_Invincible </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Kalla, Generate_Force </Starting_Forces>
+
+		<Starting_Credits> Hutt_Cartels,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Hutt_Cartels, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hutt_Cartels, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Hutt_Cartels, Oslumpex, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Kalla, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Etti, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Maryo, Smuggler </Starting_Forces>
+
+		<Starting_Forces> Warlords, Makem_Te, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Warlords, Ringneldia, Generate_Force </Starting_Forces>
+		<Starting_Forces> Warlords, Ringneldia, Lehhett_Vainglorious </Starting_Forces>
+
+		<Starting_Forces> Warlords, Lianna, Generate_Force </Starting_Forces>
+		<Starting_Forces> Warlords, Lianna, Valles_Interdictor </Starting_Forces>
+		<Starting_Forces> Warlords, Lianna, Phillip_Santhe_Team </Starting_Forces>
+		<Starting_Forces> Warlords, Lianna, Imre_Talberenina_Ballista </Starting_Forces>
+		<Starting_Forces> Independent_Forces, Dellalt, Generate_Force </Starting_Forces>
+		<Starting_Forces> Independent_Forces, Zygerria, Molec_Unbreakable_Chain </Starting_Forces>
+		<Starting_Forces> Independent_Forces, Zygerria, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Hutt_Cartels, Makem_Te, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Lianna, Smuggler </Starting_Forces>
+
+		<Starting_Forces> Hutt_Cartels, Saleucami, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Boonta, Hutt_Capital </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Boonta, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Boonta, Troonol_Agrelcu_Haalta </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Sriluur, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Delacrix, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Delacrix, Parella_Team </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Delacrix, Popara_Imru_Ootmian </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Klatooine, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Klatooine, Borvo_Prosperous_Secret </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Trian, Generate_Force </Starting_Forces>
+
+		<Starting_Credits> Imperial_Proteus,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Proteus, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Proteus, 5 </Max_Tech_Level>
+		
+		
+	</Campaign>
+
+	<Campaign Name="CorporateAcquisitions_Era_7_Hutt_Cartels">
+		<Campaign_Set>Campaign_CorporateAcquisitions_Era_7</Campaign_Set>
+
+		<Sort_Order>006</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+
+		<Text_ID> TEXT_CAMPAIGN_HEADER_CORPORATEACQUISITIONS </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_CORPORATEACQUISITIONS </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Belderone,
+			Boonta,
+			Delacrix,
+			Dellalt,
+			Desevro,
+			Emmer,
+			Etti,
+			Galaxy_Core_Art_Model,
+			Handooine,
+			Iego,
+			Kalla,
+			Klatooine,
+			Lianna,
+			Makem_Te,
+			Maryo,
+			Minntooine,
+			Mon_Calamari,
+			Mytus,
+			Oslumpex,
+			Ringneldia,
+			Saleucami,
+			Sriluur,
+			Ton_Falk,
+			Toola,
+			Trian,
+			Ulicia,
+			Zygerria,
+		</Locations>
+		<Trade_Routes>
+			Belderone_Dellalt,
+			Belderone_Handooine,
+			Belderone_Lianna,
+			Boonta_Iego,
+			Boonta_Klatooine,
+			Boonta_Saleucami,
+			Boonta_Sriluur,
+			Delacrix_Klatooine,
+			Delacrix_Ringneldia,
+			Delacrix_Sriluur
+			Dellalt_Iego,
+			Dellalt_Lianna,
+			Dellalt_Minntooine,
+			Dellalt_Ton_Falk,
+			Desevro_Lianna,
+			Desevro_Makem_Te,
+			Desevro_Ton_Falk,
+			Emmer_Kalla,
+			Emmer_Makem_Te,
+			Emmer_Toola,
+			Emmer_Zygerria,
+			Etti_Kalla,
+			Etti_Maryo,
+			Etti_Ulicia,
+			Handooine_Iego,
+			Handooine_Saleucami,
+			Iego_Minntooine,
+			Iego_Ringneldia,
+			Kalla_Oslumpex,
+			Klatooine_Sriluur,
+			Maryo_Trian,
+			Maryo_Zygerria,
+			Minntooine_Mon_Calamari,
+			Minntooine_Ringneldia,
+			Mon_Calamari_Ton_Falk,
+			Mytus_Trian,
+			Mytus_Ulicia,
+			Oslumpex_Toola,
+			Oslumpex_Ulicia,
+			Ton_Falk_Toola,
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Mon_Calamari </Home_Location>
+		<Home_Location> Empire, Emmer </Home_Location>
+		<Home_Location> Zsinj_Empire, Desevro </Home_Location>
+		<Home_Location> Corporate_Sector, Etti </Home_Location>
+		<Home_Location> Greater_Maldrood, Felucia </Home_Location>
+
+		<Starting_Active_Player> Hutt_Cartels </Starting_Active_Player>
+
+		<Story_Name>
+			Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+			Empire, Conquests\Factions\Story_Plots_Generic_Empire.xml,
+			Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+			Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+			Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml,
+			Independent_Forces, Conquests\Regional\CorporateAcquisitions\Story_Plots_CorporateAcquisitions_Container.xml,
+			Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+			Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		</Story_Name>
+
+		<AI_Player_Control> Rebel, None </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Zsinj_Empire, None </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, None </AI_Player_Control>
+
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, SandboxHuman</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Rebel,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Mon_Calamari Land Forces -->
+		<Starting_Forces> Rebel, Mon_Calamari, NewRep_Capital </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Ackbar_Home_One </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Minntooine, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Emmer, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Desevro, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Desevro, Zuma_Team </Starting_Forces>
+		<Starting_Forces> Rebel, Ton_Falk, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Toola, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Belderone, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Handooine, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Hutt_Cartels, Desevro, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Desevro, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Belderone, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Emmer, Smuggler </Starting_Forces>
+
+		<Starting_Credits> Corporate_Sector,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+
+		<!-- Etti Land Forces -->
+		<Starting_Forces> Corporate_Sector, Etti, CSA_Capital </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Grumby_Notropis </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Weplinn_ISD </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Brollyx_Dauntless </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Sloane_Enforce </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Phineas_VSD </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Karrek_Flim_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Riga_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Odumin_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fiolla_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Larin_Vost_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Aarica_Vost_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Corporate_Sector, Ulicia, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Mytus, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Maryo, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Oslumpex, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Oslumpex, Krin_Invincible </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Kalla, Generate_Force </Starting_Forces>
+
+		<Starting_Credits> Hutt_Cartels,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Hutt_Cartels, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hutt_Cartels, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Hutt_Cartels, Oslumpex, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Kalla, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Etti, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Maryo, Smuggler </Starting_Forces>
+
+		<Starting_Forces> Warlords, Makem_Te, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Warlords, Ringneldia, Generate_Force </Starting_Forces>
+		<Starting_Forces> Warlords, Ringneldia, Lehhett_Vainglorious </Starting_Forces>
+
+		<Starting_Forces> Warlords, Lianna, Generate_Force </Starting_Forces>
+		<Starting_Forces> Warlords, Lianna, Valles_Interdictor </Starting_Forces>
+		<Starting_Forces> Warlords, Lianna, Phillip_Santhe_Team </Starting_Forces>
+		<Starting_Forces> Warlords, Lianna, Imre_Talberenina_Ballista </Starting_Forces>
+		<Starting_Forces> Independent_Forces, Dellalt, Generate_Force </Starting_Forces>
+		<Starting_Forces> Independent_Forces, Zygerria, Molec_Unbreakable_Chain </Starting_Forces>
+		<Starting_Forces> Independent_Forces, Zygerria, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Hutt_Cartels, Makem_Te, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Lianna, Smuggler </Starting_Forces>
+
+		<Starting_Forces> Hutt_Cartels, Saleucami, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Boonta, Hutt_Capital </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Boonta, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Boonta, Troonol_Agrelcu_Haalta </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Sriluur, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Delacrix, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Delacrix, Parella_Team </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Delacrix, Popara_Imru_Ootmian </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Klatooine, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Klatooine, Borvo_Prosperous_Secret </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Trian, Generate_Force </Starting_Forces>
+
+		<Starting_Credits> Imperial_Proteus,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Proteus, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Proteus, 5 </Max_Tech_Level>
+		
+		
+	</Campaign>
+
+	<Campaign Name="CorporateAcquisitions_Era_7_Imperial_Proteus">
+		<Campaign_Set>Campaign_CorporateAcquisitions_Era_7</Campaign_Set>
+
+		<Sort_Order>006</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+
+		<Text_ID> TEXT_CAMPAIGN_HEADER_CORPORATEACQUISITIONS </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_CORPORATEACQUISITIONS </Description_Text>
+
+		<Camera_Shift_X> 40.0 </Camera_Shift_X>
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+		<Camera_Distance> 1200.0 </Camera_Distance>
+
+		<Locations>
+			Belderone,
+			Boonta,
+			Delacrix,
+			Dellalt,
+			Desevro,
+			Emmer,
+			Etti,
+			Galaxy_Core_Art_Model,
+			Handooine,
+			Iego,
+			Kalla,
+			Klatooine,
+			Lianna,
+			Makem_Te,
+			Maryo,
+			Minntooine,
+			Mon_Calamari,
+			Mytus,
+			Oslumpex,
+			Ringneldia,
+			Saleucami,
+			Sriluur,
+			Ton_Falk,
+			Toola,
+			Trian,
+			Ulicia,
+			Zygerria,
+		</Locations>
+		<Trade_Routes>
+			Belderone_Dellalt,
+			Belderone_Handooine,
+			Belderone_Lianna,
+			Boonta_Iego,
+			Boonta_Klatooine,
+			Boonta_Saleucami,
+			Boonta_Sriluur,
+			Delacrix_Klatooine,
+			Delacrix_Ringneldia,
+			Delacrix_Sriluur
+			Dellalt_Iego,
+			Dellalt_Lianna,
+			Dellalt_Minntooine,
+			Dellalt_Ton_Falk,
+			Desevro_Lianna,
+			Desevro_Makem_Te,
+			Desevro_Ton_Falk,
+			Emmer_Kalla,
+			Emmer_Makem_Te,
+			Emmer_Toola,
+			Emmer_Zygerria,
+			Etti_Kalla,
+			Etti_Maryo,
+			Etti_Ulicia,
+			Handooine_Iego,
+			Handooine_Saleucami,
+			Iego_Minntooine,
+			Iego_Ringneldia,
+			Kalla_Oslumpex,
+			Klatooine_Sriluur,
+			Maryo_Trian,
+			Maryo_Zygerria,
+			Minntooine_Mon_Calamari,
+			Minntooine_Ringneldia,
+			Mon_Calamari_Ton_Falk,
+			Mytus_Trian,
+			Mytus_Ulicia,
+			Oslumpex_Toola,
+			Oslumpex_Ulicia,
+			Ton_Falk_Toola,
+		</Trade_Routes>
+
+		<Home_Location> Rebel, Mon_Calamari </Home_Location>
+		<Home_Location> Empire, Emmer </Home_Location>
+		<Home_Location> Zsinj_Empire, Desevro </Home_Location>
+		<Home_Location> Corporate_Sector, Etti </Home_Location>
+		<Home_Location> Greater_Maldrood, Felucia </Home_Location>
+
+		<Starting_Active_Player> Imperial_Proteus </Starting_Active_Player>
+
+		<Story_Name>
+			Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+			Empire, Conquests\Factions\Story_Plots_Generic_Empire.xml,
+			Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+			Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+			Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml,
+			Independent_Forces, Conquests\Regional\CorporateAcquisitions\Story_Plots_CorporateAcquisitions_Container.xml,
+			Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+			Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		</Story_Name>
+
+		<AI_Player_Control> Rebel, None </AI_Player_Control>
+		<AI_Player_Control> Empire, None </AI_Player_Control>
+		<AI_Player_Control> Zsinj_Empire, None </AI_Player_Control>
+		<AI_Player_Control> Corporate_Sector, None </AI_Player_Control>
+
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, SandboxHuman</AI_Player_Control>
+
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Rebel,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<!-- Mon_Calamari Land Forces -->
+		<Starting_Forces> Rebel, Mon_Calamari, NewRep_Capital </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Ackbar_Home_One </Starting_Forces>
+		<Starting_Forces> Rebel, Mon_Calamari, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Minntooine, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Emmer, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Desevro, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Desevro, Zuma_Team </Starting_Forces>
+		<Starting_Forces> Rebel, Ton_Falk, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Toola, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Belderone, Generate_Force </Starting_Forces>
+		<Starting_Forces> Rebel, Handooine, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Hutt_Cartels, Desevro, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Desevro, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Belderone, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Emmer, Smuggler </Starting_Forces>
+
+		<Starting_Credits> Corporate_Sector,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Corporate_Sector, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Corporate_Sector, 5 </Max_Tech_Level>
+
+		<!-- Etti Land Forces -->
+		<Starting_Forces> Corporate_Sector, Etti, CSA_Capital </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Grumby_Notropis </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Weplinn_ISD </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Brollyx_Dauntless </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Sloane_Enforce </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Phineas_VSD </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Karrek_Flim_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Riga_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Odumin_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Fiolla_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Larin_Vost_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Aarica_Vost_Team </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Etti, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Corporate_Sector, Ulicia, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Mytus, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Maryo, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Oslumpex, Generate_Force </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Oslumpex, Krin_Invincible </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Kalla, Generate_Force </Starting_Forces>
+
+		<Starting_Credits> Hutt_Cartels,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Hutt_Cartels, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Hutt_Cartels, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Hutt_Cartels, Oslumpex, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Kalla, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Etti, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Maryo, Smuggler </Starting_Forces>
+
+		<Starting_Forces> Warlords, Makem_Te, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Warlords, Ringneldia, Generate_Force </Starting_Forces>
+		<Starting_Forces> Warlords, Ringneldia, Lehhett_Vainglorious </Starting_Forces>
+
+		<Starting_Forces> Warlords, Lianna, Generate_Force </Starting_Forces>
+		<Starting_Forces> Warlords, Lianna, Valles_Interdictor </Starting_Forces>
+		<Starting_Forces> Warlords, Lianna, Phillip_Santhe_Team </Starting_Forces>
+		<Starting_Forces> Warlords, Lianna, Imre_Talberenina_Ballista </Starting_Forces>
+		<Starting_Forces> Independent_Forces, Dellalt, Generate_Force </Starting_Forces>
+		<Starting_Forces> Independent_Forces, Zygerria, Molec_Unbreakable_Chain </Starting_Forces>
+		<Starting_Forces> Independent_Forces, Zygerria, Generate_Force </Starting_Forces>
+
+		<Starting_Forces> Hutt_Cartels, Makem_Te, Smuggler </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Lianna, Smuggler </Starting_Forces>
+
+		<Starting_Forces> Hutt_Cartels, Saleucami, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Boonta, Hutt_Capital </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Boonta, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Boonta, Troonol_Agrelcu_Haalta </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Sriluur, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Delacrix, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Delacrix, Parella_Team </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Delacrix, Popara_Imru_Ootmian </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Klatooine, Generate_Force </Starting_Forces>
+		<Starting_Forces> Hutt_Cartels, Klatooine, Borvo_Prosperous_Secret </Starting_Forces>
+
+		<Starting_Forces> Independent_Forces, Trian, Generate_Force </Starting_Forces>
+
+		<Starting_Credits> Imperial_Proteus,  6000 </Starting_Credits>
+		<Starting_Tech_Level> Imperial_Proteus, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Imperial_Proteus, 5 </Max_Tech_Level>
+		
+		
+	</Campaign>
+
+</Campaigns>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" ?>
+
+<Story>
+	<Event Name="NEW_ABILITY_PROTEUS_TWO">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NEW_ABILITY_PROTEUS_TWO</Event_Param2>
+		<Reward_Type>NEW_POWER_FOR_ALL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<Event Name="REMOVE_ABILITY_PROTEUS_TWO">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>REMOVE_ABILITY_PROTEUS_TWO</Event_Param2>
+		<Reward_Type>REMOVE_POWER_FROM_ALL</Reward_Type>
+		<Reward_Param1></Reward_Param1>
+		<Reward_Param2></Reward_Param2>
+		<Perpetual>true</Perpetual>
+	</Event>
+</Story>

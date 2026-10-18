@@ -1,0 +1,1161 @@
+<?xml version="1.0"?>
+<UpgradeObjects>
+
+	<!-- ============================================================== Faction Unqiue Upgrades Space ============================================================== -->
+
+	<UpgradeObject Name="RC_Early_Roster">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 1 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type>Space_Level_Two_Tech_Upgrade</Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>Yes</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_nr.tga</Icon_Name>
+
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_EARLY_ROSTER_NR_SWITCHER  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EARLY_ROSTER_NR_SWITCHER</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Wall</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+            <Starbase_Upgrade_Ability Name="Early NR Roster Switcher">
+                <Activation_Style>Skirmish_Automatic</Activation_Style>
+            </Starbase_Upgrade_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="RC_Late_Roster">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 1 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type>Space_Level_Two_Tech_Upgrade</Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>Yes</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_nr.tga</Icon_Name>
+
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_LATE_ROSTER_NR_SWITCHER  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_LATE_ROSTER_NR_SWITCHER</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Wall</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+            <Starbase_Upgrade_Ability Name="Late NR Roster swticher">
+                <Activation_Style>Skirmish_Automatic</Activation_Style>
+            </Starbase_Upgrade_Ability>
+        </Abilities>
+
+	</UpgradeObject>
+
+
+	<UpgradeObject Name="NR_Canon_Option">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 1 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> Space_Level_Three_Tech_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> No </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> No </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_canon_units.tga</Icon_Name>
+
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_TECHNOLOGY_NR_CANON_OPTION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_NR_CANON_OPTION</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+	</UpgradeObject>
+
+	<UpgradeObject Name="NR_Mon_Cal_Shielding">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2080 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>4520</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_nr.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_NR_MON_CALAMARI_SHIELDING
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_NR_MON_CALAMARI_SHIELDING
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_NR_MON_CALAMARI_SHIELDING</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="NR_Mon_Cal_Shielding">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories> <!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.1</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish generic,5- Skirmish overflow,-->
+
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="NR_Fighter_Supremacy">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1345 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>3335</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_nr.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_NR_FIGHTER_SUPREMACY
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_NR_FIGHTER_SUPREMACY
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_NR_FIGHTER_SUPREMACY</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="NR_Fighter_Supremacy">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.1</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish generic,5- Skirmish overflow,-->
+
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="IR_Superweapon_Desires">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 3600 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>3400</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_BUTTON_GE.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_GE_SUPERWEAPON_DESIRES
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_GE_SUPERWEAPON_DESIRES
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_GE_SUPERWEAPON_DESIRES</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+	</UpgradeObject>
+
+	<UpgradeObject Name="IR_Super_Weapon_Firing">
+		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_SPECIAL_WEAPON_FIRED</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>260</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>IR_Superweapon_Desires</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_hypervelocity_gun.tga</Icon_Name>
+		<Is_Skirmish_Tactical_Super_Weapon>true</Is_Skirmish_Tactical_Super_Weapon>
+
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_SPECIAL_WEAPON_USE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_SPECIAL_WEAPON_USE</Text_ID>
+
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Hypervelocity_Available</SFXEvent_Build_Complete>
+      <SFXEvent_Special_Weapon_Ready>EHD_Hypervelocity_Available</SFXEvent_Special_Weapon_Ready>
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="ES_Hypervelocity_Gun_Use_Effect">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Enable_Special_Weapons>Yes</Enable_Special_Weapons>
+				<Apply_To_All_Allies>No</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<UpgradeObject Name="IR_Pondering_Giant">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1135 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>4065</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 10 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_BUTTON_GE.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_GE_PONDERING_GIANT
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_GE_PONDERING_GIANT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_GE_PONDERING_GIANT</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="IR_Pondering_Giant">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>Frigate, Capital, SuperCapital</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>-0.1</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish generic,5- Skirmish overflow,-->
+
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="EOTH_Skirmish_Tactics">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>EmpireoftheHand</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1220 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>3265</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 10 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_eoth.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_EOTH_SKIRMISH_TACTICS
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_EOTH_SKIRMISH_TACTICS
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EOTH_SKIRMISH_TACTICS</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="EOTH_Skirmish_Tactics">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>Gunship, Corvette, Frigate, Capital, SuperCapital</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.15</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>-0.05</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish generic,5- Skirmish overflow,-->
+
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="EOTH_Enhanced_Mobility">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>EmpireoftheHand</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 880 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>2440</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 10 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_eoth.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_EOTH_ENHANCED_MOBILITY
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_EOTH_ENHANCED_MOBILITY
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_EOTH_ENHANCED_MOBILITY</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="EOTH_Enhanced_Mobility">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish generic,5- Skirmish overflow,-->
+
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="PA_Corporate_Allies">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 720 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>2600</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 5 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_pa.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_PA_CORPORATE_ALLIES
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_PA_CORPORATE_ALLIES
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_PA_CORPORATE_ALLIES</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="PA_Corporate_Allies">
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>2.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Pentastar_Star_Base_1</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="PA_Isolationism">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Pentastar</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1680 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>3560</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_pa.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_PA_ISOLATIONISM
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_PA_ISOLATIONISM
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_PA_ISOLATIONISM</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="PA_Isolationism">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.1</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish generic,5- Skirmish overflow,-->
+
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="Zsinj_Friends_In_Low_Places">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Zsinj_Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2905 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>3500</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_ze.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_ZSINJ_FRIENDS_IN_LOW_PLACES
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_ZSINJ_FRIENDS_IN_LOW_PLACES
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ZSINJ_FRIENDS_IN_LOW_PLACES</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Bounty_On_Faction_Ability Name="Zsinj_Friends_In_Low_Places">
+                <Activation_Style>Skirmish_Automatic</Activation_Style>
+                <Bounty_Percentage_Amount> 1 </Bounty_Percentage_Amount>
+				<Target_Faction_Names> Empire, Rebel, Underworld, Eriadu_Authority, Pentastar, Greater_Maldrood, Zsinj_Empire, Imperial_Proteus, Proteus_Two, EmpireoftheHand, Chiss, Corporate_Sector, Hapes_Consortium, Hutt_Cartels, Corellia, Yevetha, SsiRuuvi_Imperium, Killik_Hives, Mandalorians, Independent_Forces, Warlords, Neutral, Hostile </Target_Faction_Names>
+                <Stacking_Category>3</Stacking_Category>
+            </Bounty_On_Faction_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="Zsinj_Warlordism">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Zsinj_Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1120 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>4560</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 10 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_ze.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_ZSINJ_WARLORDISM
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_ZSINJ_WARLORDISM
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ZSINJ_WARLORDISM</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Zsinj_Warlordism_1">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>Capital,SuperCapital</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish generic,5- Skirmish overflow,-->
+
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="Zsinj_Warlordism_2">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>Gunship, Corvette, Frigate</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>-0.1</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish generic,5- Skirmish overflow,-->
+
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="Malrood_The_Crimson_Fleet">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Greater_Maldrood</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 840 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>3110</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 10 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_gm.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_MALROOD_THE_CRIMSON_FLEET
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_MALROOD_THE_CRIMSON_FLEET
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_MALROOD_THE_CRIMSON_FLEET</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Malrood_The_Crimson_Fleet">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>Frigate</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish generic,5- Skirmish overflow,-->
+
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="Malrood_Constant_Raids">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Greater_Maldrood</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 880 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>2440</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 10 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_gm.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_MALROOD_CONSTANT_RAIDS
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_MALROOD_CONSTANT_RAIDS
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_MALROOD_CONSTANT_RAIDS</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Malrood_Constant_Raids">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish generic,5- Skirmish overflow,-->
+
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="Eriadu_Experimental_focus">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Eriadu_Authority</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2130 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>3580</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_ea.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_ERIADU_EXPERIMENTAL_FOCUS
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_ERIADU_EXPERIMENTAL_FOCUS
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ERIADU_EXPERIMENTAL_FOCUS</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Eriadu_Experimental_focus">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>-0.10</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish generic,5- Skirmish overflow,-->
+
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="Eriadu_Reckless">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Eriadu_Authority</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>4560</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_ea.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_ERIADU_RECKLESS
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_ERIADU_RECKLESS
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ERIADU_RECKLESS</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Eriadu_Reckless">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>-0.05</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>4</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish overflow,5- Skirmish generic,-->
+
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="CSA_Corporate_Focus">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Corporate_Sector</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1080 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>2180</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 10 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_csa.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_CSA_CORPORATE_FOCUS
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_CSA_CORPORATE_FOCUS
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_CSA_CORPORATE_FOCUS</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="CSA_Corporate_Focus">
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>1.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Mineral_Extractor</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="CSA_Cutting_Corners">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Corporate_Sector</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 660 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>3320</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 5 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_csa.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_CSA_CUTTING_CORNERS
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_CSA_CUTTING_CORNERS
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_CSA_CUTTING_CORNERS</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="CSA_Cutting_Corners_1">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>Fighter, Bomber, Gunship, Corvette, Frigate, Capital, SuperCapital</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>-0.05</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish generic,5- Skirmish overflow,-->
+
+			</Combat_Bonus_Ability>
+			<Income_Stream_Mod_Ability Name="CSA_Cutting_Corners_2">
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>2.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_CSA_Star_Base_1</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="Hapes_Aggressive_Isolationism">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Hapes_Consortium</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1680 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>4560</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_BUTTON_HAPES_NONE.TGA</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_HAPES_AGGRESSIVE_ISOLATIONISM
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_HAPES_AGGRESSIVE_ISOLATIONISM
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_HAPES_AGGRESSIVE_ISOLATIONISM</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="HAPES_AGGRESSIVE_ISOLATIONISM">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>4</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish overflow,5- Skirmish generic,-->
+
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+	<UpgradeObject Name="Hapes_NR_Tech_Exchange">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Hapes_Consortium</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2080 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>4560</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>I_BUTTON_HAPES_NONE.TGA</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_HAPES_NR_TECH_EXCHANGE
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_HAPES_NR_TECH_EXCHANGE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_HAPES_NR_TECH_EXCHANGE</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="HAPES_NR_TECH_EXCHANGE">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.10</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.00</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>4</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish overflow,5- Skirmish generic,-->
+
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UpgradeObject>
+
+<!-- ============================================================== Hutt Tech ============================================================== -->
+
+
+	<UpgradeObject Name="Hutt_Cartels_Profit_motive">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 1380 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1380</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Build_Increments_Tech_Level> no </Tactical_Build_Increments_Tech_Level>
+		<Tactical_Destruction_Decrements_Tech_Level> no </Tactical_Destruction_Decrements_Tech_Level>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_For_All_Allies>1</Build_Limit_Lifetime_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Destroy_Previous_Upgrade_Level>No</Destroy_Previous_Upgrade_Level>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_hutts.tga</Icon_Name>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_HUTT_CARTELS_PROFIT_MOTIVE
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_HUTT_CARTELS_PROFIT_MOTIVE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_HUTT_CARTELS_PROFIT_MOTIVE</Text_ID>
+
+		<SFXEvent_Build_Started>RHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		<CategoryMask>Upgrade</CategoryMask>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<Abilities SubObjectList="Yes">
+
+			<Combat_Bonus_Ability Name="Hutt_Cartels_Profit_motive">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories><!--Unit Categories: All, Structure, Fighter, Bomber, Corvette, Frigate, Capital, SuperCapital, Vehicle, Infantry, AirGunship, AirSpeeder, InfantryHero, VehicleHero -->
+				<Applicable_Unit_Types></Applicable_Unit_Types>
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage> <!--1.5 means 150% increase which is 250% normal. 0.1 is 10% increase-->
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.05</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category> <!--3,4,5 safe to use. 0- hero command bonus, 1- traits like warlord, 2- small ship command, 6-  Immobilizer Commander 3- Skirmish Unique, 4- Skirmish generic,5- Skirmish overflow,-->
+
+			</Combat_Bonus_Ability>
+
+			<Income_Stream_Mod_Ability Name="Hutt_Cartels_Profit_motive">
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>1.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Hutt_Star_Base_1</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+
+        </Abilities>
+
+	</UpgradeObject>
+
+
+	<DummyStructure Name="Hutt_Cartels_Bootana_Hutta_Reinforcement">
+		<Variant_Of_Existing_Type>Template_Spawner_Unit</Variant_Of_Existing_Type>
+		<Affiliation>Hutt_Cartels</Affiliation>
+
+		<Encyclopedia_Text> 
+			TEXT_UPGRADE_TOOLTIP_HUTT_CARTELS_BOOTANA_HUTTA_REINFORCEMENT
+			TEXT_UPGRADE_TOOLTIP_HUTT_CARTELS_BOOTANA_HUTTA_REINFORCEMENT_1
+			TEXT_UPGRADE_TOOLTIP_HUTT_CARTELS_BOOTANA_HUTTA_REINFORCEMENT_2
+			TEXT_UPGRADE_TOOLTIP_HUTT_CARTELS_BOOTANA_HUTTA_REINFORCEMENT_3
+			TEXT_UPGRADE_TOOLTIP_HUTT_CARTELS_BOOTANA_HUTTA_REINFORCEMENT_4
+			TEXT_UPGRADE_TOOLTIP_HUTT_CARTELS_BOOTANA_HUTTA_REINFORCEMENT_5
+			TEXT_UPGRADE_TOOLTIP_HUTT_CARTELS_BOOTANA_HUTTA_REINFORCEMENT_6
+			TEXT_TOOLTIP_SEPARATOR_FLUFF_BLOCK
+			TEXT_UPGRADE_FLUFF_HUTT_CARTELS_BOOTANA_HUTTA_REINFORCEMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_UNIQUE_UPGRADES </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_HUTT_CARTELS_BOOTANA_HUTTA_REINFORCEMENT</Text_ID>
+
+		<Space_Model_Name>INSTANTACTION_Hutts.alo</Space_Model_Name>
+		<Icon_Name>i_button_hutts.tga</Icon_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Lua_Script></Lua_Script>
+		<Tech_Level>99</Tech_Level>
+
+		<Starting_Spawned_Units_Tech_0>Template_Flagship_Juvard_Frigate, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Template_Flagship_Barabbula_Frigate, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Template_Flagship_Kossak_Frigate, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Template_Flagship_Szajin_Cruiser, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Template_Flagship_Karagga_Destroyer, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Template_Flagship_Vontor_Destroyer, 1</Starting_Spawned_Units_Tech_0>
+
+		<Population_Value>100</Population_Value>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>20670</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Five_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="Bootana_Hutta_Reinforcement">
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>-2.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Hutt_Star_Base_1</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+		</Abilities>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+                <Type>SELF_DESTRUCT</Type>
+                <Expiration_Seconds>180</Expiration_Seconds>
+				<Recharge_Seconds>180</Recharge_Seconds>
+                <Active_By_Default>Yes</Active_By_Default>
+                <Spawned_Object_Type> Splash_Wake </Spawned_Object_Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</DummyStructure>
+
+</UpgradeObjects>

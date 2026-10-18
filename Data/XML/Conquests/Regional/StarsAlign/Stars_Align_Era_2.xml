@@ -1,0 +1,2600 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+	<Campaign Name="Stars_Align_Era_2_Rebel">
+		<Campaign_Set>Stars_Align_Era_2</Campaign_Set>
+		<Sort_Order>104</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Text_ID> TEXT_CAMPAIGN_HEADER_STARS_ALIGN </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_STARS_ALIGN </Description_Text>
+		<Era_Start>1</Era_Start>
+		<Use_Default_Forces>True</Use_Default_Forces>
+		<Camera_Shift_X>0.0</Camera_Shift_X>
+		<Camera_Shift_Y>0.0</Camera_Shift_Y>
+		<Camera_Distance>1000.0</Camera_Distance>
+		<Locations>
+			Adumar,
+			Ansion,
+			Artorias,
+			Bastion,
+			Bescane,
+			Bilbringi,
+			Borosk,
+			Comra,
+			Corthenia,
+			Dantooine,
+			Dorin,
+			Dubrillion,
+			Durace,
+			Entralla,
+			Feldrona,
+			Gabredor,
+			Galaxy_Core_Art_Model,
+			Garqi,
+			Generis,
+			Glee_Anselm,
+			Iridonia,
+			Isiring,
+			Ithor,
+			Kalee,
+			Kariek,
+			Ketaris,
+			Lonnaw,
+			Maicombe,
+			Mondress,
+			Murgo,
+			Muunilinst,
+			Mygeeto,
+			Nirauan,
+			Ord_Biniir,
+			Ord_Cantrell,
+			Ord_Mantell,
+			Ord_Trasi,
+			Orinda,
+			Oristrom,
+			Phaeda,
+			Poln_Major,
+			Prefsbelt,
+			Quethold,
+			RZ7,
+			Regnant,
+			Taloron,
+			Teptixii,
+			Tolan,
+			Troukree,
+			Tyan,
+			UR2212GR,
+			Uba,
+			Ubertica,
+			Valc,
+			Veroleem,
+			Vicondor,
+			Vorian,
+			Walinor,
+			Wistril,
+			Yaga_Minor,
+			Yoggoy,
+		</Locations>
+		<Trade_Routes>
+			Adumar_Ansion,
+			Adumar_Comra,
+			Adumar_Nirauan,
+			Adumar_Ubertica,
+			Ansion_Glee_Anselm,
+			Ansion_Veroleem,
+			Artorias_Dantooine,
+			Artorias_Dubrillion,
+			Artorias_RZ7,
+			Bastion_Bescane,
+			Bastion_Dubrillion,
+			Bescane_Kalee,
+			Bescane_Muunilinst,
+			Bilbringi_Dorin,
+			Bilbringi_Vicondor,
+			Bilbringi_Vorian,
+			Borosk_Comra,
+			Borosk_Garqi,
+			Borosk_Prefsbelt,
+			Borosk_Wistril,
+			Borosk_Yaga_Minor,
+			Comra_Uba,
+			Corthenia_Lonnaw,
+			Corthenia_Maicombe,
+			Corthenia_Tyan,
+			Dantooine_Gabredor,
+			Dantooine_Ord_Trasi,
+			Dantooine_RZ7,
+			Dorin_Mondress,
+			Dorin_Vicondor,
+			Dubrillion_Gabredor,
+			Durace_Kariek,
+			Durace_Quethold,
+			Durace_Taloron,
+			Durace_UR2212GR,
+			Entralla_Muunilinst,
+			Entralla_Mygeeto,
+			Entralla_Valc,
+			Entralla_Yaga_Minor,
+			Feldrona_Iridonia,
+			Feldrona_Maicombe,
+			Feldrona_Vicondor,
+			Gabredor_Muunilinst,
+			Gabredor_Mygeeto,
+			Garqi_Isiring,
+			Garqi_Mygeeto,
+			Garqi_Wistril,
+			Generis_Ketaris,
+			Generis_Ord_Biniir,
+			Glee_Anselm_Iridonia,
+			Glee_Anselm_Mondress,
+			Glee_Anselm_Murgo,
+			Glee_Anselm_Vicondor,
+			Iridonia_Ubertica,
+			Isiring_Ketaris,
+			Isiring_Ord_Biniir,
+			Isiring_Ord_Cantrell,
+			Ithor_Ketaris,
+			Ithor_Phaeda,
+			Ithor_Walinor,
+			Kalee_Muunilinst,
+			Kalee_Teptixii,
+			Kalee_Valc,
+			Kariek_Oristrom,
+			Kariek_Quethold,
+			Kariek_Taloron,
+			Ketaris_Phaeda,
+			Lonnaw_Orinda,
+			Lonnaw_Uba,
+			Maicombe_Tolan,
+			Murgo_Yoggoy,
+			Mygeeto_Ord_Trasi,
+			Nirauan_Oristrom,
+			Nirauan_Poln_Major,
+			Nirauan_Taloron,
+			Ord_Biniir_Ord_Trasi,
+			Ord_Cantrell_Orinda,
+			Ord_Cantrell_Phaeda,
+			Ord_Mantell_Tolan,
+			Ord_Mantell_Tyan,
+			Ord_Mantell_Walinor,
+			Orinda_Tyan,
+			Orinda_Wistril,
+			Oristrom_Troukree,
+			Oristrom_Valc,
+			Phaeda_Tyan,
+			Poln_Major_Prefsbelt,
+			Poln_Major_Valc,
+			Prefsbelt_Yaga_Minor,
+			Quethold_Regnant,
+			Quethold_Troukree,
+			Regnant_UR2212GR,
+			Taloron_Veroleem,
+			Teptixii_Troukree,
+			Tolan_Vorian,
+			UR2212GR_Yoggoy,
+			Uba_Ubertica,
+			Uba_Wistril,
+			Veroleem_Yoggoy,
+			Vicondor_Vorian,
+		</Trade_Routes>
+
+	<Starting_Active_Player>Rebel</Starting_Active_Player>
+    <AI_Player_Control>Chiss, None</AI_Player_Control>
+    <AI_Player_Control>Corellia, None</AI_Player_Control>
+    <AI_Player_Control>Corporate_Sector, None</AI_Player_Control>
+    <AI_Player_Control>Empire, None</AI_Player_Control>
+    <AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+    <AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+    <AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+    <AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+    <AI_Player_Control>Hostile, None</AI_Player_Control>
+    <AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+    <AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+    <AI_Player_Control>Proteus_Two, None</AI_Player_Control>
+    <AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+    <AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+    <AI_Player_Control>Mandalorians, None</AI_Player_Control>
+    <AI_Player_Control>Pentastar, None</AI_Player_Control>
+    <AI_Player_Control>Rebel, SandboxHuman</AI_Player_Control>
+    <AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+    <AI_Player_Control>Underworld, None</AI_Player_Control>
+    <AI_Player_Control>Warlords, None</AI_Player_Control>
+    <AI_Player_Control>Yevetha, None</AI_Player_Control>
+    <AI_Player_Control>Zsinj_Empire, None</AI_Player_Control>
+    <Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Eriadu_Authority, EriaduGalacticHints</Markup_Filename>
+    <Markup_Filename>Greater_Maldrood, MaldroodGalacticHints</Markup_Filename>
+    <Markup_Filename>Hapes_Consortium, HapesGalacticHints</Markup_Filename>
+    <Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Hutt_Cartels, HuttGalacticHints</Markup_Filename>
+    <Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Proteus_Two, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Pentastar, PentastarGalacticHints</Markup_Filename>
+    <Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+    <Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+    <Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
+    <AI_Victory_Conditions>Galactic_All_Planets_Controlled</AI_Victory_Conditions>
+    <Story_Name>
+	Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+	Empire, Conquests\Progressive\Story_Plots_TR_Progressive_Empire.xml,
+	Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+	Independent_Forces, Conquests\Progressive\Story_Plots_TR_Progressive_Container.xml,
+	EmpireoftheHand, Conquests\Factions\Story_Plots_Generic_EmpireoftheHand.xml,
+	Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+	Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+	Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+	Eriadu_Authority, Conquests\Factions\Story_Plots_Generic_Eriadu_Authority.xml,
+	Hapes_Consortium, Conquests\Factions\Story_Plots_Generic_Hapes_Consortium.xml,
+	Pentastar, Conquests\Factions\Story_Plots_Generic_Pentastar.xml,
+	Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml
+	</Story_Name>
+    <Starting_Credits>Chiss, 10000</Starting_Credits>
+    <Starting_Tech_Level>Chiss, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Chiss, 5</Max_Tech_Level>
+    <Starting_Credits>Corellia, 10000</Starting_Credits>
+    <Starting_Tech_Level>Corellia, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Corellia, 5</Max_Tech_Level>
+    <Starting_Credits>Corporate_Sector, 10000</Starting_Credits>
+    <Starting_Tech_Level>Corporate_Sector, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Corporate_Sector, 5</Max_Tech_Level>
+    <Starting_Credits>Empire, 10000</Starting_Credits>
+    <Starting_Tech_Level>Empire, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Empire, 5</Max_Tech_Level>
+    <Starting_Credits>EmpireoftheHand, 10000</Starting_Credits>
+    <Starting_Tech_Level>EmpireoftheHand, 1</Starting_Tech_Level>
+    <Max_Tech_Level>EmpireoftheHand, 5</Max_Tech_Level>
+    <Starting_Credits>Eriadu_Authority, 10000</Starting_Credits>
+    <Starting_Tech_Level>Eriadu_Authority, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Eriadu_Authority, 5</Max_Tech_Level>
+    <Starting_Credits>Greater_Maldrood, 10000</Starting_Credits>
+    <Starting_Tech_Level>Greater_Maldrood, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Greater_Maldrood, 5</Max_Tech_Level>
+    <Starting_Credits>Hapes_Consortium, 10000</Starting_Credits>
+    <Starting_Tech_Level>Hapes_Consortium, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Hapes_Consortium, 5</Max_Tech_Level>
+    <Starting_Credits>Hostile, 10000</Starting_Credits>
+    <Starting_Tech_Level>Hostile, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Hostile, 5</Max_Tech_Level>
+    <Starting_Credits>Hutt_Cartels, 10000</Starting_Credits>
+    <Starting_Tech_Level>Hutt_Cartels, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Hutt_Cartels, 5</Max_Tech_Level>
+    <Starting_Credits>Imperial_Proteus, 10000</Starting_Credits>
+    <Starting_Tech_Level>Imperial_Proteus, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Imperial_Proteus, 5</Max_Tech_Level>
+    <Starting_Credits>Proteus_Two, 10000</Starting_Credits>
+    <Starting_Tech_Level>Proteus_Two, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Proteus_Two, 5</Max_Tech_Level>
+    <Starting_Credits>Independent_Forces, 10000</Starting_Credits>
+    <Starting_Tech_Level>Independent_Forces, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Independent_Forces, 5</Max_Tech_Level>
+    <Starting_Credits>Killik_Hives, 10000</Starting_Credits>
+    <Starting_Tech_Level>Killik_Hives, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Killik_Hives, 5</Max_Tech_Level>
+    <Starting_Credits>Mandalorians, 10000</Starting_Credits>
+    <Starting_Tech_Level>Mandalorians, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Mandalorians, 5</Max_Tech_Level>
+    <Starting_Credits>Pentastar, 10000</Starting_Credits>
+    <Starting_Tech_Level>Pentastar, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Pentastar, 5</Max_Tech_Level>
+    <Starting_Credits>Rebel, 10000</Starting_Credits>
+    <Starting_Tech_Level>Rebel, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Rebel, 5</Max_Tech_Level>
+    <Starting_Credits>SsiRuuvi_Imperium, 10000</Starting_Credits>
+    <Starting_Tech_Level>SsiRuuvi_Imperium, 1</Starting_Tech_Level>
+    <Max_Tech_Level>SsiRuuvi_Imperium, 5</Max_Tech_Level>
+    <Starting_Credits>Underworld, 10000</Starting_Credits>
+    <Starting_Tech_Level>Underworld, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Underworld, 5</Max_Tech_Level>
+    <Starting_Credits>Warlords, 10000</Starting_Credits>
+    <Starting_Tech_Level>Warlords, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Warlords, 5</Max_Tech_Level>
+    <Starting_Credits>Yevetha, 10000</Starting_Credits>
+    <Starting_Tech_Level>Yevetha, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Yevetha, 5</Max_Tech_Level>
+    <Starting_Credits>Zsinj_Empire, 10000</Starting_Credits>
+    <Starting_Tech_Level>Zsinj_Empire, 1</Starting_Tech_Level>
+    <Max_Tech_Level>Zsinj_Empire, 5</Max_Tech_Level>
+
+	<Starting_Forces>Independent_Forces, Adumar, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Adumar, Era_Two_Dummy</Starting_Forces>
+    <Starting_Forces>Rebel, Ansion, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Artorias, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Bilbringi, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Borosk, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Comra, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Comra, Hutt_Capital</Starting_Forces>
+    <Starting_Forces>Empire, Corthenia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Dantooine, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Dorin, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Dubrillion, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Durace, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Entralla, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Entralla, PA_Capital</Starting_Forces>
+    <Starting_Forces>Rebel, Feldrona, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Gabredor, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Garqi, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Generis, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Glee_Anselm, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Iridonia, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Isiring, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ithor, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Ithor, NewRep_Capital</Starting_Forces>
+    <Starting_Forces>Pentastar, Kalee, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Kariek, Generate_Force</Starting_Forces>
+    <Starting_Forces>Warlords, Ketaris, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Lonnaw, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Maicombe, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Mondress, Generate_Force</Starting_Forces>
+    <Starting_Forces>Killik_Hives, Murgo, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Muunilinst, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Mygeeto, Generate_Force</Starting_Forces>
+    <Starting_Forces>EmpireoftheHand, Nirauan, Generate_Force</Starting_Forces>
+    <Starting_Forces>EmpireoftheHand, Nirauan, EOTH_Capital</Starting_Forces>
+    <Starting_Forces>Pentastar, Ord_Biniir, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ord_Cantrell, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ord_Mantell, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Ord_Trasi, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Orinda, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Orinda, Empire_Capital</Starting_Forces>
+    <Starting_Forces>EmpireoftheHand, Oristrom, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Phaeda, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Poln_Major, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Prefsbelt, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Quethold, Generate_Force</Starting_Forces>
+    <Starting_Forces>EmpireoftheHand, Regnant, Generate_Force</Starting_Forces>
+    <Starting_Forces>Warlords, RZ7, Generate_Force</Starting_Forces>
+    <Starting_Forces>Independent_Forces, Taloron, Generate_Force</Starting_Forces>
+    <Starting_Forces>EmpireoftheHand, Teptixii, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Tolan, Generate_Force</Starting_Forces>
+    <Starting_Forces>EmpireoftheHand, Troukree, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Tyan, Generate_Force</Starting_Forces>
+    <Starting_Forces>Hutt_Cartels, Uba, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Ubertica, Generate_Force</Starting_Forces>
+    <Starting_Forces>EmpireoftheHand, UR2212GR, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Valc, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Veroleem, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Vicondor, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Vorian, Generate_Force</Starting_Forces>
+    <Starting_Forces>Rebel, Walinor, Generate_Force</Starting_Forces>
+    <Starting_Forces>Empire, Wistril, Generate_Force</Starting_Forces>
+    <Starting_Forces>Pentastar, Yaga_Minor, Generate_Force</Starting_Forces>
+    <Starting_Forces>Killik_Hives, Yoggoy, Generate_Force</Starting_Forces>
+	</Campaign>
+
+	<Campaign Name="Stars_Align_Era_2_Empire">
+		<Campaign_Set>Stars_Align_Era_2</Campaign_Set>
+		<Sort_Order>104</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Text_ID> TEXT_CAMPAIGN_HEADER_STARS_ALIGN </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_STARS_ALIGN </Description_Text>
+		<Era_Start>1</Era_Start>
+		<Use_Default_Forces>True</Use_Default_Forces>
+		<Camera_Shift_X>0.0</Camera_Shift_X>
+		<Camera_Shift_Y>0.0</Camera_Shift_Y>
+		<Camera_Distance>1000.0</Camera_Distance>
+		<Locations>
+			Adumar,
+			Ansion,
+			Artorias,
+			Bastion,
+			Bescane,
+			Bilbringi,
+			Borosk,
+			Comra,
+			Corthenia,
+			Dantooine,
+			Dorin,
+			Dubrillion,
+			Durace,
+			Entralla,
+			Feldrona,
+			Gabredor,
+			Galaxy_Core_Art_Model,
+			Garqi,
+			Generis,
+			Glee_Anselm,
+			Iridonia,
+			Isiring,
+			Ithor,
+			Kalee,
+			Kariek,
+			Ketaris,
+			Lonnaw,
+			Maicombe,
+			Mondress,
+			Murgo,
+			Muunilinst,
+			Mygeeto,
+			Nirauan,
+			Ord_Biniir,
+			Ord_Cantrell,
+			Ord_Mantell,
+			Ord_Trasi,
+			Orinda,
+			Oristrom,
+			Phaeda,
+			Poln_Major,
+			Prefsbelt,
+			Quethold,
+			RZ7,
+			Regnant,
+			Taloron,
+			Teptixii,
+			Tolan,
+			Troukree,
+			Tyan,
+			UR2212GR,
+			Uba,
+			Ubertica,
+			Valc,
+			Veroleem,
+			Vicondor,
+			Vorian,
+			Walinor,
+			Wistril,
+			Yaga_Minor,
+			Yoggoy,
+		</Locations>
+		<Trade_Routes>
+			Adumar_Ansion,
+			Adumar_Comra,
+			Adumar_Nirauan,
+			Adumar_Ubertica,
+			Ansion_Glee_Anselm,
+			Ansion_Veroleem,
+			Artorias_Dantooine,
+			Artorias_Dubrillion,
+			Artorias_RZ7,
+			Bastion_Bescane,
+			Bastion_Dubrillion,
+			Bescane_Kalee,
+			Bescane_Muunilinst,
+			Bilbringi_Dorin,
+			Bilbringi_Vicondor,
+			Bilbringi_Vorian,
+			Borosk_Comra,
+			Borosk_Garqi,
+			Borosk_Prefsbelt,
+			Borosk_Wistril,
+			Borosk_Yaga_Minor,
+			Comra_Uba,
+			Corthenia_Lonnaw,
+			Corthenia_Maicombe,
+			Corthenia_Tyan,
+			Dantooine_Gabredor,
+			Dantooine_Ord_Trasi,
+			Dantooine_RZ7,
+			Dorin_Mondress,
+			Dorin_Vicondor,
+			Dubrillion_Gabredor,
+			Durace_Kariek,
+			Durace_Quethold,
+			Durace_Taloron,
+			Durace_UR2212GR,
+			Entralla_Muunilinst,
+			Entralla_Mygeeto,
+			Entralla_Valc,
+			Entralla_Yaga_Minor,
+			Feldrona_Iridonia,
+			Feldrona_Maicombe,
+			Feldrona_Vicondor,
+			Gabredor_Muunilinst,
+			Gabredor_Mygeeto,
+			Garqi_Isiring,
+			Garqi_Mygeeto,
+			Garqi_Wistril,
+			Generis_Ketaris,
+			Generis_Ord_Biniir,
+			Glee_Anselm_Iridonia,
+			Glee_Anselm_Mondress,
+			Glee_Anselm_Murgo,
+			Glee_Anselm_Vicondor,
+			Iridonia_Ubertica,
+			Isiring_Ketaris,
+			Isiring_Ord_Biniir,
+			Isiring_Ord_Cantrell,
+			Ithor_Ketaris,
+			Ithor_Phaeda,
+			Ithor_Walinor,
+			Kalee_Muunilinst,
+			Kalee_Teptixii,
+			Kalee_Valc,
+			Kariek_Oristrom,
+			Kariek_Quethold,
+			Kariek_Taloron,
+			Ketaris_Phaeda,
+			Lonnaw_Orinda,
+			Lonnaw_Uba,
+			Maicombe_Tolan,
+			Murgo_Yoggoy,
+			Mygeeto_Ord_Trasi,
+			Nirauan_Oristrom,
+			Nirauan_Poln_Major,
+			Nirauan_Taloron,
+			Ord_Biniir_Ord_Trasi,
+			Ord_Cantrell_Orinda,
+			Ord_Cantrell_Phaeda,
+			Ord_Mantell_Tolan,
+			Ord_Mantell_Tyan,
+			Ord_Mantell_Walinor,
+			Orinda_Tyan,
+			Orinda_Wistril,
+			Oristrom_Troukree,
+			Oristrom_Valc,
+			Phaeda_Tyan,
+			Poln_Major_Prefsbelt,
+			Poln_Major_Valc,
+			Prefsbelt_Yaga_Minor,
+			Quethold_Regnant,
+			Quethold_Troukree,
+			Regnant_UR2212GR,
+			Taloron_Veroleem,
+			Teptixii_Troukree,
+			Tolan_Vorian,
+			UR2212GR_Yoggoy,
+			Uba_Ubertica,
+			Uba_Wistril,
+			Veroleem_Yoggoy,
+			Vicondor_Vorian,
+		</Trade_Routes>
+
+		<Starting_Active_Player>Empire</Starting_Active_Player>
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>Corporate_Sector, None</AI_Player_Control>
+		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>Rebel, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Zsinj_Empire, None</AI_Player_Control>
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, EriaduGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, MaldroodGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, HapesGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, HuttGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, PentastarGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
+		<AI_Victory_Conditions>Galactic_All_Planets_Controlled</AI_Victory_Conditions>
+		<Story_Name>
+		Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+		Empire, Conquests\Progressive\Story_Plots_TR_Progressive_Empire.xml,
+		Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+		Independent_Forces, Conquests\Progressive\Story_Plots_TR_Progressive_Container.xml,
+		EmpireoftheHand, Conquests\Factions\Story_Plots_Generic_EmpireoftheHand.xml,
+		Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+		Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+		Eriadu_Authority, Conquests\Factions\Story_Plots_Generic_Eriadu_Authority.xml,
+		Hapes_Consortium, Conquests\Factions\Story_Plots_Generic_Hapes_Consortium.xml,
+		Pentastar, Conquests\Factions\Story_Plots_Generic_Pentastar.xml,
+		Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml
+		</Story_Name>
+		<Starting_Credits>Chiss, 10000</Starting_Credits>
+		<Starting_Tech_Level>Chiss, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Chiss, 5</Max_Tech_Level>
+		<Starting_Credits>Corellia, 10000</Starting_Credits>
+		<Starting_Tech_Level>Corellia, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Corellia, 5</Max_Tech_Level>
+		<Starting_Credits>Corporate_Sector, 10000</Starting_Credits>
+		<Starting_Tech_Level>Corporate_Sector, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Corporate_Sector, 5</Max_Tech_Level>
+		<Starting_Credits>Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Empire, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Empire, 5</Max_Tech_Level>
+		<Starting_Credits>EmpireoftheHand, 10000</Starting_Credits>
+		<Starting_Tech_Level>EmpireoftheHand, 1</Starting_Tech_Level>
+		<Max_Tech_Level>EmpireoftheHand, 5</Max_Tech_Level>
+		<Starting_Credits>Eriadu_Authority, 10000</Starting_Credits>
+		<Starting_Tech_Level>Eriadu_Authority, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Eriadu_Authority, 5</Max_Tech_Level>
+		<Starting_Credits>Greater_Maldrood, 10000</Starting_Credits>
+		<Starting_Tech_Level>Greater_Maldrood, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Greater_Maldrood, 5</Max_Tech_Level>
+		<Starting_Credits>Hapes_Consortium, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hapes_Consortium, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hapes_Consortium, 5</Max_Tech_Level>
+		<Starting_Credits>Hostile, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hostile, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hostile, 5</Max_Tech_Level>
+		<Starting_Credits>Hutt_Cartels, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hutt_Cartels, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hutt_Cartels, 5</Max_Tech_Level>
+		<Starting_Credits>Imperial_Proteus, 10000</Starting_Credits>
+		<Starting_Tech_Level>Imperial_Proteus, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Imperial_Proteus, 5</Max_Tech_Level>
+		<Starting_Credits>Independent_Forces, 10000</Starting_Credits>
+		<Starting_Tech_Level>Independent_Forces, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Independent_Forces, 5</Max_Tech_Level>
+		<Starting_Credits>Killik_Hives, 10000</Starting_Credits>
+		<Starting_Tech_Level>Killik_Hives, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Killik_Hives, 5</Max_Tech_Level>
+		<Starting_Credits>Mandalorians, 10000</Starting_Credits>
+		<Starting_Tech_Level>Mandalorians, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Mandalorians, 5</Max_Tech_Level>
+		<Starting_Credits>Pentastar, 10000</Starting_Credits>
+		<Starting_Tech_Level>Pentastar, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Pentastar, 5</Max_Tech_Level>
+		<Starting_Credits>Rebel, 10000</Starting_Credits>
+		<Starting_Tech_Level>Rebel, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Rebel, 5</Max_Tech_Level>
+		<Starting_Credits>SsiRuuvi_Imperium, 10000</Starting_Credits>
+		<Starting_Tech_Level>SsiRuuvi_Imperium, 1</Starting_Tech_Level>
+		<Max_Tech_Level>SsiRuuvi_Imperium, 5</Max_Tech_Level>
+		<Starting_Credits>Underworld, 10000</Starting_Credits>
+		<Starting_Tech_Level>Underworld, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Underworld, 5</Max_Tech_Level>
+		<Starting_Credits>Warlords, 10000</Starting_Credits>
+		<Starting_Tech_Level>Warlords, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Warlords, 5</Max_Tech_Level>
+		<Starting_Credits>Yevetha, 10000</Starting_Credits>
+		<Starting_Tech_Level>Yevetha, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Yevetha, 5</Max_Tech_Level>
+		<Starting_Credits>Zsinj_Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Zsinj_Empire, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Zsinj_Empire, 5</Max_Tech_Level>
+
+		<Starting_Forces>Independent_Forces, Adumar, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Adumar, Era_Two_Dummy</Starting_Forces>
+		<Starting_Forces>Rebel, Ansion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Artorias, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Borosk, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Comra, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Comra, Hutt_Capital</Starting_Forces>
+		<Starting_Forces>Empire, Corthenia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Dantooine, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Dorin, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Dubrillion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Durace, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Entralla, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Entralla, PA_Capital</Starting_Forces>
+		<Starting_Forces>Rebel, Feldrona, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Gabredor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Garqi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Generis, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Glee_Anselm, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Iridonia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Isiring, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Ithor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Ithor, NewRep_Capital</Starting_Forces>
+		<Starting_Forces>Pentastar, Kalee, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Kariek, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Ketaris, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Lonnaw, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Maicombe, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Mondress, Generate_Force</Starting_Forces>
+		<Starting_Forces>Killik_Hives, Murgo, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Muunilinst, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Mygeeto, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Nirauan, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Nirauan, EOTH_Capital</Starting_Forces>
+		<Starting_Forces>Pentastar, Ord_Biniir, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ord_Cantrell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ord_Mantell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Ord_Trasi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Orinda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Orinda, Empire_Capital</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Oristrom, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Phaeda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Poln_Major, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Prefsbelt, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Quethold, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Regnant, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, RZ7, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Taloron, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Teptixii, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Tolan, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Troukree, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Tyan, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Uba, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ubertica, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, UR2212GR, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Valc, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Veroleem, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Vicondor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Vorian, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Walinor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Wistril, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Yaga_Minor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Killik_Hives, Yoggoy, Generate_Force</Starting_Forces>
+	</Campaign>
+	
+	<Campaign Name="Stars_Align_Era_2_Empire_CCOGM">
+		<Campaign_Set>Stars_Align_Era_2_CCoGM</Campaign_Set>
+		<Sort_Order>104</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Text_ID> TEXT_CAMPAIGN_HEADER_STARS_ALIGN </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_STARS_ALIGN </Description_Text>
+		<Era_Start>1</Era_Start>
+		<Use_Default_Forces>True</Use_Default_Forces>
+		<Camera_Shift_X>0.0</Camera_Shift_X>
+		<Camera_Shift_Y>0.0</Camera_Shift_Y>
+		<Camera_Distance>1000.0</Camera_Distance>
+		<Locations>
+			Adumar,
+			Ansion,
+			Artorias,
+			Bastion,
+			Bescane,
+			Bilbringi,
+			Borosk,
+			Comra,
+			Corthenia,
+			Dantooine,
+			Dorin,
+			Dubrillion,
+			Durace,
+			Entralla,
+			Feldrona,
+			Gabredor,
+			Galaxy_Core_Art_Model,
+			Garqi,
+			Generis,
+			Glee_Anselm,
+			Iridonia,
+			Isiring,
+			Ithor,
+			Kalee,
+			Kariek,
+			Ketaris,
+			Lonnaw,
+			Maicombe,
+			Mondress,
+			Murgo,
+			Muunilinst,
+			Mygeeto,
+			Nirauan,
+			Ord_Biniir,
+			Ord_Cantrell,
+			Ord_Mantell,
+			Ord_Trasi,
+			Orinda,
+			Oristrom,
+			Phaeda,
+			Poln_Major,
+			Prefsbelt,
+			Quethold,
+			RZ7,
+			Regnant,
+			Taloron,
+			Teptixii,
+			Tolan,
+			Troukree,
+			Tyan,
+			UR2212GR,
+			Uba,
+			Ubertica,
+			Valc,
+			Veroleem,
+			Vicondor,
+			Vorian,
+			Walinor,
+			Wistril,
+			Yaga_Minor,
+			Yoggoy,
+		</Locations>
+		<Trade_Routes>
+			Adumar_Ansion,
+			Adumar_Comra,
+			Adumar_Nirauan,
+			Adumar_Ubertica,
+			Ansion_Glee_Anselm,
+			Ansion_Veroleem,
+			Artorias_Dantooine,
+			Artorias_Dubrillion,
+			Artorias_RZ7,
+			Bastion_Bescane,
+			Bastion_Dubrillion,
+			Bescane_Kalee,
+			Bescane_Muunilinst,
+			Bilbringi_Dorin,
+			Bilbringi_Vicondor,
+			Bilbringi_Vorian,
+			Borosk_Comra,
+			Borosk_Garqi,
+			Borosk_Prefsbelt,
+			Borosk_Wistril,
+			Borosk_Yaga_Minor,
+			Comra_Uba,
+			Corthenia_Lonnaw,
+			Corthenia_Maicombe,
+			Corthenia_Tyan,
+			Dantooine_Gabredor,
+			Dantooine_Ord_Trasi,
+			Dantooine_RZ7,
+			Dorin_Mondress,
+			Dorin_Vicondor,
+			Dubrillion_Gabredor,
+			Durace_Kariek,
+			Durace_Quethold,
+			Durace_Taloron,
+			Durace_UR2212GR,
+			Entralla_Muunilinst,
+			Entralla_Mygeeto,
+			Entralla_Valc,
+			Entralla_Yaga_Minor,
+			Feldrona_Iridonia,
+			Feldrona_Maicombe,
+			Feldrona_Vicondor,
+			Gabredor_Muunilinst,
+			Gabredor_Mygeeto,
+			Garqi_Isiring,
+			Garqi_Mygeeto,
+			Garqi_Wistril,
+			Generis_Ketaris,
+			Generis_Ord_Biniir,
+			Glee_Anselm_Iridonia,
+			Glee_Anselm_Mondress,
+			Glee_Anselm_Murgo,
+			Glee_Anselm_Vicondor,
+			Iridonia_Ubertica,
+			Isiring_Ketaris,
+			Isiring_Ord_Biniir,
+			Isiring_Ord_Cantrell,
+			Ithor_Ketaris,
+			Ithor_Phaeda,
+			Ithor_Walinor,
+			Kalee_Muunilinst,
+			Kalee_Teptixii,
+			Kalee_Valc,
+			Kariek_Oristrom,
+			Kariek_Quethold,
+			Kariek_Taloron,
+			Ketaris_Phaeda,
+			Lonnaw_Orinda,
+			Lonnaw_Uba,
+			Maicombe_Tolan,
+			Murgo_Yoggoy,
+			Mygeeto_Ord_Trasi,
+			Nirauan_Oristrom,
+			Nirauan_Poln_Major,
+			Nirauan_Taloron,
+			Ord_Biniir_Ord_Trasi,
+			Ord_Cantrell_Orinda,
+			Ord_Cantrell_Phaeda,
+			Ord_Mantell_Tolan,
+			Ord_Mantell_Tyan,
+			Ord_Mantell_Walinor,
+			Orinda_Tyan,
+			Orinda_Wistril,
+			Oristrom_Troukree,
+			Oristrom_Valc,
+			Phaeda_Tyan,
+			Poln_Major_Prefsbelt,
+			Poln_Major_Valc,
+			Prefsbelt_Yaga_Minor,
+			Quethold_Regnant,
+			Quethold_Troukree,
+			Regnant_UR2212GR,
+			Taloron_Veroleem,
+			Teptixii_Troukree,
+			Tolan_Vorian,
+			UR2212GR_Yoggoy,
+			Uba_Ubertica,
+			Uba_Wistril,
+			Veroleem_Yoggoy,
+			Vicondor_Vorian,
+		</Trade_Routes>
+
+		<Starting_Active_Player>Empire</Starting_Active_Player>
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>Corporate_Sector, None</AI_Player_Control>
+		<AI_Player_Control>Empire, SandboxHuman</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>Rebel, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Zsinj_Empire, None</AI_Player_Control>
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, EriaduGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, MaldroodGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, HapesGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, HuttGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, PentastarGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
+		<AI_Victory_Conditions>Galactic_All_Planets_Controlled</AI_Victory_Conditions>
+		<Story_Name>
+		Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+		Empire, Conquests\Progressive\Story_Plots_TR_Progressive_Empire.xml,
+		Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+		Independent_Forces, Conquests\Progressive\Story_Plots_TR_Progressive_Container.xml,
+		EmpireoftheHand, Conquests\Factions\Story_Plots_Generic_EmpireoftheHand.xml,
+		Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+		Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+		Eriadu_Authority, Conquests\Factions\Story_Plots_Generic_Eriadu_Authority.xml,
+		Hapes_Consortium, Conquests\Factions\Story_Plots_Generic_Hapes_Consortium.xml,
+		Pentastar, Conquests\Factions\Story_Plots_Generic_Pentastar.xml,
+		Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml
+		</Story_Name>
+		<Starting_Credits>Chiss, 10000</Starting_Credits>
+		<Starting_Tech_Level>Chiss, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Chiss, 5</Max_Tech_Level>
+		<Starting_Credits>Corellia, 10000</Starting_Credits>
+		<Starting_Tech_Level>Corellia, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Corellia, 5</Max_Tech_Level>
+		<Starting_Credits>Corporate_Sector, 10000</Starting_Credits>
+		<Starting_Tech_Level>Corporate_Sector, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Corporate_Sector, 5</Max_Tech_Level>
+		<Starting_Credits>Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Empire, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Empire, 5</Max_Tech_Level>
+		<Starting_Credits>EmpireoftheHand, 10000</Starting_Credits>
+		<Starting_Tech_Level>EmpireoftheHand, 1</Starting_Tech_Level>
+		<Max_Tech_Level>EmpireoftheHand, 5</Max_Tech_Level>
+		<Starting_Credits>Eriadu_Authority, 10000</Starting_Credits>
+		<Starting_Tech_Level>Eriadu_Authority, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Eriadu_Authority, 5</Max_Tech_Level>
+		<Starting_Credits>Greater_Maldrood, 10000</Starting_Credits>
+		<Starting_Tech_Level>Greater_Maldrood, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Greater_Maldrood, 5</Max_Tech_Level>
+		<Starting_Credits>Hapes_Consortium, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hapes_Consortium, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hapes_Consortium, 5</Max_Tech_Level>
+		<Starting_Credits>Hostile, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hostile, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hostile, 5</Max_Tech_Level>
+		<Starting_Credits>Hutt_Cartels, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hutt_Cartels, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hutt_Cartels, 5</Max_Tech_Level>
+		<Starting_Credits>Imperial_Proteus, 10000</Starting_Credits>
+		<Starting_Tech_Level>Imperial_Proteus, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Imperial_Proteus, 5</Max_Tech_Level>
+		<Starting_Credits>Independent_Forces, 10000</Starting_Credits>
+		<Starting_Tech_Level>Independent_Forces, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Independent_Forces, 5</Max_Tech_Level>
+		<Starting_Credits>Killik_Hives, 10000</Starting_Credits>
+		<Starting_Tech_Level>Killik_Hives, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Killik_Hives, 5</Max_Tech_Level>
+		<Starting_Credits>Mandalorians, 10000</Starting_Credits>
+		<Starting_Tech_Level>Mandalorians, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Mandalorians, 5</Max_Tech_Level>
+		<Starting_Credits>Pentastar, 10000</Starting_Credits>
+		<Starting_Tech_Level>Pentastar, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Pentastar, 5</Max_Tech_Level>
+		<Starting_Credits>Rebel, 10000</Starting_Credits>
+		<Starting_Tech_Level>Rebel, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Rebel, 5</Max_Tech_Level>
+		<Starting_Credits>SsiRuuvi_Imperium, 10000</Starting_Credits>
+		<Starting_Tech_Level>SsiRuuvi_Imperium, 1</Starting_Tech_Level>
+		<Max_Tech_Level>SsiRuuvi_Imperium, 5</Max_Tech_Level>
+		<Starting_Credits>Underworld, 10000</Starting_Credits>
+		<Starting_Tech_Level>Underworld, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Underworld, 5</Max_Tech_Level>
+		<Starting_Credits>Warlords, 10000</Starting_Credits>
+		<Starting_Tech_Level>Warlords, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Warlords, 5</Max_Tech_Level>
+		<Starting_Credits>Yevetha, 10000</Starting_Credits>
+		<Starting_Tech_Level>Yevetha, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Yevetha, 5</Max_Tech_Level>
+		<Starting_Credits>Zsinj_Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Zsinj_Empire, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Zsinj_Empire, 5</Max_Tech_Level>
+
+		<Starting_Forces>Independent_Forces, Adumar, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Adumar, Era_Two_Dummy</Starting_Forces>
+		<Starting_Forces>Rebel, Ansion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Artorias, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Borosk, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Comra, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Comra, Hutt_Capital</Starting_Forces>
+		<Starting_Forces>Empire, Corthenia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Dantooine, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Dorin, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Dubrillion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Durace, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Entralla, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Entralla, PA_Capital</Starting_Forces>
+		<Starting_Forces>Rebel, Feldrona, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Gabredor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Garqi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Generis, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Glee_Anselm, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Iridonia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Isiring, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Ithor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Ithor, NewRep_Capital</Starting_Forces>
+		<Starting_Forces>Pentastar, Kalee, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Kariek, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Ketaris, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Lonnaw, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Maicombe, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Mondress, Generate_Force</Starting_Forces>
+		<Starting_Forces>Killik_Hives, Murgo, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Muunilinst, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Mygeeto, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Nirauan, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Nirauan, EOTH_Capital</Starting_Forces>
+		<Starting_Forces>Pentastar, Ord_Biniir, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ord_Cantrell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ord_Mantell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Ord_Trasi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Orinda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Orinda, Empire_Capital</Starting_Forces>
+		<Starting_Forces>Empire, Orinda, CCoGM_Dummy</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Oristrom, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Phaeda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Poln_Major, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Prefsbelt, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Quethold, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Regnant, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, RZ7, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Taloron, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Teptixii, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Tolan, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Troukree, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Tyan, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Uba, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ubertica, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, UR2212GR, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Valc, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Veroleem, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Vicondor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Vorian, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Walinor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Wistril, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Yaga_Minor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Killik_Hives, Yoggoy, Generate_Force</Starting_Forces>
+	</Campaign>
+
+	<Campaign Name="Stars_Align_Era_2_Pentastar">
+		<Campaign_Set>Stars_Align_Era_2</Campaign_Set>
+		<Sort_Order>104</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Text_ID> TEXT_CAMPAIGN_HEADER_STARS_ALIGN </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_STARS_ALIGN </Description_Text>
+		<Era_Start>1</Era_Start>
+		<Use_Default_Forces>True</Use_Default_Forces>
+		<Camera_Shift_X>0.0</Camera_Shift_X>
+		<Camera_Shift_Y>0.0</Camera_Shift_Y>
+		<Camera_Distance>1000.0</Camera_Distance>
+		<Locations>
+			Adumar,
+			Ansion,
+			Artorias,
+			Bastion,
+			Bescane,
+			Bilbringi,
+			Borosk,
+			Comra,
+			Corthenia,
+			Dantooine,
+			Dorin,
+			Dubrillion,
+			Durace,
+			Entralla,
+			Feldrona,
+			Gabredor,
+			Galaxy_Core_Art_Model,
+			Garqi,
+			Generis,
+			Glee_Anselm,
+			Iridonia,
+			Isiring,
+			Ithor,
+			Kalee,
+			Kariek,
+			Ketaris,
+			Lonnaw,
+			Maicombe,
+			Mondress,
+			Murgo,
+			Muunilinst,
+			Mygeeto,
+			Nirauan,
+			Ord_Biniir,
+			Ord_Cantrell,
+			Ord_Mantell,
+			Ord_Trasi,
+			Orinda,
+			Oristrom,
+			Phaeda,
+			Poln_Major,
+			Prefsbelt,
+			Quethold,
+			RZ7,
+			Regnant,
+			Taloron,
+			Teptixii,
+			Tolan,
+			Troukree,
+			Tyan,
+			UR2212GR,
+			Uba,
+			Ubertica,
+			Valc,
+			Veroleem,
+			Vicondor,
+			Vorian,
+			Walinor,
+			Wistril,
+			Yaga_Minor,
+			Yoggoy,
+		</Locations>
+		<Trade_Routes>
+			Adumar_Ansion,
+			Adumar_Comra,
+			Adumar_Nirauan,
+			Adumar_Ubertica,
+			Ansion_Glee_Anselm,
+			Ansion_Veroleem,
+			Artorias_Dantooine,
+			Artorias_Dubrillion,
+			Artorias_RZ7,
+			Bastion_Bescane,
+			Bastion_Dubrillion,
+			Bescane_Kalee,
+			Bescane_Muunilinst,
+			Bilbringi_Dorin,
+			Bilbringi_Vicondor,
+			Bilbringi_Vorian,
+			Borosk_Comra,
+			Borosk_Garqi,
+			Borosk_Prefsbelt,
+			Borosk_Wistril,
+			Borosk_Yaga_Minor,
+			Comra_Uba,
+			Corthenia_Lonnaw,
+			Corthenia_Maicombe,
+			Corthenia_Tyan,
+			Dantooine_Gabredor,
+			Dantooine_Ord_Trasi,
+			Dantooine_RZ7,
+			Dorin_Mondress,
+			Dorin_Vicondor,
+			Dubrillion_Gabredor,
+			Durace_Kariek,
+			Durace_Quethold,
+			Durace_Taloron,
+			Durace_UR2212GR,
+			Entralla_Muunilinst,
+			Entralla_Mygeeto,
+			Entralla_Valc,
+			Entralla_Yaga_Minor,
+			Feldrona_Iridonia,
+			Feldrona_Maicombe,
+			Feldrona_Vicondor,
+			Gabredor_Muunilinst,
+			Gabredor_Mygeeto,
+			Garqi_Isiring,
+			Garqi_Mygeeto,
+			Garqi_Wistril,
+			Generis_Ketaris,
+			Generis_Ord_Biniir,
+			Glee_Anselm_Iridonia,
+			Glee_Anselm_Mondress,
+			Glee_Anselm_Murgo,
+			Glee_Anselm_Vicondor,
+			Iridonia_Ubertica,
+			Isiring_Ketaris,
+			Isiring_Ord_Biniir,
+			Isiring_Ord_Cantrell,
+			Ithor_Ketaris,
+			Ithor_Phaeda,
+			Ithor_Walinor,
+			Kalee_Muunilinst,
+			Kalee_Teptixii,
+			Kalee_Valc,
+			Kariek_Oristrom,
+			Kariek_Quethold,
+			Kariek_Taloron,
+			Ketaris_Phaeda,
+			Lonnaw_Orinda,
+			Lonnaw_Uba,
+			Maicombe_Tolan,
+			Murgo_Yoggoy,
+			Mygeeto_Ord_Trasi,
+			Nirauan_Oristrom,
+			Nirauan_Poln_Major,
+			Nirauan_Taloron,
+			Ord_Biniir_Ord_Trasi,
+			Ord_Cantrell_Orinda,
+			Ord_Cantrell_Phaeda,
+			Ord_Mantell_Tolan,
+			Ord_Mantell_Tyan,
+			Ord_Mantell_Walinor,
+			Orinda_Tyan,
+			Orinda_Wistril,
+			Oristrom_Troukree,
+			Oristrom_Valc,
+			Phaeda_Tyan,
+			Poln_Major_Prefsbelt,
+			Poln_Major_Valc,
+			Prefsbelt_Yaga_Minor,
+			Quethold_Regnant,
+			Quethold_Troukree,
+			Regnant_UR2212GR,
+			Taloron_Veroleem,
+			Teptixii_Troukree,
+			Tolan_Vorian,
+			UR2212GR_Yoggoy,
+			Uba_Ubertica,
+			Uba_Wistril,
+			Veroleem_Yoggoy,
+			Vicondor_Vorian,
+		</Trade_Routes>
+
+		<Starting_Active_Player>Pentastar</Starting_Active_Player>
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>Corporate_Sector, None</AI_Player_Control>
+		<AI_Player_Control>Empire, None</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, SandboxHuman</AI_Player_Control>
+		<AI_Player_Control>Rebel, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Zsinj_Empire, None</AI_Player_Control>
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, EriaduGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, MaldroodGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, HapesGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, HuttGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, PentastarGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
+		<AI_Victory_Conditions>Galactic_All_Planets_Controlled</AI_Victory_Conditions>
+		<Story_Name>
+		Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+		Empire, Conquests\Progressive\Story_Plots_TR_Progressive_Empire.xml,
+		Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+		Independent_Forces, Conquests\Progressive\Story_Plots_TR_Progressive_Container.xml,
+		EmpireoftheHand, Conquests\Factions\Story_Plots_Generic_EmpireoftheHand.xml,
+		Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+		Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+		Eriadu_Authority, Conquests\Factions\Story_Plots_Generic_Eriadu_Authority.xml,
+		Hapes_Consortium, Conquests\Factions\Story_Plots_Generic_Hapes_Consortium.xml,
+		Pentastar, Conquests\Factions\Story_Plots_Generic_Pentastar.xml,
+		Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml
+		</Story_Name>
+		<Starting_Credits>Chiss, 10000</Starting_Credits>
+		<Starting_Tech_Level>Chiss, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Chiss, 5</Max_Tech_Level>
+		<Starting_Credits>Corellia, 10000</Starting_Credits>
+		<Starting_Tech_Level>Corellia, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Corellia, 5</Max_Tech_Level>
+		<Starting_Credits>Corporate_Sector, 10000</Starting_Credits>
+		<Starting_Tech_Level>Corporate_Sector, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Corporate_Sector, 5</Max_Tech_Level>
+		<Starting_Credits>Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Empire, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Empire, 5</Max_Tech_Level>
+		<Starting_Credits>EmpireoftheHand, 10000</Starting_Credits>
+		<Starting_Tech_Level>EmpireoftheHand, 1</Starting_Tech_Level>
+		<Max_Tech_Level>EmpireoftheHand, 5</Max_Tech_Level>
+		<Starting_Credits>Eriadu_Authority, 10000</Starting_Credits>
+		<Starting_Tech_Level>Eriadu_Authority, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Eriadu_Authority, 5</Max_Tech_Level>
+		<Starting_Credits>Greater_Maldrood, 10000</Starting_Credits>
+		<Starting_Tech_Level>Greater_Maldrood, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Greater_Maldrood, 5</Max_Tech_Level>
+		<Starting_Credits>Hapes_Consortium, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hapes_Consortium, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hapes_Consortium, 5</Max_Tech_Level>
+		<Starting_Credits>Hostile, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hostile, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hostile, 5</Max_Tech_Level>
+		<Starting_Credits>Hutt_Cartels, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hutt_Cartels, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hutt_Cartels, 5</Max_Tech_Level>
+		<Starting_Credits>Imperial_Proteus, 10000</Starting_Credits>
+		<Starting_Tech_Level>Imperial_Proteus, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Imperial_Proteus, 5</Max_Tech_Level>
+		<Starting_Credits>Independent_Forces, 10000</Starting_Credits>
+		<Starting_Tech_Level>Independent_Forces, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Independent_Forces, 5</Max_Tech_Level>
+		<Starting_Credits>Killik_Hives, 10000</Starting_Credits>
+		<Starting_Tech_Level>Killik_Hives, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Killik_Hives, 5</Max_Tech_Level>
+		<Starting_Credits>Mandalorians, 10000</Starting_Credits>
+		<Starting_Tech_Level>Mandalorians, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Mandalorians, 5</Max_Tech_Level>
+		<Starting_Credits>Pentastar, 10000</Starting_Credits>
+		<Starting_Tech_Level>Pentastar, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Pentastar, 5</Max_Tech_Level>
+		<Starting_Credits>Rebel, 10000</Starting_Credits>
+		<Starting_Tech_Level>Rebel, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Rebel, 5</Max_Tech_Level>
+		<Starting_Credits>SsiRuuvi_Imperium, 10000</Starting_Credits>
+		<Starting_Tech_Level>SsiRuuvi_Imperium, 1</Starting_Tech_Level>
+		<Max_Tech_Level>SsiRuuvi_Imperium, 5</Max_Tech_Level>
+		<Starting_Credits>Underworld, 10000</Starting_Credits>
+		<Starting_Tech_Level>Underworld, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Underworld, 5</Max_Tech_Level>
+		<Starting_Credits>Warlords, 10000</Starting_Credits>
+		<Starting_Tech_Level>Warlords, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Warlords, 5</Max_Tech_Level>
+		<Starting_Credits>Yevetha, 10000</Starting_Credits>
+		<Starting_Tech_Level>Yevetha, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Yevetha, 5</Max_Tech_Level>
+		<Starting_Credits>Zsinj_Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Zsinj_Empire, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Zsinj_Empire, 5</Max_Tech_Level>
+
+		<Starting_Forces>Independent_Forces, Adumar, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Adumar, Era_Two_Dummy</Starting_Forces>
+		<Starting_Forces>Rebel, Ansion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Artorias, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Borosk, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Comra, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Comra, Hutt_Capital</Starting_Forces>
+		<Starting_Forces>Empire, Corthenia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Dantooine, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Dorin, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Dubrillion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Durace, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Entralla, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Entralla, PA_Capital</Starting_Forces>
+		<Starting_Forces>Rebel, Feldrona, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Gabredor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Garqi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Generis, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Glee_Anselm, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Iridonia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Isiring, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Ithor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Ithor, NewRep_Capital</Starting_Forces>
+		<Starting_Forces>Pentastar, Kalee, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Kariek, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Ketaris, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Lonnaw, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Maicombe, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Mondress, Generate_Force</Starting_Forces>
+		<Starting_Forces>Killik_Hives, Murgo, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Muunilinst, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Mygeeto, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Nirauan, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Nirauan, EOTH_Capital</Starting_Forces>
+		<Starting_Forces>Pentastar, Ord_Biniir, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ord_Cantrell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ord_Mantell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Ord_Trasi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Orinda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Orinda, Empire_Capital</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Oristrom, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Phaeda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Poln_Major, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Prefsbelt, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Quethold, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Regnant, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, RZ7, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Taloron, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Teptixii, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Tolan, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Troukree, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Tyan, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Uba, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ubertica, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, UR2212GR, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Valc, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Veroleem, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Vicondor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Vorian, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Walinor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Wistril, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Yaga_Minor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Killik_Hives, Yoggoy, Generate_Force</Starting_Forces>
+	</Campaign>
+	
+	<Campaign Name="Stars_Align_Era_2_EmpireoftheHand">
+		<Campaign_Set>Stars_Align_Era_2</Campaign_Set>
+		<Sort_Order>104</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Text_ID> TEXT_CAMPAIGN_HEADER_STARS_ALIGN </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_STARS_ALIGN </Description_Text>
+		<Era_Start>1</Era_Start>
+		<Use_Default_Forces>True</Use_Default_Forces>
+		<Camera_Shift_X>0.0</Camera_Shift_X>
+		<Camera_Shift_Y>0.0</Camera_Shift_Y>
+		<Camera_Distance>1000.0</Camera_Distance>
+		<Locations>
+			Adumar,
+			Ansion,
+			Artorias,
+			Bastion,
+			Bescane,
+			Bilbringi,
+			Borosk,
+			Comra,
+			Corthenia,
+			Dantooine,
+			Dorin,
+			Dubrillion,
+			Durace,
+			Entralla,
+			Feldrona,
+			Gabredor,
+			Galaxy_Core_Art_Model,
+			Garqi,
+			Generis,
+			Glee_Anselm,
+			Iridonia,
+			Isiring,
+			Ithor,
+			Kalee,
+			Kariek,
+			Ketaris,
+			Lonnaw,
+			Maicombe,
+			Mondress,
+			Murgo,
+			Muunilinst,
+			Mygeeto,
+			Nirauan,
+			Ord_Biniir,
+			Ord_Cantrell,
+			Ord_Mantell,
+			Ord_Trasi,
+			Orinda,
+			Oristrom,
+			Phaeda,
+			Poln_Major,
+			Prefsbelt,
+			Quethold,
+			RZ7,
+			Regnant,
+			Taloron,
+			Teptixii,
+			Tolan,
+			Troukree,
+			Tyan,
+			UR2212GR,
+			Uba,
+			Ubertica,
+			Valc,
+			Veroleem,
+			Vicondor,
+			Vorian,
+			Walinor,
+			Wistril,
+			Yaga_Minor,
+			Yoggoy,
+		</Locations>
+		<Trade_Routes>
+			Adumar_Ansion,
+			Adumar_Comra,
+			Adumar_Nirauan,
+			Adumar_Ubertica,
+			Ansion_Glee_Anselm,
+			Ansion_Veroleem,
+			Artorias_Dantooine,
+			Artorias_Dubrillion,
+			Artorias_RZ7,
+			Bastion_Bescane,
+			Bastion_Dubrillion,
+			Bescane_Kalee,
+			Bescane_Muunilinst,
+			Bilbringi_Dorin,
+			Bilbringi_Vicondor,
+			Bilbringi_Vorian,
+			Borosk_Comra,
+			Borosk_Garqi,
+			Borosk_Prefsbelt,
+			Borosk_Wistril,
+			Borosk_Yaga_Minor,
+			Comra_Uba,
+			Corthenia_Lonnaw,
+			Corthenia_Maicombe,
+			Corthenia_Tyan,
+			Dantooine_Gabredor,
+			Dantooine_Ord_Trasi,
+			Dantooine_RZ7,
+			Dorin_Mondress,
+			Dorin_Vicondor,
+			Dubrillion_Gabredor,
+			Durace_Kariek,
+			Durace_Quethold,
+			Durace_Taloron,
+			Durace_UR2212GR,
+			Entralla_Muunilinst,
+			Entralla_Mygeeto,
+			Entralla_Valc,
+			Entralla_Yaga_Minor,
+			Feldrona_Iridonia,
+			Feldrona_Maicombe,
+			Feldrona_Vicondor,
+			Gabredor_Muunilinst,
+			Gabredor_Mygeeto,
+			Garqi_Isiring,
+			Garqi_Mygeeto,
+			Garqi_Wistril,
+			Generis_Ketaris,
+			Generis_Ord_Biniir,
+			Glee_Anselm_Iridonia,
+			Glee_Anselm_Mondress,
+			Glee_Anselm_Murgo,
+			Glee_Anselm_Vicondor,
+			Iridonia_Ubertica,
+			Isiring_Ketaris,
+			Isiring_Ord_Biniir,
+			Isiring_Ord_Cantrell,
+			Ithor_Ketaris,
+			Ithor_Phaeda,
+			Ithor_Walinor,
+			Kalee_Muunilinst,
+			Kalee_Teptixii,
+			Kalee_Valc,
+			Kariek_Oristrom,
+			Kariek_Quethold,
+			Kariek_Taloron,
+			Ketaris_Phaeda,
+			Lonnaw_Orinda,
+			Lonnaw_Uba,
+			Maicombe_Tolan,
+			Murgo_Yoggoy,
+			Mygeeto_Ord_Trasi,
+			Nirauan_Oristrom,
+			Nirauan_Poln_Major,
+			Nirauan_Taloron,
+			Ord_Biniir_Ord_Trasi,
+			Ord_Cantrell_Orinda,
+			Ord_Cantrell_Phaeda,
+			Ord_Mantell_Tolan,
+			Ord_Mantell_Tyan,
+			Ord_Mantell_Walinor,
+			Orinda_Tyan,
+			Orinda_Wistril,
+			Oristrom_Troukree,
+			Oristrom_Valc,
+			Phaeda_Tyan,
+			Poln_Major_Prefsbelt,
+			Poln_Major_Valc,
+			Prefsbelt_Yaga_Minor,
+			Quethold_Regnant,
+			Quethold_Troukree,
+			Regnant_UR2212GR,
+			Taloron_Veroleem,
+			Teptixii_Troukree,
+			Tolan_Vorian,
+			UR2212GR_Yoggoy,
+			Uba_Ubertica,
+			Uba_Wistril,
+			Veroleem_Yoggoy,
+			Vicondor_Vorian,
+		</Trade_Routes>
+
+		<Starting_Active_Player>EmpireoftheHand</Starting_Active_Player>
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>Corporate_Sector, None</AI_Player_Control>
+		<AI_Player_Control>Empire, None</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, SandboxHuman</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>Rebel, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Zsinj_Empire, None</AI_Player_Control>
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, EriaduGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, MaldroodGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, HapesGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, HuttGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, PentastarGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
+		<AI_Victory_Conditions>Galactic_All_Planets_Controlled</AI_Victory_Conditions>
+		<Story_Name>
+		Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+		Empire, Conquests\Progressive\Story_Plots_TR_Progressive_Empire.xml,
+		Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+		Independent_Forces, Conquests\Progressive\Story_Plots_TR_Progressive_Container.xml,
+		EmpireoftheHand, Conquests\Factions\Story_Plots_Generic_EmpireoftheHand.xml,
+		Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+		Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+		Eriadu_Authority, Conquests\Factions\Story_Plots_Generic_Eriadu_Authority.xml,
+		Hapes_Consortium, Conquests\Factions\Story_Plots_Generic_Hapes_Consortium.xml,
+		Pentastar, Conquests\Factions\Story_Plots_Generic_Pentastar.xml,
+		Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml
+		</Story_Name>
+		<Starting_Credits>Chiss, 10000</Starting_Credits>
+		<Starting_Tech_Level>Chiss, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Chiss, 5</Max_Tech_Level>
+		<Starting_Credits>Corellia, 10000</Starting_Credits>
+		<Starting_Tech_Level>Corellia, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Corellia, 5</Max_Tech_Level>
+		<Starting_Credits>Corporate_Sector, 10000</Starting_Credits>
+		<Starting_Tech_Level>Corporate_Sector, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Corporate_Sector, 5</Max_Tech_Level>
+		<Starting_Credits>Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Empire, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Empire, 5</Max_Tech_Level>
+		<Starting_Credits>EmpireoftheHand, 10000</Starting_Credits>
+		<Starting_Tech_Level>EmpireoftheHand, 1</Starting_Tech_Level>
+		<Max_Tech_Level>EmpireoftheHand, 5</Max_Tech_Level>
+		<Starting_Credits>Eriadu_Authority, 10000</Starting_Credits>
+		<Starting_Tech_Level>Eriadu_Authority, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Eriadu_Authority, 5</Max_Tech_Level>
+		<Starting_Credits>Greater_Maldrood, 10000</Starting_Credits>
+		<Starting_Tech_Level>Greater_Maldrood, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Greater_Maldrood, 5</Max_Tech_Level>
+		<Starting_Credits>Hapes_Consortium, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hapes_Consortium, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hapes_Consortium, 5</Max_Tech_Level>
+		<Starting_Credits>Hostile, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hostile, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hostile, 5</Max_Tech_Level>
+		<Starting_Credits>Hutt_Cartels, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hutt_Cartels, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hutt_Cartels, 5</Max_Tech_Level>
+		<Starting_Credits>Imperial_Proteus, 10000</Starting_Credits>
+		<Starting_Tech_Level>Imperial_Proteus, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Imperial_Proteus, 5</Max_Tech_Level>
+		<Starting_Credits>Independent_Forces, 10000</Starting_Credits>
+		<Starting_Tech_Level>Independent_Forces, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Independent_Forces, 5</Max_Tech_Level>
+		<Starting_Credits>Killik_Hives, 10000</Starting_Credits>
+		<Starting_Tech_Level>Killik_Hives, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Killik_Hives, 5</Max_Tech_Level>
+		<Starting_Credits>Mandalorians, 10000</Starting_Credits>
+		<Starting_Tech_Level>Mandalorians, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Mandalorians, 5</Max_Tech_Level>
+		<Starting_Credits>Pentastar, 10000</Starting_Credits>
+		<Starting_Tech_Level>Pentastar, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Pentastar, 5</Max_Tech_Level>
+		<Starting_Credits>Rebel, 10000</Starting_Credits>
+		<Starting_Tech_Level>Rebel, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Rebel, 5</Max_Tech_Level>
+		<Starting_Credits>SsiRuuvi_Imperium, 10000</Starting_Credits>
+		<Starting_Tech_Level>SsiRuuvi_Imperium, 1</Starting_Tech_Level>
+		<Max_Tech_Level>SsiRuuvi_Imperium, 5</Max_Tech_Level>
+		<Starting_Credits>Underworld, 10000</Starting_Credits>
+		<Starting_Tech_Level>Underworld, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Underworld, 5</Max_Tech_Level>
+		<Starting_Credits>Warlords, 10000</Starting_Credits>
+		<Starting_Tech_Level>Warlords, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Warlords, 5</Max_Tech_Level>
+		<Starting_Credits>Yevetha, 10000</Starting_Credits>
+		<Starting_Tech_Level>Yevetha, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Yevetha, 5</Max_Tech_Level>
+		<Starting_Credits>Zsinj_Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Zsinj_Empire, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Zsinj_Empire, 5</Max_Tech_Level>
+
+		<Starting_Forces>Independent_Forces, Adumar, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Adumar, Era_Two_Dummy</Starting_Forces>
+		<Starting_Forces>Rebel, Ansion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Artorias, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Borosk, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Comra, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Comra, Hutt_Capital</Starting_Forces>
+		<Starting_Forces>Empire, Corthenia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Dantooine, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Dorin, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Dubrillion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Durace, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Entralla, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Entralla, PA_Capital</Starting_Forces>
+		<Starting_Forces>Rebel, Feldrona, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Gabredor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Garqi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Generis, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Glee_Anselm, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Iridonia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Isiring, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Ithor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Ithor, NewRep_Capital</Starting_Forces>
+		<Starting_Forces>Pentastar, Kalee, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Kariek, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Ketaris, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Lonnaw, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Maicombe, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Mondress, Generate_Force</Starting_Forces>
+		<Starting_Forces>Killik_Hives, Murgo, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Muunilinst, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Mygeeto, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Nirauan, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Nirauan, EOTH_Capital</Starting_Forces>
+		<Starting_Forces>Pentastar, Ord_Biniir, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ord_Cantrell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ord_Mantell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Ord_Trasi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Orinda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Orinda, Empire_Capital</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Oristrom, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Phaeda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Poln_Major, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Prefsbelt, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Quethold, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Regnant, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, RZ7, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Taloron, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Teptixii, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Tolan, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Troukree, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Tyan, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Uba, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ubertica, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, UR2212GR, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Valc, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Veroleem, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Vicondor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Vorian, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Walinor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Wistril, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Yaga_Minor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Killik_Hives, Yoggoy, Generate_Force</Starting_Forces>
+	</Campaign>
+	
+	<Campaign Name="Stars_Align_Era_2_Hutt_Cartels">
+		<Campaign_Set>Stars_Align_Era_2</Campaign_Set>
+		<Sort_Order>104</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Text_ID> TEXT_CAMPAIGN_HEADER_STARS_ALIGN </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_STARS_ALIGN </Description_Text>
+		<Era_Start>1</Era_Start>
+		<Use_Default_Forces>True</Use_Default_Forces>
+		<Camera_Shift_X>0.0</Camera_Shift_X>
+		<Camera_Shift_Y>0.0</Camera_Shift_Y>
+		<Camera_Distance>1000.0</Camera_Distance>
+		<Locations>
+			Adumar,
+			Ansion,
+			Artorias,
+			Bastion,
+			Bescane,
+			Bilbringi,
+			Borosk,
+			Comra,
+			Corthenia,
+			Dantooine,
+			Dorin,
+			Dubrillion,
+			Durace,
+			Entralla,
+			Feldrona,
+			Gabredor,
+			Galaxy_Core_Art_Model,
+			Garqi,
+			Generis,
+			Glee_Anselm,
+			Iridonia,
+			Isiring,
+			Ithor,
+			Kalee,
+			Kariek,
+			Ketaris,
+			Lonnaw,
+			Maicombe,
+			Mondress,
+			Murgo,
+			Muunilinst,
+			Mygeeto,
+			Nirauan,
+			Ord_Biniir,
+			Ord_Cantrell,
+			Ord_Mantell,
+			Ord_Trasi,
+			Orinda,
+			Oristrom,
+			Phaeda,
+			Poln_Major,
+			Prefsbelt,
+			Quethold,
+			RZ7,
+			Regnant,
+			Taloron,
+			Teptixii,
+			Tolan,
+			Troukree,
+			Tyan,
+			UR2212GR,
+			Uba,
+			Ubertica,
+			Valc,
+			Veroleem,
+			Vicondor,
+			Vorian,
+			Walinor,
+			Wistril,
+			Yaga_Minor,
+			Yoggoy,
+		</Locations>
+		<Trade_Routes>
+			Adumar_Ansion,
+			Adumar_Comra,
+			Adumar_Nirauan,
+			Adumar_Ubertica,
+			Ansion_Glee_Anselm,
+			Ansion_Veroleem,
+			Artorias_Dantooine,
+			Artorias_Dubrillion,
+			Artorias_RZ7,
+			Bastion_Bescane,
+			Bastion_Dubrillion,
+			Bescane_Kalee,
+			Bescane_Muunilinst,
+			Bilbringi_Dorin,
+			Bilbringi_Vicondor,
+			Bilbringi_Vorian,
+			Borosk_Comra,
+			Borosk_Garqi,
+			Borosk_Prefsbelt,
+			Borosk_Wistril,
+			Borosk_Yaga_Minor,
+			Comra_Uba,
+			Corthenia_Lonnaw,
+			Corthenia_Maicombe,
+			Corthenia_Tyan,
+			Dantooine_Gabredor,
+			Dantooine_Ord_Trasi,
+			Dantooine_RZ7,
+			Dorin_Mondress,
+			Dorin_Vicondor,
+			Dubrillion_Gabredor,
+			Durace_Kariek,
+			Durace_Quethold,
+			Durace_Taloron,
+			Durace_UR2212GR,
+			Entralla_Muunilinst,
+			Entralla_Mygeeto,
+			Entralla_Valc,
+			Entralla_Yaga_Minor,
+			Feldrona_Iridonia,
+			Feldrona_Maicombe,
+			Feldrona_Vicondor,
+			Gabredor_Muunilinst,
+			Gabredor_Mygeeto,
+			Garqi_Isiring,
+			Garqi_Mygeeto,
+			Garqi_Wistril,
+			Generis_Ketaris,
+			Generis_Ord_Biniir,
+			Glee_Anselm_Iridonia,
+			Glee_Anselm_Mondress,
+			Glee_Anselm_Murgo,
+			Glee_Anselm_Vicondor,
+			Iridonia_Ubertica,
+			Isiring_Ketaris,
+			Isiring_Ord_Biniir,
+			Isiring_Ord_Cantrell,
+			Ithor_Ketaris,
+			Ithor_Phaeda,
+			Ithor_Walinor,
+			Kalee_Muunilinst,
+			Kalee_Teptixii,
+			Kalee_Valc,
+			Kariek_Oristrom,
+			Kariek_Quethold,
+			Kariek_Taloron,
+			Ketaris_Phaeda,
+			Lonnaw_Orinda,
+			Lonnaw_Uba,
+			Maicombe_Tolan,
+			Murgo_Yoggoy,
+			Mygeeto_Ord_Trasi,
+			Nirauan_Oristrom,
+			Nirauan_Poln_Major,
+			Nirauan_Taloron,
+			Ord_Biniir_Ord_Trasi,
+			Ord_Cantrell_Orinda,
+			Ord_Cantrell_Phaeda,
+			Ord_Mantell_Tolan,
+			Ord_Mantell_Tyan,
+			Ord_Mantell_Walinor,
+			Orinda_Tyan,
+			Orinda_Wistril,
+			Oristrom_Troukree,
+			Oristrom_Valc,
+			Phaeda_Tyan,
+			Poln_Major_Prefsbelt,
+			Poln_Major_Valc,
+			Prefsbelt_Yaga_Minor,
+			Quethold_Regnant,
+			Quethold_Troukree,
+			Regnant_UR2212GR,
+			Taloron_Veroleem,
+			Teptixii_Troukree,
+			Tolan_Vorian,
+			UR2212GR_Yoggoy,
+			Uba_Ubertica,
+			Uba_Wistril,
+			Veroleem_Yoggoy,
+			Vicondor_Vorian,
+		</Trade_Routes>
+
+		<Starting_Active_Player>Hutt_Cartels</Starting_Active_Player>
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>Corporate_Sector, None</AI_Player_Control>
+		<AI_Player_Control>Empire, None</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, SandboxHuman</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, None</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>Rebel, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Zsinj_Empire, None</AI_Player_Control>
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, EriaduGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, MaldroodGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, HapesGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, HuttGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, PentastarGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
+		<AI_Victory_Conditions>Galactic_All_Planets_Controlled</AI_Victory_Conditions>
+		<Story_Name>
+		Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+		Empire, Conquests\Progressive\Story_Plots_TR_Progressive_Empire.xml,
+		Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+		Independent_Forces, Conquests\Progressive\Story_Plots_TR_Progressive_Container.xml,
+		EmpireoftheHand, Conquests\Factions\Story_Plots_Generic_EmpireoftheHand.xml,
+		Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+		Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+		Eriadu_Authority, Conquests\Factions\Story_Plots_Generic_Eriadu_Authority.xml,
+		Hapes_Consortium, Conquests\Factions\Story_Plots_Generic_Hapes_Consortium.xml,
+		Pentastar, Conquests\Factions\Story_Plots_Generic_Pentastar.xml,
+		Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml
+		</Story_Name>
+		<Starting_Credits>Chiss, 10000</Starting_Credits>
+		<Starting_Tech_Level>Chiss, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Chiss, 5</Max_Tech_Level>
+		<Starting_Credits>Corellia, 10000</Starting_Credits>
+		<Starting_Tech_Level>Corellia, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Corellia, 5</Max_Tech_Level>
+		<Starting_Credits>Corporate_Sector, 10000</Starting_Credits>
+		<Starting_Tech_Level>Corporate_Sector, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Corporate_Sector, 5</Max_Tech_Level>
+		<Starting_Credits>Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Empire, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Empire, 5</Max_Tech_Level>
+		<Starting_Credits>EmpireoftheHand, 10000</Starting_Credits>
+		<Starting_Tech_Level>EmpireoftheHand, 1</Starting_Tech_Level>
+		<Max_Tech_Level>EmpireoftheHand, 5</Max_Tech_Level>
+		<Starting_Credits>Eriadu_Authority, 10000</Starting_Credits>
+		<Starting_Tech_Level>Eriadu_Authority, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Eriadu_Authority, 5</Max_Tech_Level>
+		<Starting_Credits>Greater_Maldrood, 10000</Starting_Credits>
+		<Starting_Tech_Level>Greater_Maldrood, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Greater_Maldrood, 5</Max_Tech_Level>
+		<Starting_Credits>Hapes_Consortium, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hapes_Consortium, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hapes_Consortium, 5</Max_Tech_Level>
+		<Starting_Credits>Hostile, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hostile, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hostile, 5</Max_Tech_Level>
+		<Starting_Credits>Hutt_Cartels, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hutt_Cartels, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hutt_Cartels, 5</Max_Tech_Level>
+		<Starting_Credits>Imperial_Proteus, 10000</Starting_Credits>
+		<Starting_Tech_Level>Imperial_Proteus, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Imperial_Proteus, 5</Max_Tech_Level>
+		<Starting_Credits>Independent_Forces, 10000</Starting_Credits>
+		<Starting_Tech_Level>Independent_Forces, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Independent_Forces, 5</Max_Tech_Level>
+		<Starting_Credits>Killik_Hives, 10000</Starting_Credits>
+		<Starting_Tech_Level>Killik_Hives, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Killik_Hives, 5</Max_Tech_Level>
+		<Starting_Credits>Mandalorians, 10000</Starting_Credits>
+		<Starting_Tech_Level>Mandalorians, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Mandalorians, 5</Max_Tech_Level>
+		<Starting_Credits>Pentastar, 10000</Starting_Credits>
+		<Starting_Tech_Level>Pentastar, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Pentastar, 5</Max_Tech_Level>
+		<Starting_Credits>Rebel, 10000</Starting_Credits>
+		<Starting_Tech_Level>Rebel, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Rebel, 5</Max_Tech_Level>
+		<Starting_Credits>SsiRuuvi_Imperium, 10000</Starting_Credits>
+		<Starting_Tech_Level>SsiRuuvi_Imperium, 1</Starting_Tech_Level>
+		<Max_Tech_Level>SsiRuuvi_Imperium, 5</Max_Tech_Level>
+		<Starting_Credits>Underworld, 10000</Starting_Credits>
+		<Starting_Tech_Level>Underworld, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Underworld, 5</Max_Tech_Level>
+		<Starting_Credits>Warlords, 10000</Starting_Credits>
+		<Starting_Tech_Level>Warlords, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Warlords, 5</Max_Tech_Level>
+		<Starting_Credits>Yevetha, 10000</Starting_Credits>
+		<Starting_Tech_Level>Yevetha, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Yevetha, 5</Max_Tech_Level>
+		<Starting_Credits>Zsinj_Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Zsinj_Empire, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Zsinj_Empire, 5</Max_Tech_Level>
+
+		<Starting_Forces>Independent_Forces, Adumar, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Adumar, Era_Two_Dummy</Starting_Forces>
+		<Starting_Forces>Rebel, Ansion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Artorias, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Borosk, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Comra, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Comra, Hutt_Capital</Starting_Forces>
+		<Starting_Forces>Empire, Corthenia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Dantooine, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Dorin, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Dubrillion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Durace, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Entralla, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Entralla, PA_Capital</Starting_Forces>
+		<Starting_Forces>Rebel, Feldrona, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Gabredor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Garqi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Generis, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Glee_Anselm, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Iridonia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Isiring, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Ithor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Ithor, NewRep_Capital</Starting_Forces>
+		<Starting_Forces>Pentastar, Kalee, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Kariek, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Ketaris, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Lonnaw, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Maicombe, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Mondress, Generate_Force</Starting_Forces>
+		<Starting_Forces>Killik_Hives, Murgo, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Muunilinst, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Mygeeto, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Nirauan, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Nirauan, EOTH_Capital</Starting_Forces>
+		<Starting_Forces>Pentastar, Ord_Biniir, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ord_Cantrell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ord_Mantell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Ord_Trasi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Orinda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Orinda, Empire_Capital</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Oristrom, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Phaeda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Poln_Major, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Prefsbelt, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Quethold, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Regnant, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, RZ7, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Taloron, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Teptixii, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Tolan, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Troukree, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Tyan, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Uba, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ubertica, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, UR2212GR, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Valc, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Veroleem, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Vicondor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Vorian, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Walinor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Wistril, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Yaga_Minor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Killik_Hives, Yoggoy, Generate_Force</Starting_Forces>
+	</Campaign>
+	
+	<Campaign Name="Stars_Align_Era_2_Imperial_Proteus">
+		<Campaign_Set>Stars_Align_Era_2</Campaign_Set>
+		<Sort_Order>104</Sort_Order>
+		<Is_Listed>False</Is_Listed>
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Text_ID> TEXT_CAMPAIGN_HEADER_STARS_ALIGN </Text_ID>
+		<Description_Text> TEXT_CAMPAIGN_DESCRIPTION_STARS_ALIGN </Description_Text>
+		<Era_Start>1</Era_Start>
+		<Use_Default_Forces>True</Use_Default_Forces>
+		<Camera_Shift_X>0.0</Camera_Shift_X>
+		<Camera_Shift_Y>0.0</Camera_Shift_Y>
+		<Camera_Distance>1000.0</Camera_Distance>
+		<Locations>
+			Adumar,
+			Ansion,
+			Artorias,
+			Bastion,
+			Bescane,
+			Bilbringi,
+			Borosk,
+			Comra,
+			Corthenia,
+			Dantooine,
+			Dorin,
+			Dubrillion,
+			Durace,
+			Entralla,
+			Feldrona,
+			Gabredor,
+			Galaxy_Core_Art_Model,
+			Garqi,
+			Generis,
+			Glee_Anselm,
+			Iridonia,
+			Isiring,
+			Ithor,
+			Kalee,
+			Kariek,
+			Ketaris,
+			Lonnaw,
+			Maicombe,
+			Mondress,
+			Murgo,
+			Muunilinst,
+			Mygeeto,
+			Nirauan,
+			Ord_Biniir,
+			Ord_Cantrell,
+			Ord_Mantell,
+			Ord_Trasi,
+			Orinda,
+			Oristrom,
+			Phaeda,
+			Poln_Major,
+			Prefsbelt,
+			Quethold,
+			RZ7,
+			Regnant,
+			Taloron,
+			Teptixii,
+			Tolan,
+			Troukree,
+			Tyan,
+			UR2212GR,
+			Uba,
+			Ubertica,
+			Valc,
+			Veroleem,
+			Vicondor,
+			Vorian,
+			Walinor,
+			Wistril,
+			Yaga_Minor,
+			Yoggoy,
+		</Locations>
+		<Trade_Routes>
+			Adumar_Ansion,
+			Adumar_Comra,
+			Adumar_Nirauan,
+			Adumar_Ubertica,
+			Ansion_Glee_Anselm,
+			Ansion_Veroleem,
+			Artorias_Dantooine,
+			Artorias_Dubrillion,
+			Artorias_RZ7,
+			Bastion_Bescane,
+			Bastion_Dubrillion,
+			Bescane_Kalee,
+			Bescane_Muunilinst,
+			Bilbringi_Dorin,
+			Bilbringi_Vicondor,
+			Bilbringi_Vorian,
+			Borosk_Comra,
+			Borosk_Garqi,
+			Borosk_Prefsbelt,
+			Borosk_Wistril,
+			Borosk_Yaga_Minor,
+			Comra_Uba,
+			Corthenia_Lonnaw,
+			Corthenia_Maicombe,
+			Corthenia_Tyan,
+			Dantooine_Gabredor,
+			Dantooine_Ord_Trasi,
+			Dantooine_RZ7,
+			Dorin_Mondress,
+			Dorin_Vicondor,
+			Dubrillion_Gabredor,
+			Durace_Kariek,
+			Durace_Quethold,
+			Durace_Taloron,
+			Durace_UR2212GR,
+			Entralla_Muunilinst,
+			Entralla_Mygeeto,
+			Entralla_Valc,
+			Entralla_Yaga_Minor,
+			Feldrona_Iridonia,
+			Feldrona_Maicombe,
+			Feldrona_Vicondor,
+			Gabredor_Muunilinst,
+			Gabredor_Mygeeto,
+			Garqi_Isiring,
+			Garqi_Mygeeto,
+			Garqi_Wistril,
+			Generis_Ketaris,
+			Generis_Ord_Biniir,
+			Glee_Anselm_Iridonia,
+			Glee_Anselm_Mondress,
+			Glee_Anselm_Murgo,
+			Glee_Anselm_Vicondor,
+			Iridonia_Ubertica,
+			Isiring_Ketaris,
+			Isiring_Ord_Biniir,
+			Isiring_Ord_Cantrell,
+			Ithor_Ketaris,
+			Ithor_Phaeda,
+			Ithor_Walinor,
+			Kalee_Muunilinst,
+			Kalee_Teptixii,
+			Kalee_Valc,
+			Kariek_Oristrom,
+			Kariek_Quethold,
+			Kariek_Taloron,
+			Ketaris_Phaeda,
+			Lonnaw_Orinda,
+			Lonnaw_Uba,
+			Maicombe_Tolan,
+			Murgo_Yoggoy,
+			Mygeeto_Ord_Trasi,
+			Nirauan_Oristrom,
+			Nirauan_Poln_Major,
+			Nirauan_Taloron,
+			Ord_Biniir_Ord_Trasi,
+			Ord_Cantrell_Orinda,
+			Ord_Cantrell_Phaeda,
+			Ord_Mantell_Tolan,
+			Ord_Mantell_Tyan,
+			Ord_Mantell_Walinor,
+			Orinda_Tyan,
+			Orinda_Wistril,
+			Oristrom_Troukree,
+			Oristrom_Valc,
+			Phaeda_Tyan,
+			Poln_Major_Prefsbelt,
+			Poln_Major_Valc,
+			Prefsbelt_Yaga_Minor,
+			Quethold_Regnant,
+			Quethold_Troukree,
+			Regnant_UR2212GR,
+			Taloron_Veroleem,
+			Teptixii_Troukree,
+			Tolan_Vorian,
+			UR2212GR_Yoggoy,
+			Uba_Ubertica,
+			Uba_Wistril,
+			Veroleem_Yoggoy,
+			Vicondor_Vorian,
+		</Trade_Routes>
+
+		<Starting_Active_Player>Imperial_Proteus</Starting_Active_Player>
+		<AI_Player_Control>Chiss, None</AI_Player_Control>
+		<AI_Player_Control>Corellia, None</AI_Player_Control>
+		<AI_Player_Control>Corporate_Sector, None</AI_Player_Control>
+		<AI_Player_Control>Empire, None</AI_Player_Control>
+		<AI_Player_Control>EmpireoftheHand, None</AI_Player_Control>
+		<AI_Player_Control>Eriadu_Authority, None</AI_Player_Control>
+		<AI_Player_Control>Greater_Maldrood, None</AI_Player_Control>
+		<AI_Player_Control>Hapes_Consortium, None</AI_Player_Control>
+		<AI_Player_Control>Hostile, None</AI_Player_Control>
+		<AI_Player_Control>Hutt_Cartels, None</AI_Player_Control>
+		<AI_Player_Control>Imperial_Proteus, SandboxHuman</AI_Player_Control>
+		<AI_Player_Control>Independent_Forces, None</AI_Player_Control>
+		<AI_Player_Control>Killik_Hives, None</AI_Player_Control>
+		<AI_Player_Control>Mandalorians, None</AI_Player_Control>
+		<AI_Player_Control>Pentastar, None</AI_Player_Control>
+		<AI_Player_Control>Rebel, None</AI_Player_Control>
+		<AI_Player_Control>SsiRuuvi_Imperium, None</AI_Player_Control>
+		<AI_Player_Control>Underworld, None</AI_Player_Control>
+		<AI_Player_Control>Warlords, None</AI_Player_Control>
+		<AI_Player_Control>Yevetha, None</AI_Player_Control>
+		<AI_Player_Control>Zsinj_Empire, None</AI_Player_Control>
+		<Markup_Filename>Chiss, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corellia, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>EmpireoftheHand, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Eriadu_Authority, EriaduGalacticHints</Markup_Filename>
+		<Markup_Filename>Greater_Maldrood, MaldroodGalacticHints</Markup_Filename>
+		<Markup_Filename>Hapes_Consortium, HapesGalacticHints</Markup_Filename>
+		<Markup_Filename>Hostile, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Hutt_Cartels, HuttGalacticHints</Markup_Filename>
+		<Markup_Filename>Imperial_Proteus, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Independent_Forces, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Killik_Hives, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Mandalorians, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Pentastar, PentastarGalacticHints</Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>SsiRuuvi_Imperium, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Warlords, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Yevetha, DefaultGalacticHints</Markup_Filename>
+		<Markup_Filename>Zsinj_Empire, DefaultGalacticHints</Markup_Filename>
+		<Human_Victory_Conditions>Galactic_All_Planets_Controlled</Human_Victory_Conditions>
+		<AI_Victory_Conditions>Galactic_All_Planets_Controlled</AI_Victory_Conditions>
+		<Story_Name>
+		Rebel, Conquests\Factions\Story_Plots_Generic_Rebel.xml,
+		Empire, Conquests\Progressive\Story_Plots_TR_Progressive_Empire.xml,
+		Hutt_Cartels, Conquests\Factions\Story_Plots_Generic_Hutt_Cartels.xml,
+		Independent_Forces, Conquests\Progressive\Story_Plots_TR_Progressive_Container.xml,
+		EmpireoftheHand, Conquests\Factions\Story_Plots_Generic_EmpireoftheHand.xml,
+		Greater_Maldrood, Conquests\Factions\Story_Plots_Generic_Greater_Maldrood.xml,
+		Zsinj_Empire, Conquests\Factions\Story_Plots_Generic_Zsinj_Empire.xml,
+		Corporate_Sector, Conquests\Factions\Story_Plots_Generic_Corporate_Sector.xml,
+		Eriadu_Authority, Conquests\Factions\Story_Plots_Generic_Eriadu_Authority.xml,
+		Hapes_Consortium, Conquests\Factions\Story_Plots_Generic_Hapes_Consortium.xml,
+		Pentastar, Conquests\Factions\Story_Plots_Generic_Pentastar.xml,
+		Imperial_Proteus, Conquests\Factions\Story_Plots_Generic_Imperial_Proteus.xml,Proteus_Two, Conquests\Factions\Story_Plots_Generic_Proteus_Two.xml
+		</Story_Name>
+		<Starting_Credits>Chiss, 10000</Starting_Credits>
+		<Starting_Tech_Level>Chiss, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Chiss, 5</Max_Tech_Level>
+		<Starting_Credits>Corellia, 10000</Starting_Credits>
+		<Starting_Tech_Level>Corellia, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Corellia, 5</Max_Tech_Level>
+		<Starting_Credits>Corporate_Sector, 10000</Starting_Credits>
+		<Starting_Tech_Level>Corporate_Sector, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Corporate_Sector, 5</Max_Tech_Level>
+		<Starting_Credits>Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Empire, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Empire, 5</Max_Tech_Level>
+		<Starting_Credits>EmpireoftheHand, 10000</Starting_Credits>
+		<Starting_Tech_Level>EmpireoftheHand, 1</Starting_Tech_Level>
+		<Max_Tech_Level>EmpireoftheHand, 5</Max_Tech_Level>
+		<Starting_Credits>Eriadu_Authority, 10000</Starting_Credits>
+		<Starting_Tech_Level>Eriadu_Authority, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Eriadu_Authority, 5</Max_Tech_Level>
+		<Starting_Credits>Greater_Maldrood, 10000</Starting_Credits>
+		<Starting_Tech_Level>Greater_Maldrood, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Greater_Maldrood, 5</Max_Tech_Level>
+		<Starting_Credits>Hapes_Consortium, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hapes_Consortium, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hapes_Consortium, 5</Max_Tech_Level>
+		<Starting_Credits>Hostile, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hostile, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hostile, 5</Max_Tech_Level>
+		<Starting_Credits>Hutt_Cartels, 10000</Starting_Credits>
+		<Starting_Tech_Level>Hutt_Cartels, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Hutt_Cartels, 5</Max_Tech_Level>
+		<Starting_Credits>Imperial_Proteus, 10000</Starting_Credits>
+		<Starting_Tech_Level>Imperial_Proteus, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Imperial_Proteus, 5</Max_Tech_Level>
+		<Starting_Credits>Independent_Forces, 10000</Starting_Credits>
+		<Starting_Tech_Level>Independent_Forces, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Independent_Forces, 5</Max_Tech_Level>
+		<Starting_Credits>Killik_Hives, 10000</Starting_Credits>
+		<Starting_Tech_Level>Killik_Hives, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Killik_Hives, 5</Max_Tech_Level>
+		<Starting_Credits>Mandalorians, 10000</Starting_Credits>
+		<Starting_Tech_Level>Mandalorians, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Mandalorians, 5</Max_Tech_Level>
+		<Starting_Credits>Pentastar, 10000</Starting_Credits>
+		<Starting_Tech_Level>Pentastar, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Pentastar, 5</Max_Tech_Level>
+		<Starting_Credits>Rebel, 10000</Starting_Credits>
+		<Starting_Tech_Level>Rebel, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Rebel, 5</Max_Tech_Level>
+		<Starting_Credits>SsiRuuvi_Imperium, 10000</Starting_Credits>
+		<Starting_Tech_Level>SsiRuuvi_Imperium, 1</Starting_Tech_Level>
+		<Max_Tech_Level>SsiRuuvi_Imperium, 5</Max_Tech_Level>
+		<Starting_Credits>Underworld, 10000</Starting_Credits>
+		<Starting_Tech_Level>Underworld, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Underworld, 5</Max_Tech_Level>
+		<Starting_Credits>Warlords, 10000</Starting_Credits>
+		<Starting_Tech_Level>Warlords, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Warlords, 5</Max_Tech_Level>
+		<Starting_Credits>Yevetha, 10000</Starting_Credits>
+		<Starting_Tech_Level>Yevetha, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Yevetha, 5</Max_Tech_Level>
+		<Starting_Credits>Zsinj_Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Zsinj_Empire, 1</Starting_Tech_Level>
+		<Max_Tech_Level>Zsinj_Empire, 5</Max_Tech_Level>
+
+		<Starting_Forces>Independent_Forces, Adumar, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Adumar, Era_Two_Dummy</Starting_Forces>
+		<Starting_Forces>Rebel, Ansion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Artorias, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Bastion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Bescane, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Borosk, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Comra, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Comra, Hutt_Capital</Starting_Forces>
+		<Starting_Forces>Empire, Corthenia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Dantooine, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Dorin, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Dubrillion, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Durace, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Entralla, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Entralla, PA_Capital</Starting_Forces>
+		<Starting_Forces>Rebel, Feldrona, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Gabredor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Garqi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Generis, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Glee_Anselm, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Iridonia, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Isiring, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Ithor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Ithor, NewRep_Capital</Starting_Forces>
+		<Starting_Forces>Pentastar, Kalee, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Kariek, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, Ketaris, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Lonnaw, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Maicombe, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Mondress, Generate_Force</Starting_Forces>
+		<Starting_Forces>Killik_Hives, Murgo, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Muunilinst, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Mygeeto, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Nirauan, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Nirauan, EOTH_Capital</Starting_Forces>
+		<Starting_Forces>Pentastar, Ord_Biniir, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ord_Cantrell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ord_Mantell, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Ord_Trasi, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Orinda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Orinda, Empire_Capital</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Oristrom, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Phaeda, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Poln_Major, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Prefsbelt, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Quethold, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Regnant, Generate_Force</Starting_Forces>
+		<Starting_Forces>Warlords, RZ7, Generate_Force</Starting_Forces>
+		<Starting_Forces>Independent_Forces, Taloron, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Teptixii, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Tolan, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, Troukree, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Tyan, Generate_Force</Starting_Forces>
+		<Starting_Forces>Hutt_Cartels, Uba, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Ubertica, Generate_Force</Starting_Forces>
+		<Starting_Forces>EmpireoftheHand, UR2212GR, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Valc, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Veroleem, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Vicondor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Vorian, Generate_Force</Starting_Forces>
+		<Starting_Forces>Rebel, Walinor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Empire, Wistril, Generate_Force</Starting_Forces>
+		<Starting_Forces>Pentastar, Yaga_Minor, Generate_Force</Starting_Forces>
+		<Starting_Forces>Killik_Hives, Yoggoy, Generate_Force</Starting_Forces>
+	</Campaign>
+
+</Campaigns>

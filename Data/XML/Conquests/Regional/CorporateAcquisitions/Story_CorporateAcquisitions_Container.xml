@@ -1,0 +1,542 @@
+<?xml version="1.0" ?>
+
+<!--******************************************************-->
+<!--********** Campaign: Corporate Acquisitions **********-->
+<!--******************************************************-->
+
+<Story>
+	<Event Name="Trigger_Determine_Faction">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<Event Name="NR_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>NR_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="GE_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GE_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="ZE_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ZE_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="GM_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GM_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="CSA_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>CSA_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="Hutt_Story_Start">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>HUTT_STORY_START</Event_Param2>
+	</Event>
+
+	<Event Name="Start_Era_1">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>START_ERA_1</Event_Param2>
+	</Event>
+
+	<Event Name="Start_Era_2">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>START_ERA_2</Event_Param2>
+	</Event>
+
+	<Event Name="Start_Era_3">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>START_ERA_3</Event_Param2>
+	</Event>
+
+	<Event Name="Start_Era_4">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>START_ERA_4</Event_Param2>
+	</Event>
+
+	<Event Name="Start_Era_5_6">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>START_ERA_5_6</Event_Param2>
+	</Event>
+
+	<Event Name="Start_Era_7">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>START_ERA_7</Event_Param2>
+	</Event>
+
+	<Event Name="Trigger_Delayed_Initialize">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>9</Event_Param1>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--******************** UNIVERSAL EVENTS *********************-->
+	<!--***********************************************************-->
+
+	<Event Name="Trigger_Empire_Conquers_Korriban">
+		<Event_Type>STORY_CONQUER</Event_Type>
+		<Event_Param1>Korriban</Event_Param1>
+		<Event_Param3>Empire</Event_Param3>
+		<Prereq>Start_Era_1</Prereq>
+	 </Event>
+
+
+	<!--***********************************************************-->
+	<!--***************** Corporate Sector Story ******************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_CSA_E1">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_CSA_CSA_INTRO_E1</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Weplinn_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>CSA_Story_Start Start_Era_1</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_CSA_Dialog_E1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_CSA</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Prereq>Intro_Welcome_CSA_E1</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_CSA_E2_3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_CSA_CSA_INTRO_E2_3</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Weplinn_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>CSA_Story_Start Start_Era_2</Prereq>
+		<Prereq>CSA_Story_Start Start_Era_3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_CSA_Dialog_E2_3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_CSA</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Prereq>Intro_Welcome_CSA_E2_3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_CSA_E4">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_CSA_CSA_INTRO_E4</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Weplinn_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>CSA_Story_Start Start_Era_4</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_CSA_Dialog_E4">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_CSA</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Prereq>Intro_Welcome_CSA_E4</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_CSA_E5_6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_CSA_CSA_INTRO_E5_6</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Weplinn_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>CSA_Story_Start Start_Era_5_6</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_CSA_Dialog_E5_6">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_CSA</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Prereq>Intro_Welcome_CSA_E5_6</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_CSA_E7">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_CSA_CSA_INTRO_E7</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Espo_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>CSA_Story_Start Start_Era_7</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_CSA_Dialog_E7">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_CSA</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Prereq>Intro_Welcome_CSA_E7</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--******************** Empire Storyline *********************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Empire_E1">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_EMPIRE_CSA_INTRO_E1</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Makati_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>GE_Story_Start Start_Era_1</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Empire_Dialog_E1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_Empire</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Prereq>Intro_Welcome_Empire_E1</Prereq>
+	</Event>
+
+	<Event Name="Speech_Empire_Conquers_Korriban">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>PROPHET_SPEECH</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_EMPIRE_CSA_PROPHETS</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Makati_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+	</Event>
+
+	<Event Name="Intro_Welcome_Empire_E3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_EMPIRE_CSA_INTRO_E3</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Llon_Banjeer_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>GE_Story_Start Start_Era_3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Empire_Dialog_E3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_Empire</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Prereq>Intro_Welcome_Empire_E3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Empire_E4">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_EMPIRE_CSA_INTRO_E4</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Palpatine_Reborn_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>GE_Story_Start Start_Era_4</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Empire_Dialog_E4">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_Empire</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Prereq>Intro_Welcome_Empire_E4</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--*********************** Zsinj Story ***********************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Zsinj_E1_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_ZSINJ_CSA_INTRO_E1_2</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Zsinj_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>ZE_Story_Start Start_Era_1</Prereq>
+		<Prereq>ZE_Story_Start Start_Era_2</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Zsinj_Dialog_E1_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_Zsinj</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Prereq>Intro_Welcome_Zsinj_E1_2</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Zsinj_E3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_ZSINJ_REMNANTS_INTRO_E3</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Imperial_Naval_Officer_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>ZE_Story_Start Start_Era_3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Zsinj_Dialog_E3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_Zsinj</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Prereq>Intro_Welcome_Zsinj_E3</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--********************** Maldrood Story *********************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Maldrood_E3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_MALDROOD_CSA_INTRO_E3</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Treuten_Teradoc_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>GM_Story_Start Start_Era_3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Maldrood_Dialog_E3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_Maldrood</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Prereq>Intro_Welcome_Maldrood_E3</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--******************* New Republic Story ********************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_NewRep_E1_2_3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_REBEL_CSA_INTRO_E1_2_3</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Ackbar_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>NR_Story_Start Start_Era_1</Prereq>
+		<Prereq>NR_Story_Start Start_Era_2</Prereq>
+		<Prereq>NR_Story_Start Start_Era_3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_NewRep_Dialog_E1_2_3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_NewRep</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Prereq>Intro_Welcome_NewRep_E1_2_3</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_NewRep_E4">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_REBEL_CSA_INTRO_E4</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Mon_Mothma_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>NR_Story_Start Start_Era_4</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_NewRep_Dialog_E4">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_NewRep</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Prereq>Intro_Welcome_NewRep_E4</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_NewRep_E5_6">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_REBEL_CSA_INTRO_E5_6</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Ackbar_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>NR_Story_Start Start_Era_5_6</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_NewRep_Dialog_E5_6">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_NewRep</Story_Dialog>
+		<Story_Chapter>2</Story_Chapter>
+		<Prereq>Intro_Welcome_NewRep_E5_6</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_NewRep_E7">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_REBEL_CSA_INTRO_E7</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Ackbar_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>NR_Story_Start Start_Era_7</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_NewRep_Dialog_E7">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_NewRep</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Prereq>Intro_Welcome_NewRep_E7</Prereq>
+	</Event>
+
+
+	<!--***********************************************************-->
+	<!--************************ Hutt Story ***********************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_Hutts_E7">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_HUTTS_CSA_INTRO_E7</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Jabba_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Hutt_Story_Start Start_Era_7</Prereq>
+	</Event>
+
+	<Event Name="Intro_Welcome_Hutts_Dialog_E7">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Regional_CorporateAcquisitions_Hutts</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Prereq>Intro_Welcome_Hutts_E7</Prereq>
+	</Event>
+
+	<Event Name="Speech_Hutts_Research_Tempest">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Dummy_Research_Tempest</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>Hutt_Cartels</Event_Param3>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_HUTTS_CSA_MIKA</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Jabba_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Hutt_Story_Start</Prereq>
+	</Event>
+</Story>
