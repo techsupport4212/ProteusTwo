@@ -36,10 +36,17 @@ function WarlordStart:new(galactic_conquest, id, human_player, planets)
 	self.SafePlanetTable = StoryUtil.GetSafePlanetTable()
 	
 	self.nonplayable = false
+	self.second_proteus = true
 	local ai_proteus_dummy = Find_First_Object("AI_Proteus_Dummy")
 	if ai_proteus_dummy then
 		ai_proteus_dummy.Despawn()
 		self.nonplayable = true
+	end
+
+	local second_proteus_dummy = Find_First_Object("Proteus_Two_Dummy")
+	if second_proteus_dummy then
+		second_proteus_dummy.Despawn()
+		self.second_proteus = true
 	end
 
 	crossplot:subscribe("WARLORD_START", self.Start_Trigger, self)
@@ -164,7 +171,7 @@ function WarlordStart:Choice_Chosen(choice, cosmetic)
 		self.selected_warlords[self.selection_slot] = string.gsub(choice, "WARLORD_CHOICE_", "")
 		self:Populate_Chosen_Faction(choice, cosmetic)
 		StoryUtil.ChangeAIPlayer("PROTEUS_TWO", "WarlordAI")
-		if self.selection_slot == 1 then
+		if self.selection_slot == 1 and second_proteus then
 			self:Ask_For_Second_Warlord()
 		else
 			self:Finalize()
